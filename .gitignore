@@ -105,3 +105,4 @@ identity.json
 *.m2ts
 /Resources/tutorial-assets/
 /Native/**/build/
+/GrimService/Properties/PublishProfiles/FolderProfile.pubxml
