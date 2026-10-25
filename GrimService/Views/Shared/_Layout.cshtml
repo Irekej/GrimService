@@ -8,7 +8,7 @@
     <script>window.GrimI18nData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(T.Messages));</script>
     <script src="~/js/web-i18n.js" asp-append-version="true"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -56,7 +56,7 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container site-content">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -72,7 +72,7 @@
                     <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
                 </div>
                 <div>
-                    <h6 align="right" class="mt-4 mb-3">&copy; 2025 - Irekej / <span style="color:fuchsia">GrimService</span></h6>
+                    <h6 align="right" class="mt-4 mb-3">&copy; 2026 - Irekej / <a class="footer-project-link" href="https://github.com/Irekej/GrimService">GrimService</a></h6>
                 </div>
             </div>
         </div>
