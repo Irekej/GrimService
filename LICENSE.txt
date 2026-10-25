@@ -3,7 +3,7 @@ GrimService Source-Available License 1.0
 Copyright (c) 2026 GrimService Contributors.
 All rights reserved except as expressly granted below.
 
-Official Project: https://github.com/Irekej/GrimServic
+Official Project: https://github.com/Irekej/GrimService
 
 1. Permitted purposes
 
