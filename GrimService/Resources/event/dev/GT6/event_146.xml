@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+    <GameParameter version="106">
+        <championship value="0" />
+        <folder_id value="146" />
+        <event_id_list>1000919</event_id_list>
+        <events>
+            <event>
+                <constraint>
+                    <abs value="-1" />
+                    <active_steering value="-1" />
+                    <asm value="-1" />
+                    <drift_type value="-1" />
+                    <driving_line value="-1" />
+                    <enemy_tire value="-1" />
+                    <limit_tire_f value="-1" />
+                    <limit_tire_r value="-1" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <simulation value="-1" />
+                    <suggest_tire_f value="-1" />
+                    <suggest_tire_r value="-1" />
+                    <tcs value="-1" />
+                    <transmission value="-1" />
+                </constraint>
+                <entry_set>
+                    <entry>
+                        <car color="0" label="s60_t5_sport_03" />
+                        <delay value="0" />
+                        <driver_name value="Player" />
+                        <player_no value="0" />
+                        <race_class_id value="0" />
+                        <entry_base />
+                    </entry>
+                </entry_set>
+                <event_id value="1000919"/>
+                <event_type value="RACE" />
+                <game_mode value="ONLINE_TIME_ATTACK" />
+                <information>
+                    <advanced_notice />
+                    <flier_other_info value="" />
+                    <logo_image_layout value="4" />
+                    <logo_image_path value="prototype.png" />
+                    <logo_other_info value="" />
+                    <race_info_minute value="" />
+                    <title>
+                        <JP>50 Million CR Event</JP>
+                        <US>50 Million CR Event [TEST D]</US>
+                        <GB>50 Million CR Event [TEST D]</GB>
+                        <FR>50 Million CR Event</FR>
+                        <ES>50 Million CR Event</ES>
+                        <DE>50 Million CR Event</DE>
+                        <IT>50 Million CR Event</IT>
+                        <NL>50 Million CR Event</NL>
+                        <PT>50 Million CR Event</PT>
+                        <RU>50 Million CR Event</RU>
+                        <PL>50 Million CR Event [TEST D]</PL>
+                        <TR>50 Million CR Event</TR>
+                        <KR>50 Million CR Event</KR>
+                        <EL>50 Million CR Event</EL>
+                        <FI>50 Million CR Event</FI>
+                        <CZ>50 Million CR Event</CZ>
+                        <HU>50 Million CR Event</HU>
+                        <BP>50 Million CR Event</BP>
+                        <MS>50 Million CR Event</MS>
+                    </title>
+                    <one_line_title>
+                        <JP>50 Million CR Event</JP>
+                        <US>50 Million CR Event [TEST D]</US>
+                        <GB>50 Million CR Event [TEST D]</GB>
+                        <FR>50 Million CR Event</FR>
+                        <ES>50 Million CR Event</ES>
+                        <DE>50 Million CR Event</DE>
+                        <IT>50 Million CR Event</IT>
+                        <NL>50 Million CR Event</NL>
+                        <PT>50 Million CR Event</PT>
+                        <RU>50 Million CR Event</RU>
+                        <PL>50 Million CR Event [TEST D]</PL>
+                        <TR>50 Million CR Event</TR>
+                        <KR>50 Million CR Event</KR>
+                        <EL>50 Million CR Event</EL>
+                        <FI>50 Million CR Event</FI>
+                        <CZ>50 Million CR Event</CZ>
+                        <HU>50 Million CR Event</HU>
+                        <BP>50 Million CR Event</BP>
+                        <MS>50 Million CR Event</MS>
+                    </one_line_title>
+                    <description>
+                        <JP>50 Million CR Event</JP>
+                        <US>50 Million CR Event</US>
+                        <GB>50 Million CR Event</GB>
+                        <FR>50 Million CR Event</FR>
+                        <ES>50 Million CR Event</ES>
+                        <DE>50 Million CR Event</DE>
+                        <IT>50 Million CR Event</IT>
+                        <NL>50 Million CR Event</NL>
+                        <PT>50 Million CR Event</PT>
+                        <RU>50 Million CR Event</RU>
+                        <PL>50 Million CR Event [TEST D]</PL>
+                        <TR>50 Million CR Event</TR>
+                        <KR>50 Million CR Event</KR>
+                        <EL>50 Million CR Event</EL>
+                        <FI>50 Million CR Event</FI>
+                        <CZ>50 Million CR Event</CZ>
+                        <HU>50 Million CR Event</HU>
+                        <BP>50 Million CR Event</BP>
+                        <MS>50 Million CR Event</MS>
+                    </description>
+                </information>
+                <inheritance value="0" />
+                <race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="MIDDLE" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="NONE" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <datetime datetime="1970/06/01 12:41:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="0" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="-1" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+					<ghost_presence_type value="NORMAL" />
+                    <ghost_type value="ONELAP" />
+                    <grid_sort_type value="RANDOM" />
+                    <immediate_finish value="0" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="2" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="1" />
+                    <pace_note value="0" />
+                    <penalty_level value="-1" />
+                    <penalty_no_reset value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="TIMEATTACK" />
+                    <start_type value="ATTACK" />
+                    <time_progress_speed value="0" />
+                    <time_to_finish value="0" />
+                    <time_to_start value="3000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="0" />
+                    <weather_min_celsius value="0" />
+                    <weather_no_precipitation value="1" />
+                    <weather_no_schedule value="1" />
+                    <weather_no_wind value="1" />
+                    <weather_point_num value="0" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="0" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="1" />
+                    <weather_accel10 value="0" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="1" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+                <reward>
+                    <is_once value="0" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table>
+                    </point_table>
+                    <prize_table>
+                        <prize value="50000000" />
+                        <prize value="30000000" />
+                        <prize value="20000001" />
+                    </prize_table>
+                    <star_table />
+                </reward>
+                <track>
+                    <course_code label="dynamic_sky_spa" />
+                    <course_layout_no value="0" />
+                    <is_omedeto_difficulty value="0" />
+                    <map_offset_world_x value="0" />
+                    <map_offset_world_y value="0" />
+                    <map_scale value="0" />
+                    <use_generator value="0" />
+                    <course_generator_param>
+                        <use_random_seed value="0" />
+                        <seed value="0" />
+                        <course_generator_kind value="GENERATOR_CIRCUIT" />
+                        <course_generator_length_type value="LENGTH" />
+                        <lengthy value="0" />
+                        <course_name value="" />
+                    </course_generator_param>
+                </track>
+                <play_style>
+                    <bspec_type value="ONLY_A" />
+                    <rentcar_setting_enable value="0" />
+                </play_style>
+                <regulation>
+                    <countries />
+                    <car_categories />
+                    <limit_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <limit_power value="-1" />
+                    <limit_pp value="499" />
+                    <limit_torque value="-1" />
+                    <limit_weight value="-1" />
+                    <limit_tire_f value="-1" />
+                    <limit_tire_r value="-1" />
+                    <limit_year value="-1" />
+                    <need_aspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <need_power value="-1" />
+                    <need_pp value="-1" />
+                    <need_torque value="-1" />
+                    <need_weight value="-1" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <need_year value="-1" />
+                    <need_aspiration value="-1" />
+                    <need_drivetrain value="-1" />
+                    <need_license value="-1" />
+                    <limit_length value="-1" />
+                    <need_length value="-1" />
+                    <limit_aspec_level value="-1" />
+                    <need_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <limit_bspec_driver_count value="-1" />
+                    <need_bspec_driver_count value="-1" />
+                    <kart_permitted value="-1" />
+                    <tuning value="-1" />
+                    <restrictor_limit value="-1" />
+                    <cars />
+                    <ban_cars />
+                    <tuners />
+                </regulation>
+                <penalty_script value="" />
+                <ai_script value="" />
+                <eval_condition>
+                    <type value="TIME" />
+                    <gold value="4500" />
+                    <silver value="5800" />
+                    <bronze value="10000" />
+                    <ghost_data_path value="" />
+                </eval_condition>
+                <inheritance value="0" />
+                <is_seasonal_event value="1" />
+                <begin_date>2023/08/05 16:00:00</begin_date>
+                <end_date>9999/08/10 16:00:00</end_date>
+                <ranking>
+                    <begin_date>2023/08/05 14:00:00</begin_date>
+                    <end_date>9999/08/10 14:00:00</end_date>
+                    <type value="TIME" />
+                    <board_id value="2000" />
+                    <display_rank_limit value="-1" />
+                    <is_local value="0" />
+                    <replay_rank_limit value="0" />
+                    <registration value="0" />
+                </ranking>
+            </event>
+        </events>
+    </GameParameter>
+    <GameParameter version="106">
+        <championship value="0" />
+        <folder_id value="146" />
+        <event_id_list>1000996</event_id_list>
+        <events>
+            <event>
+                <constraint>
+                    <abs value="-1" />
+                    <active_steering value="0" />
+                    <asm value="-1" />
+                    <drift_type value="-1" />
+                    <driving_line value="-1" />
+                    <enemy_tire value="-1" />
+                    <limit_tire_f value="8" />
+                    <limit_tire_r value="8" />
+                    <need_tire_f value="8" />
+                    <need_tire_r value="8" />
+                    <simulation value="1" />
+                    <suggest_tire_f value="8" />
+                    <suggest_tire_r value="8" />
+                    <tcs value="-1" />
+                    <transmission value="-1" />
+                </constraint>
+                <entry_set>
+                    <entry>
+                        <car color="0" label="is_f_racing_concept_08" />
+                        <delay value="0" />
+                        <driver_name value="Player" />
+                        <player_no value="0" />
+                        <start_type value="NONE" />
+                    </entry>
+                </entry_set>
+                <failure_condition>
+                    <no_failure_at_result value="1" />
+                    <type_list>
+                        <type value="COURSE_OUT" />
+                    </type_list>
+                </failure_condition>
+                <event_id value="1000996" />
+                <event_type value="RACE" />
+                <game_mode value="ONLINE_TIME_ATTACK" />
+                <information>
+                    <advanced_notice />
+                    <flier_other_info value="" />
+                    <logo_other_info value="" />
+                    <race_info_minute value="" />
+                    <title>
+                        <JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+                    </title>
+                    <one_line_title>
+                        <JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+                    </one_line_title>
+                    <description>
+                        <JP>コース1周の走行タイムを競うタイムトライアルイベント。巧みなドライビングテクニックでランキング上位をねらおう！ Grim Service ボットを使用して Discord サーバーで結果を表示する場合は、次のコマンドを使用します: /rankings 1000996</JP>
+                        <US>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command: /rankings 1000996</US>
+                        <GB>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command: /rankings 1000996</GB>
+                        <FR>Un défi chronométré pour définir le meilleur temps au tour de piste. Utilisez toutes vos compétences de conduite et visez le haut du classement! If you want to show results on discord server with Grim Service bot, use command: /rankings 1000996</FR>
+                        <ES>Una competición contrarreloj para marcar el mejor tiempo de vuelta en pista. ¡Usa todas tus habilidades de conducción e intenta llegar a lo más alto de la clasificación! Si quieres mostrar resultados en el servidor de Discord con el bot Grim Service, usa el comando: /rankings 1000996</ES>
+                        <DE>Ein Zeitrennen-Wettbewerb um die schnellste Rundenzeit auf der Strecke. Nutzen Sie all Ihre Fahrfertigkeiten und erklimmen Sie die Spitze der Rangliste! Wenn Sie Ergebnisse auf dem Discord-Server mit dem Grim Service-Bot anzeigen möchten, verwenden Sie den Befehl: /rankings 1000996</DE>
+                        <IT>Una competizione per stabilire il miglior tempo sul giro. Sfrutta tutta la tua abilità e punta alla vetta della classifica! Se vuoi mostrare i risultati sul server Discord con il bot Grim Service, usa il comando: /rankings 1000996</IT>
+                        <NL>Een tijdritcompetitie waarin het draait om de snelste rondetijd. Haal alles uit de kast om het klassement te bestormen! Als je resultaten op de discord-server met Grim Service-bot wilt weergeven, gebruik dan de opdracht: /rankings 1000996</NL>
+                        <PT>Uma competição de prova de tempo para fazer a volta mais rápida na pista. Use todas as suas habilidades de direção para tentar chegar ao topo da classificação! Se você quiser mostrar resultados no servidor discord com o bot Grim Service, use o comando: /rankings 1000996</PT>
+                        <RU>В этом заезде на время вам нужно как можно быстрее пройти круг по трассе. Вспомните все, что вы умеете, и постарайтесь возглавить рейтинг! Если вы хотите показать результаты на сервере Discord с ботом Grim Service, используйте команду: /rankings 1000996</RU>
+                        <PL>Zawody polegające na jak najszybszym przejechaniu okrążenia na torze. Wykorzystaj swoje wszystkie umiejętności, by znaleźć się na szczycie rankingu! Jeśli chcesz wyświetlić wyniki na serwerze Discord z botem Grim Service, użyj polecenia: /rankings 1000996</PL>
+                        <TR>Pistteki en hızlı tur süresini belirlemek için bir zamana karşı yarış. Tüm sürüş becerilerinizi kullanın ve sıralamada üst sıraları hedefleyin! Grim Service botuyla Discord sunucusunda sonuçları göstermek istiyorsanız, şu komutu kullanın: /rankings 1000996</TR>
+                        <KR>​코스 1​랩의 ​주행 ​타임을 ​겨루는 ​타임 ​트라이얼 ​이벤트. ​정교한 ​드라이빙 ​테크닉으로 ​랭킹 ​상위를 ​노리자! Grim Service 봇으로 디스코드 서버에서 결과를 표시하려면 다음 명령을 사용하세요. /rankings 1000996</KR>
+                        <EL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command: /rankings 1000996</EL>
+                        <FI>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command: /rankings 1000996</FI>
+                        <CZ>Časovka, ve které je vaším úkolem zajet nejrychlejší kolo na dané trati. Využijte všech svých řidičských dovedností a usilujte o přední příčky žebříčku! Pokud chcete zobrazit výsledky na discord serveru s robotem Grim Service, použijte příkaz: /rankings 1000996</CZ>
+                        <HU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command: /rankings 1000996</HU>
+                        <BP>Uma competição de prova de tempo para fazer a volta mais rápida na pista. Use todas as suas habilidades de direção para tentar chegar ao topo da classificação! Se você quiser mostrar resultados no servidor discord com o bot Grim Service, use o comando: /rankings 1000996</BP>
+                        <MS>Una competición contrarreloj para marcar el mejor tiempo de vuelta en pista. ¡Usa todas tus habilidades de conducción e intenta llegar a lo más alto de la clasificación! Si quieres mostrar resultados en el servidor de Discord con el bot Grim Service, usa el comando: /rankings 1000996</MS>
+                    </description>
+                </information>
+                <inheritance value="0" />
+                <race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="STRONG" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="NONE" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <course_out_penalty_margin value="1" />
+                    <datetime datetime="1970/00/00 13:00:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="0" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="-1" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="ONELAP" />
+                    <grid_sort_type value="RANDOM" />
+                    <immediate_finish value="0" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="3" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="1" />
+                    <pace_note value="0" />
+                    <penalty_level value="-1" />
+                    <penalty_no_level value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="TIMEATTACK" />
+                    <start_type value="ATTACK" />
+                    <time_progress_speed value="0" />
+                    <time_to_finish value="0" />
+                    <time_to_start value="3000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="0" />
+                    <weather_min_celsius value="0" />
+                    <weather_no_precipitation value="1" />
+                    <weather_no_schedule value="1" />
+                    <weather_no_wind value="1" />
+                    <weather_point_num value="1" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="0" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="1" />
+                    <course_out_penalty_margine value="100" />
+                    <weather_accel10 value="0" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="0" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+                <reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table />
+                    <prize_table>
+                    </prize_table>
+                    <star_table />
+                    <present />
+                </reward>
+                <track>
+                    <course_code label="redbullring" />
+                    <course_layout_no value="0" />
+                    <is_omedeto_difficulty value="0" />
+                    <map_offset_world_x value="0" />
+                    <map_offset_world_y value="0" />
+                    <map_scale value="0" />
+                    <use_generator value="0" />
+                    <course_generator_param>
+                        <use_random_seed value="0" />
+                        <seed value="0" />
+                        <course_generator_kind value="GENERATOR_CIRCUIT" />
+                        <course_generator_length_type value="LENGTH" />
+                        <lengthy value="0" />
+                        <course_name value="" />
+                    </course_generator_param>
+                </track>
+                <play_style>
+                    <bspec_type value="ONLY_A" />
+                    <rentcar_setting_enable value="0" />
+                </play_style>
+                <regulation>
+                    <countries />
+                    <car_categories>
+                    </car_categories>
+                    <limit_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <limit_power value="-1" />
+                    <limit_pp value="-1" />
+                    <limit_torque value="-1" />
+                    <limit_weight value="-1" />
+                    <limit_tire_f value="-1" />
+                    <limit_tire_r value="-1" />
+                    <limit_year value="-1" />
+                    <need_aspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <need_power value="-1" />
+                    <need_pp value="-1" />
+                    <need_torque value="-1" />
+                    <need_weight value="-1" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <need_year value="-1" />
+                    <need_aspiration value="-1" />
+                    <need_drivetrain value="-1" />
+                    <need_license value="-1" />
+                    <limit_length value="-1" />
+                    <need_length value="-1" />
+                    <limit_aspec_level value="-1" />
+                    <need_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <limit_bspec_driver_count value="-1" />
+                    <need_bspec_driver_count value="-1" />
+                    <kart_permitted value="-1" />
+                    <tuning value="-1" />
+                    <restrictor_limit value="-1" />
+                    <NOS value="-1" />
+                    <cars>
+                    </cars>
+                    <ban_cars>
+                    </ban_cars>
+                    <tuners />
+                </regulation>
+                <penalty_script value="" />
+                <ai_script value="" />
+                <inheritance value="0" />
+                <is_seasonal_event value="1" />
+                <begin_date>2026/9/21 07:00:00</begin_date>
+                <end_date>2026/10/5 07:00:00</end_date>
+                <ranking>
+                    <begin_date>2026/9/21 07:00:00</begin_date>
+                    <end_date>2026/10/5 07:00:00</end_date>
+                    <type value="TIME" />
+                    <board_id value="1000996" />
+                    <display_rank_limit value="-1" />
+                    <is_local value="0" />
+                    <replay_rank_limit value="-1" />
+                    <registration value="0" />
+                </ranking>
+            </event>
+        </events>
+    </GameParameter>
+    <GameParameter version="106">
+        <championship value="0" />
+        <folder_id value="146" />
+        <event_id_list>1000923</event_id_list>
+        <events>
+            <event>
+                <constraint>
+                    <abs value="-1" />
+                    <active_steering value="0" />
+                    <asm value="-1" />
+                    <drift_type value="-1" />
+                    <driving_line value="-1" />
+                    <limit_tire_f value="3" />
+                    <limit_tire_r value="3" />
+                    <need_tire_f value="3" />
+                    <need_tire_r value="3" />
+                    <simulation value="1" />
+                    <suggest_tire_f value="3" />
+                    <suggest_tire_r value="3" />
+                    <tcs value="-1" />
+                    <transmission value="-1" />
+                </constraint>
+                <event_id value="1000923" />
+                <event_type value="RACE" />
+                <game_mode value="ONLINE_TIME_ATTACK" />
+                <information>
+                    <advanced_notice />
+                    <flier_other_info value="" />
+                    <logo_other_info value="" />
+                    <race_info_minute value="" />
+                    <title>
+                        <JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+                    </title>
+                    <one_line_title>
+                        <JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+                    </one_line_title>
+                    <description>
+                        <JP>コース1周の走行タイムを競うタイムトライアルイベント。巧みなドライビングテクニックでランキング上位をねらおう！車両がレギュレーションに適合しない場合は、パワーアップ系のパーツを取り外し、サスペンションなどの設定をすべて初期状態（デフォルト）に戻してください。タイヤの変更や、一部のオプション設定（トラクションコントロール、トルク配分、ASM、ABS、パワーリミッター、前後ブレーキバランス）については制限されません。ロードカー／コンセプトカーを含む、PP上限383、165 bhp以上、車重950 kg以上。
+                        Grim Service ボットを使用して discord サーバー上の結果を表示したい場合は、次のコマンドを使用します。/rankings 1000999</JP>
+                        <US>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If your car does not comply with the regulations, remove your power upgrades and set all your settings to default, such as the suspensions for example. Tire changes, as well as a limited selection of other options (traction control, torque distribution, ASM, ABS, power limiter and front and rear brake balance), will not be restricted. If no allowed cars are displayed in your garage, please go to "filter results", select the specific rules. Including MX-5 cars, 383 PP max, 165 bhp and 950kg minimum.
+                        If you want to show results on discord server with Grim Service bot, use command: /rankings 1000999</US>
+                        <GB>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If your car does not comply with the regulations, remove your power upgrades and set all your settings to default, such as the suspensions for example. Tire changes, as well as a limited selection of other options (traction control, torque distribution, ASM, ABS, power limiter and front and rear brake balance), will not be restricted. If no allowed cars are displayed in your garage, please go to "filter results", select the specific rules. Including MX-5 cars, 383PP max, 165 bhp and 950kg minimum.
+                        If you want to show results on discord server with Grim Service bot, use command: /rankings 1000999</GB>
+                        <FR>Une compétition de contre-la-montre pour réaliser le meilleur temps au tour sur la piste. Utilisez toutes vos compétences de conduite et visez le haut du classement ! Si votre voiture n'est pas conforme à la réglementation, retirez vos améliorations de puissance et remettez tous vos paramètres par défaut, comme les suspensions par exemple. Les changements de pneus, ainsi qu'une sélection limitée d'autres options (contrôle de traction, répartition du couple, ASM, ABS, limiteur de puissance et équilibre des freins avant et arrière), ne seront pas limités. Si aucune voiture autorisées ne s'affiche dans votre garage, veuillez aller dans "filtrer les résultats", séléctionnez les règles spécifiques. Y compris les voitures de route et les voitures-concept, 400 PP maximum, 230 ch minimum et 1000 kg minimum.
+        Si vous souhaitez afficher les résultats sur le serveur Discord avec le bot Grim Service, utilisez la commande : /rankings 1000999</FR>
+                        <ES>Una competición contrarreloj para marcar el mejor tiempo de vuelta en pista. ¡Usa todas tus habilidades de conducción e intenta llegar a lo más alto de la clasificación! Si su coche no cumple con la normativa, elimine las actualizaciones de potencia y establezca todos los ajustes por defecto, como las suspensiones, por ejemplo. Los cambios de neumáticos, así como una selección limitada de otras opciones (control de tracción, distribución de par, ASM, ABS, limitador de potencia y equilibrio de frenos delanteros y traseros), no estarán restringidos. Si no se muestran los coches permitidos en su garaje, vaya a "filtrar resultados" y seleccione las reglas específicas. Incluyendo coches de carretera y coches conceptuales: máximo de 400 PP, 230 bhp y peso mínimo de 1000 kg.
+                        Si quieres mostrar resultados en el servidor de Discord con el bot Grim Service, usa el comando: /rankings 1000999</ES>
+                        <DE>Ein Zeitfahrwettbewerb, bei dem es darum geht, die schnellste Rundenzeit auf der Strecke zu fahren. Setzen Sie Ihr gesamtes fahrerisches Können ein und streben Sie nach der Spitze der Rangliste! Wenn Ihr Auto nicht den Vorschriften entspricht, entfernen Sie Ihre Leistungssteigerungen und setzen Sie alle Ihre Einstellungen auf die Standardeinstellungen zurück, wie zum Beispiel die Aufhängungen. Der Reifenwechsel sowie eine begrenzte Auswahl weiterer Optionen (Traktionskontrolle, Drehmomentverteilung, ASM, ABS, Leistungsbegrenzer sowie Vorder- und Hinterradbremsbalance) unterliegen keinen Einschränkungen. Wenn in Ihrer Garage keine zugelassenen Autos angezeigt werden, gehen Sie bitte zu „Ergebnisse filtern“ und wählen Sie die spezifischen Regeln aus. Einschließlich Straßenwagen und Konzeptfahrzeugen: maximal 400 PP, 230 bhp und ein Mindestgewicht von 1000 kg.
+                        Wenn Sie Ergebnisse auf dem Discord-Server mit dem Grim Service-Bot anzeigen möchten, verwenden Sie den Befehl: /rankings 1000999</DE>
+                        <IT>Una competizione per stabilire il miglior tempo sul giro. Sfrutta tutta la tua abilità e punta alla vetta della classifica! Se la tua auto non è conforme, rimuovi gli aggiornamenti di potenza e ripristina tutte le impostazioni sui valori predefiniti, come ad esempio le sospensioni. Non saranno limitate le modifiche agli pneumatici, così come una selezione limitata di altre opzioni (controllo della trazione, distribuzione della coppia, ASM, ABS, limitatore di potenza e bilanciamento dei freni anteriore e posteriore). Se nel tuo garage non sono visualizzate auto consentite, vai su "filtra risultati", seleziona le regole specifiche. Incluse le auto stradali e le concept car: massimo 400 PP, 230 bhp e peso minimo di 1000 kg.
+                        Se vuoi mostrare i risultati sul server Discord con il bot Grim Service, usa il comando: /rankings 1000999</IT>
+                        <NL>Voldoet uw auto niet aan de regelgeving, verwijder dan uw vermogensupgrades en zet al uw instellingen op standaard, zoals bijvoorbeeld de ophangingen. Het wisselen van banden, evenals een beperkte selectie van andere opties (tractiecontrole, koppelverdeling, ASM, ABS en balans van de voor- en achterrem), zullen niet worden beperkt. Als er geen toegestane auto's in uw garage worden weergegeven, ga dan naar "filter results", selecteer de specifieke regels. Inclusief straatauto's en conceptauto's: maximaal 400 PP, 230 bhp en een minimumgewicht van 1000 kg.
+                        Als je resultaten op de discord-server met Grim Service-bot wilt weergeven, gebruik dan de opdracht: /rankings 1000999</NL>
+                        <PT>Uma competição de prova de tempo para fazer a volta mais rápida na pista. Use todas as suas habilidades de direção para tentar chegar ao topo da classificação! Se o seu carro não estiver em conformidade com os regulamentos, remova as atualizações de potência e defina todas as definições para o padrão, como as suspensões, por exemplo. As trocas de pneus, bem como uma seleção limitada de outras opções (controlo de tração, distribuição de binário, ASM, ABS, limitador de potência e equilíbrio dos travões dianteiro e traseiro), não serão restringidas. Se não for apresentado nenhum carro permitido na sua garagem, vá a "filtrar resultados" e selecione as regras específicas. Se não for apresentado nenhum carro permitido na sua garagem, vá a "filtrar resultados" e selecione as regras específicas. Incluindo carros de estrada e carros-conceito: máximo de 400 PP, 230 bhp e peso mínimo de 1000 kg.
+                        Se você quiser mostrar resultados no servidor discord com o bot Grim Service, use o comando: /rankings 1000999</PT>
+                        <RU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! Если ваш автомобиль не соответствует регламенту, снимите установленные детали для повышения мощности и верните все настройки (например, параметры подвески) к заводским значениям. Ограничения не распространяются на замену шин и некоторые другие настройки: контроль тяги, распределение крутящего момента, ASM, ABS, ограничитель мощности, а также баланс тормозных усилий (перед/зад). Если в вашем гараже не отображаются подходящие автомобили, Включая дорожные автомобили и концепт-кары: максимум 400 PP, 230 л.с. и минимальная масса 1000 кг.
+                        If you want to show results on discord server with Grim Service bot, use command:
+            /rankings 1000999</RU>
+                        <PL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! Jeśli Twój samochód nie spełnia przepisów, usuń ulepszenia mocy i ustaw wszystkie ustawienia na domyślne, takie jak na przykład zawieszenie. Zmiany opon, a także ograniczony wybór innych opcji (kontrola trakcji, rozdział momentu obrotowego, ASM, ABS, ogranicznik mocy i wyważenie przednich i tylnych hamulców) nie będą ograniczone. Jeśli w Twoim garażu nie wyświetlają się żadne dozwolone samochody, przejdź do „filtruj wyniki”, wybierz konkretne zasady. Wliczając samochody drogowe i samochody koncepcyjne: maksymalnie 400 PP, 230 bhp i minimalna masa 1000 kg.</PL>
+                        <TR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command:
+            /rankings 1000999</TR>
+                        <KR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command:
+            /rankings 1000999</KR>
+                        <EL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command:
+            /rankings 1000999</EL>
+                        <FI>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command:
+            /rankings 1000999</FI>
+                        <CZ>Pokud vaše auto nesplňuje předpisy, odeberte vylepšení výkonu a nastavte všechna nastavení na výchozí, jako jsou například odpružení. Pokud vaše auto nesplňuje předpisy, odeberte vylepšení výkonu a nastavte všechna nastavení na výchozí, jako jsou například odpružení. Výměna pneumatik, stejně jako omezený výběr dalších možností (kontrola trakce, rozdělení točivého momentu, ASM, ABS, omezovač výkonu a vyvážení přední a zadní brzdy), nebudou omezeny. Pokud se ve vaší garáži nezobrazují žádná povolená auta, přejděte prosím na "filtrovat výsledky" a vyberte konkrétní pravidla. Incluse le auto stradali e le concept car: massimo 400 PP, 230 bhp e peso minimo di 1000 kg.
+                        Pokud chcete zobrazit výsledky na discord serveru s robotem Grim Service, použijte příkaz: /rankings 1000999</CZ>
+                        <HU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings! If you want to show results on discord server with Grim Service bot, use command:
+            /rankings 1000999</HU>
+                        <BP>Uma competição de prova de tempo para fazer a volta mais rápida na pista. Use todas as suas habilidades de direção para tentar chegar ao topo da classificação! Se o seu carro não estiver em conformidade com os regulamentos, remova as atualizações de potência e defina todas as configurações para o padrão, como as suspensões, por exemplo. As trocas de pneus, bem como uma seleção limitada de outras opções (controle de tração, distribuição de torque, ASM, ABS, limitador de potência e equilíbrio dos freios dianteiro e traseiro), não serão restritas. Se não aparecerem carros autorizados na sua garagem, vá em "filtrar resultados", selecione as regras específicas. Se nenhum carro permitido for exibido em sua garagem, vá para "filtrar resultados", selecione as regras específicas.  Incluindo Mazda MX-5, máximo de 383 PP, 165 bhp e peso mínimo de 950 kg.
+                        Se você quiser mostrar resultados no servidor discord com o bot Grim Service, use o comando: /rankings 1000999</BP>
+                        <MS>Una competición contrarreloj para marcar el mejor tiempo de vuelta en pista. ¡Usa todas tus habilidades de conducción e intenta llegar a lo más alto de la clasificación! Si su coche no cumple con la normativa, elimine las actualizaciones de potencia y establezca todos los ajustes por defecto, como las suspensiones, por ejemplo. Los cambios de neumáticos, así como una selección limitada de otras opciones (control de tracción, distribución de par, ASM, ABS, limitador de potencia y equilibrio de frenos delanteros y traseros), no estarán restringidos. Si no aparecen coches autorizados en su garaje, vaya a "filtrar resultados", seleccione las reglas específicas. Incluindo Mazda MX-5, máximo de 383 PP, 165 bhp e peso mínimo de 950 kg.
+                        Si quieres mostrar resultados en el servidor de Discord con el bot Grim Service, usa el comando: /rankings 1000999</MS>
+                    </description>
+                </information>
+                <inheritance value="0" />
+                <race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="STRONG" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="NONE" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <course_out_penalty_margin value="1" />
+                    <datetime datetime="1970/00/00 13:00:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="0" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="-1" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="ONELAP" />
+                    <grid_sort_type value="RANDOM" />
+                    <immediate_finish value="0" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="3" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="1" />
+                    <pace_note value="0" />
+                    <penalty_level value="-1" />
+                    <penalty_no_level value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="TIMEATTACK" />
+                    <start_type value="ATTACK" />
+                    <time_progress_speed value="0" />
+                    <time_to_finish value="0" />
+                    <time_to_start value="3000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="0" />
+                    <weather_min_celsius value="0" />
+                    <weather_no_precipitation value="1" />
+                    <weather_no_schedule value="1" />
+                    <weather_no_wind value="1" />
+                    <weather_point_num value="1" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="0" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="1" />
+                    <course_out_penalty_margine value="100" />
+                    <weather_accel10 value="0" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="0" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+                <reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table />
+                    <prize_table>
+                    </prize_table>
+                    <star_table />
+                    <present />
+                </reward>
+                <track>
+                    <course_code label="suzuka_east" />
+                    <course_layout_no value="0" />
+                    <is_omedeto_difficulty value="0" />
+                    <map_offset_world_x value="0" />
+                    <map_offset_world_y value="0" />
+                    <map_scale value="0" />
+                    <use_generator value="0" />
+                    <course_generator_param>
+                        <use_random_seed value="0" />
+                        <seed value="0" />
+                        <course_generator_kind value="GENERATOR_CIRCUIT" />
+                        <course_generator_length_type value="LENGTH" />
+                        <lengthy value="0" />
+                        <course_name value="" />
+                    </course_generator_param>
+                </track>
+                <play_style>
+                    <bspec_type value="ONLY_A" />
+                    <rentcar_setting_enable value="0" />
+                </play_style>
+                <regulation>
+                    <countries>
+                    </countries>
+                    <car_categories>
+                    </car_categories>
+                    <limit_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <limit_power value="165" />
+                    <limit_pp value="383" />
+                    <limit_torque value="-1" />
+                    <limit_weight value="-1" />
+                    <limit_tire_f value="3" />
+                    <limit_tire_r value="3" />
+                    <limit_year value="-1" />
+                    <need_aspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <need_power value="-1" />
+                    <need_pp value="-1" />
+                    <need_torque value="-1" />
+                    <need_weight value="950" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <need_year value="-1" />
+                    <need_aspiration value="-1" />
+                    <need_drivetrain value="-1" />
+                    <need_license value="-1" />
+                    <limit_length value="-1" />
+                    <need_length value="-1" />
+                    <limit_aspec_level value="-1" />
+                    <need_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <limit_bspec_driver_count value="-1" />
+                    <need_bspec_driver_count value="-1" />
+                    <kart_permitted value="-1" />
+                    <tuning value="0" />
+                    <restrictor_limit value="-1" />
+                    <NOS value="0" />
+                    <cars>
+                        <car label="roadster_1600_nra_04" />
+                        <car label="roadster_rs_00" />
+                        <car label="roadster_sr_lim_97" />
+                        <car label="roadster_j_lim_91" />
+                        <car label="roadster_89" />
+                        <car label="miata_vr_lim_95" />
+                        <car label="miata_18rs_98" />
+                        <car label="mx5_vspl2_93" />
+                        <car label="mx5_eu_89" />
+                        <car label="mx5_j_lim_91" />
+                        <car label="miata_us_89" />
+                        <car label="miata_j_lim_91" />
+                        <car label="mx5_j_lim2_93" />
+                        <car label="miata_j_lim2_93" />
+                        <car label="miata_sr_lim_97" />
+                        <car label="miata_vspl2_93" />
+                        <car label="mx5_sr_lim_97" />
+                        <car label="mx5_vr_lim_95" />
+                        <car label="roadster_j_lim2_93" />
+                        <car label="roadster_sspl1_95" />
+                        <car label="roadster_vr_lim_95" />
+                        <car label="roadster_vspl2_93" />
+                        <car label="miata_sspl1_95" />
+                        <car label="mx5_sspl1_95" />
+                        <car label="mx5_eu_98" />
+                        <car label="roadster_18rs_98" />
+                        <car label="mx5_1600_nra_04" />
+                        <car label="miata_1600_nra_04" />
+                        <car label="mx5_18i_eu_00" />
+                        <car label="miata_rs_00" />
+                        <car label="mx5_1800_rs_04" />
+                        <car label="miata_1800_rs_04" />
+                        <car label="roadster_1800_rs_04" />
+                    </cars>
+                    <ban_cars>
+                    </ban_cars>
+                    <tuners />
+                </regulation>
+                <penalty_script value="" />
+                <ai_script value="" />
+                <inheritance value="0" />
+                <is_seasonal_event value="1" />
+                <begin_date>2026/9/28 10:00:00</begin_date>
+                <end_date>2026/10/12 07:00:00</end_date>
+                <ranking>
+                    <begin_date>2026/9/28 10:00:00</begin_date>
+                    <end_date>2026/10/12 07:00:00</end_date>
+                    <type value="TIME" />
+                    <board_id value="1000999" />
+                    <display_rank_limit value="-1" />
+                    <is_local value="0" />
+                    <replay_rank_limit value="-1" />
+                    <registration value="0" />
+                </ranking>
+            </event>
+        </events>
+    </GameParameter>
+    <GameParameter version="106">
+        <championship value="0" />
+        <folder_id value="146" />
+        <event_id_list>1000997</event_id_list>
+        <events>
+            <event>
+                <constraint>
+                    <abs value="-1" />
+                    <active_steering value="0" />
+                    <asm value="-1" />
+                    <drift_type value="-1" />
+                    <driving_line value="-1" />
+                    <limit_tire_f value="2" />
+                    <limit_tire_r value="2" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <simulation value="1" />
+                    <suggest_tire_f value="1" />
+                    <suggest_tire_r value="1" />
+                    <tcs value="-1" />
+                    <transmission value="-1" />
+                </constraint>
+                <entry_set>
+                    <entry>
+                        <car color="0" label="aem_s2000_xx" />
+                        <delay value="0" />
+                        <driver_name value="Player" />
+                        <player_no value="0" />
+                        <start_type value="NONE" />
+                    </entry>
+                </entry_set>
+                <event_id value="1000997" />
+                <event_type value="RACE" />
+                <game_mode value="ONLINE_DRIFT_ATTACK" />
+                <information>
+                    <advanced_notice />
+                    <flier_other_info value="" />
+                    <logo_other_info value="" />
+                    <race_info_minute value="" />
+                    <title>
+                        <JP>Seasonal : AEM S2000 Drift Trial</JP>
+                        <US>Seasonal : AEM S2000 Drift Trial</US>
+                        <GB>Seasonal : AEM S2000 Drift Trial</GB>
+                        <FR>Seasonal : AEM S2000 Drift Trial</FR>
+                        <ES>Seasonal : AEM S2000 Drift Trial</ES>
+                        <DE>Seasonal : AEM S2000 Drift Trial</DE>
+                        <IT>Seasonal : AEM S2000 Drift Trial</IT>
+                        <NL>Seasonal : AEM S2000 Drift Trial</NL>
+                        <PT>Seasonal : AEM S2000 Drift Trial</PT>
+                        <RU>Seasonal : AEM S2000 Drift Trial</RU>
+                        <PL>Seasonal : AEM S2000 Drift Trial</PL>
+                        <TR>Seasonal : AEM S2000 Drift Trial</TR>
+                        <KR>Seasonal : AEM S2000 Drift Trial</KR>
+                        <EL>Seasonal : AEM S2000 Drift Trial</EL>
+                        <FI>Seasonal : AEM S2000 Drift Trial</FI>
+                        <CZ>Seasonal : AEM S2000 Drift Trial</CZ>
+                        <HU>Seasonal : AEM S2000 Drift Trial</HU>
+                        <BP>Seasonal : AEM S2000 Drift Trial</BP>
+                        <MS>Seasonal : AEM S2000 Drift Trial</MS>
+                    </title>
+                    <one_line_title>
+                        <JP>Seasonal : AEM S2000 Drift Trial</JP>
+                        <US>Seasonal : AEM S2000 Drift Trial</US>
+                        <GB>Seasonal : AEM S2000 Drift Trial</GB>
+                        <FR>Seasonal : AEM S2000 Drift Trial</FR>
+                        <ES>Seasonal : AEM S2000 Drift Trial</ES>
+                        <DE>Seasonal : AEM S2000 Drift Trial</DE>
+                        <IT>Seasonal : AEM S2000 Drift Trial</IT>
+                        <NL>Seasonal : AEM S2000 Drift Trial</NL>
+                        <PT>Seasonal : AEM S2000 Drift Trial</PT>
+                        <RU>Seasonal : AEM S2000 Drift Trial</RU>
+                        <PL>Seasonal : AEM S2000 Drift Trial</PL>
+                        <TR>Seasonal : AEM S2000 Drift Trial</TR>
+                        <KR>Seasonal : AEM S2000 Drift Trial</KR>
+                        <EL>Seasonal : AEM S2000 Drift Trial</EL>
+                        <FI>Seasonal : AEM S2000 Drift Trial</FI>
+                        <CZ>Seasonal : AEM S2000 Drift Trial</CZ>
+                        <HU>Seasonal : AEM S2000 Drift Trial</HU>
+                        <BP>Seasonal : AEM S2000 Drift Trial</BP>
+                        <MS>Seasonal : AEM S2000 Drift Trial</MS>
+                    </one_line_title>
+                    <description>
+                        <JP>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</JP>
+                        <US>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</US>
+                        <GB>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</GB>
+                        <FR>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</FR>
+                        <ES>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</ES>
+                        <DE>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</DE>
+                        <IT>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</IT>
+                        <NL>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</NL>
+                        <PT>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</PT>
+                        <RU>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</RU>
+                        <PL>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</PL>
+                        <TR>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</TR>
+                        <KR>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</KR>
+                        <EL>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</EL>
+                        <FI>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</FI>
+                        <CZ>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</CZ>
+                        <HU>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</HU>
+                        <BP>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</BP>
+                        <MS>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</MS>
+                </description>
+                </information>
+                <inheritance value="0" />
+                <race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="STRONG" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="NONE" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <datetime datetime="1970/00/00 16:00:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="0" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="-1" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="FULL" />
+                    <grid_sort_type value="RANDOM" />
+                    <immediate_finish value="0" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="3" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="0" />
+                    <pace_note value="0" />
+                    <penalty_level value="-1" />
+                    <penalty_no_level value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="DRIFTATTACK" />
+                    <start_type value="COURSEINFO_ROLLING" />
+                    <time_progress_speed value="0" />
+                    <time_to_finish value="0" />
+                    <time_to_start value="3000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="0" />
+                    <weather_min_celsius value="0" />
+                    <weather_no_precipitation value="1" />
+                    <weather_no_schedule value="1" />
+                    <weather_no_wind value="1" />
+                    <weather_point_num value="0" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="0" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="1" />
+                    <weather_accel10 value="0" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="0" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+                <reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table />
+                    <prize_table>
+                    </prize_table>
+                    <star_table />
+                    <present />
+                </reward>
+                <track>
+                    <course_code label="r_akasaka" />
+                    <course_layout_no value="0" />
+                    <is_omedeto_difficulty value="0" />
+                    <map_offset_world_x value="0" />
+                    <map_offset_world_y value="0" />
+                    <map_scale value="0" />
+                    <use_generator value="0" />
+                    <course_generator_param>
+                        <use_random_seed value="0" />
+                        <seed value="0" />
+                        <course_generator_kind value="GENERATOR_CIRCUIT" />
+                        <course_generator_length_type value="LENGTH" />
+                        <lengthy value="0" />
+                        <course_name value="" />
+                    </course_generator_param>
+                </track>
+                <play_style>
+                    <bspec_type value="ONLY_A" />
+                    <rentcar_setting_enable value="0" />
+                </play_style>
+                <regulation>
+                    <countries>
+                    </countries>
+                    <car_categories>
+                    </car_categories>
+                    <limit_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <limit_power value="-1" />
+                    <limit_pp value="-1" />
+                    <limit_torque value="-1" />
+                    <limit_weight value="-1" />
+                    <limit_tire_f value="-1" />
+                    <limit_tire_r value="-1" />
+                    <limit_year value="-1" />
+                    <need_aspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <need_power value="-1" />
+                    <need_pp value="-1" />
+                    <need_torque value="-1" />
+                    <need_weight value="-1" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <need_year value="-1" />
+                    <need_aspiration value="-1" />
+                    <need_drivetrain value="-1" />
+                    <need_license value="-1" />
+                    <limit_length value="-1" />
+                    <need_length value="-1" />
+                    <limit_aspec_level value="-1" />
+                    <need_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <limit_bspec_driver_count value="-1" />
+                    <need_bspec_driver_count value="-1" />
+                    <kart_permitted value="-1" />
+                    <tuning value="-1" />
+                    <restrictor_limit value="-1" />
+                    <NOS value="0" />
+                    <cars>
+                    </cars>
+                    <ban_cars>
+                    </ban_cars>
+                    <tuners />
+                </regulation>
+                <penalty_script value="" />
+                <ai_script value="" />
+                <inheritance value="0" />
+                <is_seasonal_event value="1" />
+                <begin_date>2026/9/24 07:00:00</begin_date>
+                <end_date>2026/10/8 07:00:00</end_date>
+                <ranking>
+                    <begin_date>2026/9/24 07:00:00</begin_date>
+                    <end_date>2026/10/8 07:00:00</end_date>
+                    <type value="DRIFT" />
+                    <board_id value="1000997" />
+                    <display_rank_limit value="-1" />
+                    <is_local value="0" />
+                    <replay_rank_limit value="-1" />
+                    <registration value="0" />
+                </ranking>
+            </event>
+        </events>
+    </GameParameter>
+    <GameParameter version="106">
+        <championship value="0" />
+        <folder_id value="146" />
+        <event_id_list>1000998</event_id_list>
+        <events>
+            <event>
+                <constraint>
+                    <abs value="-1" />
+                    <active_steering value="0" />
+                    <asm value="-1" />
+                    <drift_type value="-1" />
+                    <driving_line value="-1" />
+                    <limit_tire_f value="2" />
+                    <limit_tire_r value="2" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <simulation value="1" />
+                    <suggest_tire_f value="2" />
+                    <suggest_tire_r value="2" />
+                    <tcs value="-1" />
+                    <transmission value="-1" />
+                </constraint>
+                <event_id value="1000998" />
+                <event_type value="RACE" />
+                <game_mode value="ONLINE_DRIFT_ATTACK" />
+                <information>
+                    <advanced_notice />
+                    <flier_other_info value="" />
+                    <logo_other_info value="" />
+                    <race_info_minute value="" />
+                    <title>
+                        <JP>Seasonal : Racing Cars Drift Trial</JP>
+                        <US>Seasonal : Racing Cars Drift Trial</US>
+                        <GB>Seasonal : Racing Cars Drift Trial</GB>
+                        <FR>Seasonal : Racing Cars Drift Trial</FR>
+                        <ES>Seasonal : Racing Cars Drift Trial</ES>
+                        <DE>Seasonal : Racing Cars Drift Trial</DE>
+                        <IT>Seasonal : Racing Cars Drift Trial</IT>
+                        <NL>Seasonal : Racing Cars Drift Trial</NL>
+                        <PT>Seasonal : Racing Cars Drift Trial</PT>
+                        <RU>Seasonal : Racing Cars Drift Trial</RU>
+                        <PL>Seasonal : Racing Cars Drift Trial</PL>
+                        <TR>Seasonal : Racing Cars Drift Trial</TR>
+                        <KR>Seasonal : Racing Cars Drift Trial</KR>
+                        <EL>Seasonal : Racing Cars Drift Trial</EL>
+                        <FI>Seasonal : Racing Cars Drift Trial</FI>
+                        <CZ>Seasonal : Racing Cars Drift Trial</CZ>
+                        <HU>Seasonal : Racing Cars Drift Trial</HU>
+                        <BP>Seasonal : Racing Cars Drift Trial</BP>
+                        <MS>Seasonal : Racing Cars Drift Trial</MS>
+                    </title>
+                    <one_line_title>
+                        <JP>Seasonal : Racing Cars Drift Trial</JP>
+                        <US>Seasonal : Racing Cars Drift Trial</US>
+                        <GB>Seasonal : Racing Cars Drift Trial</GB>
+                        <FR>Seasonal : Racing Cars Drift Trial</FR>
+                        <ES>Seasonal : Racing Cars Drift Trial</ES>
+                        <DE>Seasonal : Racing Cars Drift Trial</DE>
+                        <IT>Seasonal : Racing Cars Drift Trial</IT>
+                        <NL>Seasonal : Racing Cars Drift Trial</NL>
+                        <PT>Seasonal : Racing Cars Drift Trial</PT>
+                        <RU>Seasonal : Racing Cars Drift Trial</RU>
+                        <PL>Seasonal : Racing Cars Drift Trial</PL>
+                        <TR>Seasonal : Racing Cars Drift Trial</TR>
+                        <KR>Seasonal : Racing Cars Drift Trial</KR>
+                        <EL>Seasonal : Racing Cars Drift Trial</EL>
+                        <FI>Seasonal : Racing Cars Drift Trial</FI>
+                        <CZ>Seasonal : Racing Cars Drift Trial</CZ>
+                        <HU>Seasonal : Racing Cars Drift Trial</HU>
+                        <BP>Seasonal : Racing Cars Drift Trial</BP>
+                        <MS>Seasonal : Racing Cars Drift Trial</MS>
+                    </one_line_title>
+                    <description>
+                        <JP>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</JP>
+                        <US>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</US>
+                        <GB>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</GB>
+                        <FR>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</FR>
+                        <ES>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</ES>
+                        <DE>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</DE>
+                        <IT>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</IT>
+                        <NL>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</NL>
+                        <PT>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</PT>
+                        <RU>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</RU>
+                        <PL>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</PL>
+                        <TR>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</TR>
+                        <KR>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</KR>
+                        <EL>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</EL>
+                        <FI>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</FI>
+                        <CZ>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</CZ>
+                        <HU>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</HU>
+                        <BP>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</BP>
+                        <MS>This is a Drift Trial event using racing cars on the Cape Ring South course. There are no restrictions on tuning, but tires are limited to Comfort/Soft or less</MS>
+                </description>
+                </information>
+                <inheritance value="0" />
+                <race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="STRONG" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="NONE" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <datetime datetime="1970/00/00 16:00:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="0" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="-1" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="FULL" />
+                    <grid_sort_type value="RANDOM" />
+                    <immediate_finish value="0" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="3" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="1" />
+                    <pace_note value="0" />
+                    <penalty_level value="-1" />
+                    <penalty_no_level value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="DRIFTATTACK" />
+                    <start_type value="COURSEINFO_ROLLING" />
+                    <time_progress_speed value="0" />
+                    <time_to_finish value="0" />
+                    <time_to_start value="3000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="0" />
+                    <weather_min_celsius value="0" />
+                    <weather_no_precipitation value="1" />
+                    <weather_no_schedule value="1" />
+                    <weather_no_wind value="1" />
+                    <weather_point_num value="0" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="0" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="1" />
+                    <weather_accel10 value="0" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="0" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+                <reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table />
+                    <prize_table>
+                    </prize_table>
+                    <star_table />
+                    <present />
+                </reward>
+                <track>
+                    <course_code label="cape_ring_south" />
+                    <course_layout_no value="0" />
+                    <is_omedeto_difficulty value="0" />
+                    <map_offset_world_x value="0" />
+                    <map_offset_world_y value="0" />
+                    <map_scale value="0" />
+                    <use_generator value="0" />
+                    <course_generator_param>
+                        <use_random_seed value="0" />
+                        <seed value="0" />
+                        <course_generator_kind value="GENERATOR_CIRCUIT" />
+                        <course_generator_length_type value="LENGTH" />
+                        <lengthy value="0" />
+                        <course_name value="" />
+                    </course_generator_param>
+                </track>
+                <play_style>
+                    <bspec_type value="ONLY_A" />
+                    <rentcar_setting_enable value="0" />
+                </play_style>
+                <regulation>
+                    <countries>
+                    </countries>
+                    <car_categories>
+                        <category value="RACING" />
+                    </car_categories>
+                    <limit_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <limit_power value="-1" />
+                    <limit_pp value="-1" />
+                    <limit_torque value="-1" />
+                    <limit_weight value="-1" />
+                    <limit_tire_f value="2" />
+                    <limit_tire_r value="2" />
+                    <limit_year value="-1" />
+                    <need_aspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <need_power value="-1" />
+                    <need_pp value="-1" />
+                    <need_torque value="-1" />
+                    <need_weight value="-1" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <need_year value="-1" />
+                    <need_aspiration value="-1" />
+                    <need_drivetrain value="-1" />
+                    <need_license value="-1" />
+                    <limit_length value="-1" />
+                    <need_length value="-1" />
+                    <limit_aspec_level value="-1" />
+                    <need_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <limit_bspec_driver_count value="-1" />
+                    <need_bspec_driver_count value="-1" />
+                    <kart_permitted value="-1" />
+                    <tuning value="-1" />
+                    <restrictor_limit value="-1" />
+                    <NOS value="0" />
+                    <cars>
+                    </cars>
+                    <ban_cars>
+                    </ban_cars>
+                    <tuners />
+                </regulation>
+                <penalty_script value="" />
+                <ai_script value="" />
+                <inheritance value="0" />
+                <is_seasonal_event value="1" />
+                <begin_date>2026/9/24 07:00:00</begin_date>
+                <end_date>2026/10/11 07:00:00</end_date>
+                <ranking>
+                    <begin_date>2026/9/24 07:00:00</begin_date>
+                    <end_date>2026/10/11 07:00:00</end_date>
+                    <type value="DRIFT" />
+                    <board_id value="1000998" />
+                    <display_rank_limit value="-1" />
+                    <is_local value="0" />
+                    <replay_rank_limit value="-1" />
+                    <registration value="0" />
+                </ranking>
+            </event>
+        </events>
+    </GameParameter>
+    <GameParameter version="106">
+        <championship value="0" />
+        <folder_id value="146" />
+        <event_id_list>1000853</event_id_list>
+        <events>
+            <event>
+                <constraint>
+                    <abs value="-1" />
+                    <active_steering value="0" />
+                    <asm value="-1" />
+                    <drift_type value="-1" />
+                    <enemy_tire value="-1" />
+                    <driving_line value="-1" />
+                    <limit_tire_f value="9" />
+                    <limit_tire_r value="9" />
+                    <need_tire_f value="9" />
+                    <need_tire_r value="9" />
+                    <simulation value="1" />
+                    <suggest_tire_f value="9" />
+                    <suggest_tire_r value="9" />
+                    <tcs value="-1" />
+                    <transmission value="-1" />
+                </constraint>
+                <event_id value="1000853" />
+                <event_type value="RACE" />
+                <game_mode value="ONLINE_TIME_ATTACK" />
+                <entry_set>
+                    <entry_generate>
+                        <cars />
+                        <delays />
+                        <ai_skill value="100" />
+                        <ai_skill_breaking value="100" />
+                        <ai_skill_cornering value="100" />
+                        <ai_skill_accelerating value="100" />
+                        <entry_num value="1" />
+                        <player_pos value="0" />
+                        <enemy_lv value="0" />
+                        <enemy_bspec_lv value="0" />
+                        <generate_type value="NONE" />
+                        <use_rolling_start_param value="0" />
+                        <rolling_start_v value="0" />
+                        <gap_for_start_rolling_distance value="0" />
+                        <ai_skill_starting value="100" />
+                        <ai_roughness value="0" />
+                    </entry_generate>
+                    <entry>
+                        <entry_base>
+                        <car label="GARAGE_CAR" color="0" />
+                        </entry_base>
+                        <initial_velocity value="80" />
+                        <initial_position value="350" />
+                        <race_class_id value="0" />
+                        <delay value="0" />
+                        <driver_name value="Player" />
+                        <player_no value="0" />
+                        <start_type value="ROLLING3" />
+                    </entry>
+                </entry_set>
+                <failure_condition>
+                    <no_failure_at_result value="1" />
+                    <type_list>
+                        <type value="COURSE_OUT" />
+                        <type value="HIT_CAR" />
+                        <type value="PYLON" />
+                        <type value="HIT_WALL" />
+                        <type value="WRONGWAY_LOOSE" />
+                    </type_list>
+                </failure_condition>
+                <information>
+                    <advanced_notice />
+                    <flier_other_info value="" />
+                    <logo_other_info value="" />
+                    <race_info_minute value="" />
+                    <title>
+                        <JP>Test BoP</JP>
+                        <US>Test BoP</US>
+                        <GB>Test BoP</GB>
+                        <FR>Test BoP</FR>
+                        <ES>Test BoP</ES>
+                        <DE>Test BoP</DE>
+                        <IT>Test BoP</IT>
+                        <NL>Test BoP</NL>
+                        <PT>Test BoP</PT>
+                        <RU>Test BoP</RU>
+                        <PL>Test BoP</PL>
+                        <TR>Test BoP</TR>
+                        <KR>Test BoP</KR>
+                        <EL>Test BoP</EL>
+                        <FI>Test BoP</FI>
+                        <CZ>Test BoP</CZ>
+                        <HU>Test BoP</HU>
+                        <BP>Test BoP</BP>
+                        <MS>Test BoP</MS>
+                    </title>
+                    <one_line_title>
+                        <JP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</JP>
+                        <US>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</US>
+                        <GB>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</GB>
+                        <FR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</FR>
+                        <ES>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</ES>
+                        <DE>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</DE>
+                        <IT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</IT>
+                        <NL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</NL>
+                        <PT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</PT>
+                        <RU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</RU>
+                        <PL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</PL>
+                        <TR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</TR>
+                        <KR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</KR>
+                        <EL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</EL>
+                        <FI>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</FI>
+                        <CZ>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</CZ>
+                        <HU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</HU>
+                        <BP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</BP>
+                        <MS>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</MS>
+                    </one_line_title>
+                    <description>
+                        <JP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</JP>
+                        <US>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</US>
+                        <GB>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</GB>
+                        <FR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</FR>
+                        <ES>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</ES>
+                        <DE>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</DE>
+                        <IT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</IT>
+                        <NL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</NL>
+                        <PT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</PT>
+                        <RU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</RU>
+                        <PL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</PL>
+                        <TR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</TR>
+                        <KR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</KR>
+                        <EL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</EL>
+                        <FI>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</FI>
+                        <CZ>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</CZ>
+                        <HU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</HU>
+                        <BP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</BP>
+                        <MS>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</MS>
+                </description>
+                </information>
+                <inheritance value="0" />
+                <race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="WEAK" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="BYSECTION" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <datetime datetime="1970/06/01 15:40:00" />
+                    <decisive_weather value="NONE" />
+                    <disable_collision value="1" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="1" />
+                    <endless value="0" />
+                    <event_goal_v value="2140" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="NONE" />
+                    <grid_sort_type value="NONE" />
+                    <immediate_finish value="1" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="1" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="0" />
+                    <pace_note value="0" />
+                    <penalty_level value="2" />
+                    <penalty_no_reset value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="TIMEATTACK" />
+                    <start_type value="ROLLING3" />
+                    <time_progress_speed value="1" />
+                    <time_to_finish value="3000" />
+                    <time_to_start value="6000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="3" />
+                    <weather_min_celsius value="3" />
+                    <weather_no_precipitation value="0" />
+                    <weather_no_schedule value="0" />
+                    <weather_no_wind value="0" />
+                    <weather_point_num value="0" />
+                    <weather_prec_rain_only value="1" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="180" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="0" />
+                    <weather_accel10 value="5" />
+                    <weather_accel_water_retention10 value="5" />
+                    <boost_flag value="1" />
+                    <entry_max value="10" />
+                    <racers_max value="10" />
+                </race>
+                <reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table />
+                    <prize_table>
+                        <prize value="85000" />
+                        <prize value="51000" />
+                        <prize value="42000" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                    </prize_table>
+                    <star_table />
+                </reward>
+                <track>
+                    <course_code label="spa_daynight" />
+                    <course_layout_no value="0" />
+                    <is_omedeto_difficulty value="0" />
+                    <map_offset_world_x value="0" />
+                    <map_offset_world_y value="0" />
+                    <map_scale value="0" />
+                    <use_generator value="0" />
+                    <course_generator_param>
+                        <use_random_seed value="0" />
+                        <seed value="0" />
+                        <course_generator_kind value="GENERATOR_CIRCUIT" />
+                        <course_generator_length_type value="LENGTH" />
+                        <lengthy value="0" />
+                        <course_name value="" />
+                    </course_generator_param>
+                </track>
+                <play_style>
+                    <bspec_type value="ONLY_A" />
+                    <rentcar_setting_enable value="0" />
+                    <play_type value="RACE" />
+                    <no_quickmenu value="0" />
+                </play_style>
+                <regulation>
+                    <countries />
+                    <car_categories>
+                    </car_categories>
+                    <limit_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <limit_power value="-1" />
+                    <limit_pp value="650" />
+                    <limit_torque value="-1" />
+                    <limit_weight value="-1" />
+                    <limit_tire_f value="-1" />
+                    <limit_tire_r value="-1" />
+                    <limit_year value="-1" />
+                    <need_aspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <need_power value="-1" />
+                    <need_pp value="-1" />
+                    <need_torque value="-1" />
+                    <need_weight value="-1" />
+                    <need_tire_f value="8" />
+                    <need_tire_r value="8" />
+                    <need_year value="-1" />
+                    <need_aspiration value="-1" />
+                    <need_drivetrain value="-1" />
+                    <need_license value="-1" />
+                    <limit_length value="-1" />
+                    <need_length value="-1" />
+                    <limit_aspec_level value="-1" />
+                    <need_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <limit_bspec_driver_count value="-1" />
+                    <need_bspec_driver_count value="-1" />
+                    <kart_permitted value="-1" />
+                    <tuning value="-1" />
+                    <restrictor_limit value="-1" />
+                    <NOS value="0" />
+                    <cars>
+                        <car label="r8_gt3_oreca_10" />
+                        <car label="r8_lms_ps_color_09" />
+                        <car label="m3_gt2_11" />
+                        <car label="gtr_nismo_gt3_13" />
+                        <car label="gtr_nismo_gt3_base_13" />
+                        <car label="gtr_nismo_gt3_13_color" />
+                        <car label="m3_gt2_10" />
+                        <car label="z4_gt3_11" />
+                        <car label="sls_amg_gt3_11" />
+                        <car label="r8_lms_ultra_12" />
+                    </cars>
+                    <ban_cars />
+                    <tuners />
+                </regulation>
+                <penalty_script value="" />
+                <ai_script value="" />
+                <inheritance value="0" />
+                <is_seasonal_event value="1" />
+                <begin_date>2028/06/12 12:37:00</begin_date>
+                <end_date>3014/06/26 12:37:00</end_date>
+            </event>
+        </events>
+    </GameParameter>
+    <GameParameter version="106">
+        <championship value="0" />
+        <folder_id value="146" />
+        <event_id_list>1000854</event_id_list>
+        <events>
+            <event>
+                <constraint>
+                    <abs value="-1" />
+                    <active_steering value="0" />
+                    <asm value="-1" />
+                    <drift_type value="-1" />
+                    <enemy_tire value="8" />
+                    <driving_line value="-1" />
+                    <limit_tire_f value="9" />
+                    <limit_tire_r value="9" />
+                    <need_tire_f value="9" />
+                    <need_tire_r value="9" />
+                    <simulation value="1" />
+                    <suggest_tire_f value="9" />
+                    <suggest_tire_r value="9" />
+                    <tcs value="-1" />
+                    <transmission value="-1" />
+                </constraint>
+                <event_id value="1000854" />
+                <event_type value="RACE" />
+                <game_mode value="TIME_ATTACK" />
+                <information>
+                    <advanced_notice />
+                    <flier_other_info value="" />
+                    <logo_other_info value="" />
+                    <race_info_minute value="" />
+                    <title>
+                        <JP>Test BoP</JP>
+                        <US>Test BoP</US>
+                        <GB>Test BoP</GB>
+                        <FR>Test Top Speed BoP</FR>
+                        <ES>Test BoP</ES>
+                        <DE>Test BoP</DE>
+                        <IT>Test BoP</IT>
+                        <NL>Test BoP</NL>
+                        <PT>Test BoP</PT>
+                        <RU>Test BoP</RU>
+                        <PL>Test BoP</PL>
+                        <TR>Test BoP</TR>
+                        <KR>Test BoP</KR>
+                        <EL>Test BoP</EL>
+                        <FI>Test BoP</FI>
+                        <CZ>Test BoP</CZ>
+                        <HU>Test BoP</HU>
+                        <BP>Test BoP</BP>
+                        <MS>Test BoP</MS>
+                    </title>
+                    <one_line_title>
+                        <JP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</JP>
+                        <US>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</US>
+                        <GB>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</GB>
+                        <FR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</FR>
+                        <ES>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</ES>
+                        <DE>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</DE>
+                        <IT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</IT>
+                        <NL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</NL>
+                        <PT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</PT>
+                        <RU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</RU>
+                        <PL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</PL>
+                        <TR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</TR>
+                        <KR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</KR>
+                        <EL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</EL>
+                        <FI>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</FI>
+                        <CZ>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</CZ>
+                        <HU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</HU>
+                        <BP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</BP>
+                        <MS>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track.cc</MS>
+                    </one_line_title>
+                    <description>
+                        <JP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</JP>
+                        <US>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</US>
+                        <GB>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</GB>
+                        <FR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</FR>
+                        <ES>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</ES>
+                        <DE>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</DE>
+                        <IT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</IT>
+                        <NL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</NL>
+                        <PT>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</PT>
+                        <RU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</RU>
+                        <PL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</PL>
+                        <TR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</TR>
+                        <KR>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</KR>
+                        <EL>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</EL>
+                        <FI>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</FI>
+                        <CZ>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</CZ>
+                        <HU>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</HU>
+                        <BP>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</BP>
+                        <MS>This is an intermediate level race event where drivers are challenged to see how far they can improve their position within a set number of laps around the track. Any non-racing car with 550PP or less can participate in the event. The stage is set at the Willow Springs Raceway, Big Willow. Be careful, it's easy to run off into the dirt on this course!</MS>
+                </description>
+                </information>
+                <inheritance value="0" />
+                <race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="WEAK" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="BYSECTION" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <datetime datetime="1970/06/01 14:00:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="1" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="1000" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="FASTEST" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="ONELAP" />
+                    <grid_sort_type value="NONE" />
+                    <immediate_finish value="1" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="1" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="0" />
+                    <pace_note value="0" />
+                    <penalty_level value="2" />
+                    <penalty_no_reset value="0" />
+                    <race_limit_laps value="0" />
+                    <race_limit_minute value="1" />
+                    <race_type value="TIMEATTACK" />
+                    <start_type value="GRID" />
+                    <time_progress_speed value="1" />
+                    <time_to_finish value="1000" />
+                    <time_to_start value="6000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="3" />
+                    <weather_min_celsius value="3" />
+                    <weather_no_precipitation value="0" />
+                    <weather_no_schedule value="0" />
+                    <weather_no_wind value="0" />
+                    <weather_point_num value="0" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="180" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="0" />
+                    <weather_accel10 value="10" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="1" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+                <reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table />
+                    <prize_table>
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                        <prize value="0" />
+                    </prize_table>
+                    <star_table />
+                </reward>
+                <track>
+                    <course_code label="routex_oval" />
+                    <course_layout_no value="0" />
+                    <is_omedeto_difficulty value="0" />
+                    <map_offset_world_x value="0" />
+                    <map_offset_world_y value="0" />
+                    <map_scale value="0" />
+                    <use_generator value="0" />
+                    <course_generator_param>
+                        <use_random_seed value="0" />
+                        <seed value="0" />
+                        <course_generator_kind value="GENERATOR_CIRCUIT" />
+                        <course_generator_length_type value="LENGTH" />
+                        <lengthy value="0" />
+                        <course_name value="" />
+                    </course_generator_param>
+                </track>
+                <play_style>
+                    <bspec_type value="ONLY_A" />
+                    <rentcar_setting_enable value="0" />
+                    <play_type value="RACE" />
+                    <no_quickmenu value="0" />
+                </play_style>
+                <regulation>
+                    <countries />
+                    <car_categories>
+                    </car_categories>
+                    <limit_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <limit_power value="-1" />
+                    <limit_pp value="-1" />
+                    <limit_torque value="-1" />
+                    <limit_weight value="-1" />
+                    <limit_tire_f value="9" />
+                    <limit_tire_r value="9" />
+                    <limit_year value="-1" />
+                    <need_aspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <need_power value="-1" />
+                    <need_pp value="600" />
+                    <need_torque value="-1" />
+                    <need_weight value="-1" />
+                    <need_tire_f value="-1" />
+                    <need_tire_r value="-1" />
+                    <need_year value="-1" />
+                    <need_aspiration value="-1" />
+                    <need_drivetrain value="-1" />
+                    <need_license value="-1" />
+                    <limit_length value="-1" />
+                    <need_length value="-1" />
+                    <limit_aspec_level value="-1" />
+                    <need_aspec_level value="-1" />
+                    <limit_bspec_level value="-1" />
+                    <need_bspec_level value="-1" />
+                    <limit_bspec_driver_count value="-1" />
+                    <need_bspec_driver_count value="-1" />
+                    <kart_permitted value="-1" />
+                    <tuning value="-1" />
+                    <restrictor_limit value="-1" />
+                    <NOS value="0" />
+                    <cars>
+                        <car label="sls_amg_gt3_11" />
+                    </cars>
+                    <ban_cars />
+                    <tuners />
+                </regulation>
+                <penalty_script value="" />
+                <ai_script value="" />
+                <inheritance value="0" />
+                <is_seasonal_event value="1" />
+                <begin_date>2027/06/12 12:37:00</begin_date>
+                <end_date>3014/06/26 12:37:00</end_date>
+             </event>
+        </events>
+    </GameParameter>
+</xml>

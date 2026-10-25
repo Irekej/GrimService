@@ -1,0 +1,1718 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xml>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="143" />
+    <event_id_list>2500482</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="102" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="105" />
+            <cars>
+              <car label="_458_italia_09" />
+              <car label="enzo_ferrari_02" />
+              <car label="_430_scuderia_07" />
+              <car label="_599_gtb_fiorano_06" />
+              <car label="sp1_08" />
+              <car label="aventador_lp700_4_11" />
+              <car label="murcielago_lp670_4_sv_09" />
+              <car label="murcielago_lp640_09" />
+              <car label="gallardo_lp560_4_08" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="105" />
+            <ai_cornering value="101" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500482" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Festival Italia / 13 Laps</JP>
+            <US>Festival Italia / 13 Laps</US>
+            <GB>Festival Italia / 13 Laps</GB>
+            <FR>Festival Italia / 13 Laps</FR>
+            <ES>Festival Italia / 13 Laps</ES>
+            <DE>Festival Italia / 13 Laps</DE>
+            <IT>Festival Italia / 13 Laps</IT>
+            <NL>Festival Italia / 13 Laps</NL>
+            <PT>Festival Italia / 13 Laps</PT>
+            <RU>Festival Italia / 13 Laps</RU>
+            <PL>Festival Italia / 13 Laps</PL>
+            <TR>Festival Italia / 13 Laps</TR>
+            <KR>Festival Italia / 13 Laps</KR>
+            <EL>Festival Italia / 13 Laps</EL>
+            <FI>Festival Italia / 13 Laps</FI>
+            <CZ>Festival Italia / 13 Laps</CZ>
+            <HU>Festival Italia / 13 Laps</HU>
+            <BP>Festival Italia / 13 Laps</BP>
+            <MS>Festival Italia / 13 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Festival Italia / 13 Laps</JP>
+            <US>Festival Italia / 13 Laps</US>
+            <GB>Festival Italia / 13 Laps</GB>
+            <FR>Festival Italia / 13 Laps</FR>
+            <ES>Festival Italia / 13 Laps</ES>
+            <DE>Festival Italia / 13 Laps</DE>
+            <IT>Festival Italia / 13 Laps</IT>
+            <NL>Festival Italia / 13 Laps</NL>
+            <PT>Festival Italia / 13 Laps</PT>
+            <RU>Festival Italia / 13 Laps</RU>
+            <PL>Festival Italia / 13 Laps</PL>
+            <TR>Festival Italia / 13 Laps</TR>
+            <KR>Festival Italia / 13 Laps</KR>
+            <EL>Festival Italia / 13 Laps</EL>
+            <FI>Festival Italia / 13 Laps</FI>
+            <CZ>Festival Italia / 13 Laps</CZ>
+            <HU>Festival Italia / 13 Laps</HU>
+            <BP>Festival Italia / 13 Laps</BP>
+            <MS>Festival Italia / 13 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</JP>
+            <US>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</US>
+            <GB>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</GB>
+            <FR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FR>
+            <ES>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</ES>
+            <DE>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</DE>
+            <IT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</IT>
+            <NL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</NL>
+            <PT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PT>
+            <RU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</RU>
+            <PL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PL>
+            <TR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</TR>
+            <KR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</KR>
+            <EL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</EL>
+            <FI>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FI>
+            <CZ>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</CZ>
+            <HU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</HU>
+            <BP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</BP>
+            <MS>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="30" />
+          <datetime datetime="1970/00/00 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="10" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING_DL" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="1" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="54000" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="165000" />
+            <prize value="47000" />
+            <prize value="22000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="daytona_road" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries>
+            <country value="IT" />
+          </countries>
+          <car_categories>
+            <category value="NORMAL" />
+            <category value="CONCEPT" />
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="300" />
+          <limit_pp value="460" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="10" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="825" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="10" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="143" />
+    <event_id_list>2500483</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="102" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="104" />
+            <cars>
+              <car label="_458_italia_09" />
+              <car label="enzo_ferrari_02" />
+              <car label="_430_scuderia_07" />
+              <car label="_599_gtb_fiorano_06" />
+              <car label="sp1_08" />
+              <car label="aventador_lp700_4_11" />
+              <car label="murcielago_lp670_4_sv_09" />
+              <car label="murcielago_lp640_09" />
+              <car label="gallardo_lp560_4_08" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="105" />
+            <ai_cornering value="101" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500483" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Festival Italia / 10 Laps</JP>
+            <US>Festival Italia / 10 Laps</US>
+            <GB>Festival Italia / 10 Laps</GB>
+            <FR>Festival Italia / 10 Laps</FR>
+            <ES>Festival Italia / 10 Laps</ES>
+            <DE>Festival Italia / 10 Laps</DE>
+            <IT>Festival Italia / 10 Laps</IT>
+            <NL>Festival Italia / 10 Laps</NL>
+            <PT>Festival Italia / 10 Laps</PT>
+            <RU>Festival Italia / 10 Laps</RU>
+            <PL>Festival Italia / 10 Laps</PL>
+            <TR>Festival Italia / 10 Laps</TR>
+            <KR>Festival Italia / 10 Laps</KR>
+            <EL>Festival Italia / 10 Laps</EL>
+            <FI>Festival Italia / 10 Laps</FI>
+            <CZ>Festival Italia / 10 Laps</CZ>
+            <HU>Festival Italia / 10 Laps</HU>
+            <BP>Festival Italia / 10 Laps</BP>
+            <MS>Festival Italia / 10 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Festival Italia / 10 Laps</JP>
+            <US>Festival Italia / 10 Laps</US>
+            <GB>Festival Italia / 10 Laps</GB>
+            <FR>Festival Italia / 10 Laps</FR>
+            <ES>Festival Italia / 10 Laps</ES>
+            <DE>Festival Italia / 10 Laps</DE>
+            <IT>Festival Italia / 10 Laps</IT>
+            <NL>Festival Italia / 10 Laps</NL>
+            <PT>Festival Italia / 10 Laps</PT>
+            <RU>Festival Italia / 10 Laps</RU>
+            <PL>Festival Italia / 10 Laps</PL>
+            <TR>Festival Italia / 10 Laps</TR>
+            <KR>Festival Italia / 10 Laps</KR>
+            <EL>Festival Italia / 10 Laps</EL>
+            <FI>Festival Italia / 10 Laps</FI>
+            <CZ>Festival Italia / 10 Laps</CZ>
+            <HU>Festival Italia / 10 Laps</HU>
+            <BP>Festival Italia / 10 Laps</BP>
+            <MS>Festival Italia / 10 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</JP>
+            <US>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</US>
+            <GB>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</GB>
+            <FR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FR>
+            <ES>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</ES>
+            <DE>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</DE>
+            <IT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</IT>
+            <NL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</NL>
+            <PT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PT>
+            <RU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</RU>
+            <PL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PL>
+            <TR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</TR>
+            <KR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</KR>
+            <EL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</EL>
+            <FI>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FI>
+            <CZ>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</CZ>
+            <HU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</HU>
+            <BP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</BP>
+            <MS>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="40" />
+          <datetime datetime="1970/00/00 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="6" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="13" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="1" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="50000" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="175486" />
+            <prize value="47000" />
+            <prize value="22000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="r_route5" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries>
+            <country value="IT" />
+          </countries>
+          <car_categories>
+            <category value="NORMAL" />
+            <category value="CONCEPT" />
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="320" />
+          <limit_pp value="520" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="10" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="645" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="10" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="143" />
+    <event_id_list>2500484</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="102" />
+            <ai_skill_breaking value="114" />
+            <ai_skill_cornering value="105" />
+            <cars>
+              <car label="_458_italia_09" />
+              <car label="enzo_ferrari_02" />
+              <car label="_430_scuderia_07" />
+              <car label="_599_gtb_fiorano_06" />
+              <car label="sp1_08" />
+              <car label="aventador_lp700_4_11" />
+              <car label="murcielago_lp670_4_sv_09" />
+              <car label="murcielago_lp640_09" />
+              <car label="gallardo_lp560_4_08" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="105" />
+            <ai_cornering value="102" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500484" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Festival Italia / 5 Laps</JP>
+            <US>Festival Italia / 5 Laps</US>
+            <GB>Festival Italia / 5 Laps</GB>
+            <FR>Festival Italia / 5 Laps</FR>
+            <ES>Festival Italia / 5 Laps</ES>
+            <DE>Festival Italia / 5 Laps</DE>
+            <IT>Festival Italia / 5 Laps</IT>
+            <NL>Festival Italia / 5 Laps</NL>
+            <PT>Festival Italia / 5 Laps</PT>
+            <RU>Festival Italia / 5 Laps</RU>
+            <PL>Festival Italia / 5 Laps</PL>
+            <TR>Festival Italia / 5 Laps</TR>
+            <KR>Festival Italia / 5 Laps</KR>
+            <EL>Festival Italia / 5 Laps</EL>
+            <FI>Festival Italia / 5 Laps</FI>
+            <CZ>Festival Italia / 5 Laps</CZ>
+            <HU>Festival Italia / 5 Laps</HU>
+            <BP>Festival Italia / 5 Laps</BP>
+            <MS>Festival Italia / 5 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Festival Italia / 5 Laps</JP>
+            <US>Festival Italia / 5 Laps</US>
+            <GB>Festival Italia / 5 Laps</GB>
+            <FR>Festival Italia / 5 Laps</FR>
+            <ES>Festival Italia / 5 Laps</ES>
+            <DE>Festival Italia / 5 Laps</DE>
+            <IT>Festival Italia / 5 Laps</IT>
+            <NL>Festival Italia / 5 Laps</NL>
+            <PT>Festival Italia / 5 Laps</PT>
+            <RU>Festival Italia / 5 Laps</RU>
+            <PL>Festival Italia / 5 Laps</PL>
+            <TR>Festival Italia / 5 Laps</TR>
+            <KR>Festival Italia / 5 Laps</KR>
+            <EL>Festival Italia / 5 Laps</EL>
+            <FI>Festival Italia / 5 Laps</FI>
+            <CZ>Festival Italia / 5 Laps</CZ>
+            <HU>Festival Italia / 5 Laps</HU>
+            <BP>Festival Italia / 5 Laps</BP>
+            <MS>Festival Italia / 5 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</JP>
+            <US>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</US>
+            <GB>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</GB>
+            <FR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FR>
+            <ES>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</ES>
+            <DE>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</DE>
+            <IT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</IT>
+            <NL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</NL>
+            <PT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PT>
+            <RU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</RU>
+            <PL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PL>
+            <TR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</TR>
+            <KR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</KR>
+            <EL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</EL>
+            <FI>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FI>
+            <CZ>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</CZ>
+            <HU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</HU>
+            <BP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</BP>
+            <MS>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="40" />
+          <datetime datetime="2011/06/10 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="11" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID" />
+          <time_progress_speed value="1" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="0" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="50000" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="169715" />
+            <prize value="47000" />
+            <prize value="22000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="monza" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries>
+            <country value="IT" />
+          </countries>
+          <car_categories>
+            <category value="NORMAL" />
+            <category value="CONCEPT" />
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="730" />
+          <limit_pp value="590" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="10" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1250" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="10" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="143" />
+    <event_id_list>2500485</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="102" />
+            <ai_skill_breaking value="114" />
+            <ai_skill_cornering value="105" />
+            <cars>
+              <car label="_458_italia_09" />
+              <car label="enzo_ferrari_02" />
+              <car label="_430_scuderia_07" />
+              <car label="_599_gtb_fiorano_06" />
+              <car label="sp1_08" />
+              <car label="aventador_lp700_4_11" />
+              <car label="murcielago_lp670_4_sv_09" />
+              <car label="murcielago_lp640_09" />
+              <car label="gallardo_lp560_4_08" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="105" />
+            <ai_cornering value="102" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500485" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Festival Italia / 12 Laps</JP>
+            <US>Festival Italia / 12 Laps</US>
+            <GB>Festival Italia / 12 Laps</GB>
+            <FR>Festival Italia / 12 Laps</FR>
+            <ES>Festival Italia / 12 Laps</ES>
+            <DE>Festival Italia / 12 Laps</DE>
+            <IT>Festival Italia / 12 Laps</IT>
+            <NL>Festival Italia / 12 Laps</NL>
+            <PT>Festival Italia / 12 Laps</PT>
+            <RU>Festival Italia / 12 Laps</RU>
+            <PL>Festival Italia / 12 Laps</PL>
+            <TR>Festival Italia / 12 Laps</TR>
+            <KR>Festival Italia / 12 Laps</KR>
+            <EL>Festival Italia / 12 Laps</EL>
+            <FI>Festival Italia / 12 Laps</FI>
+            <CZ>Festival Italia / 12 Laps</CZ>
+            <HU>Festival Italia / 12 Laps</HU>
+            <BP>Festival Italia / 12 Laps</BP>
+            <MS>Festival Italia / 12 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Festival Italia / 12 Laps</JP>
+            <US>Festival Italia / 12 Laps</US>
+            <GB>Festival Italia / 12 Laps</GB>
+            <FR>Festival Italia / 12 Laps</FR>
+            <ES>Festival Italia / 12 Laps</ES>
+            <DE>Festival Italia / 12 Laps</DE>
+            <IT>Festival Italia / 12 Laps</IT>
+            <NL>Festival Italia / 12 Laps</NL>
+            <PT>Festival Italia / 12 Laps</PT>
+            <RU>Festival Italia / 12 Laps</RU>
+            <PL>Festival Italia / 12 Laps</PL>
+            <TR>Festival Italia / 12 Laps</TR>
+            <KR>Festival Italia / 12 Laps</KR>
+            <EL>Festival Italia / 12 Laps</EL>
+            <FI>Festival Italia / 12 Laps</FI>
+            <CZ>Festival Italia / 12 Laps</CZ>
+            <HU>Festival Italia / 12 Laps</HU>
+            <BP>Festival Italia / 12 Laps</BP>
+            <MS>Festival Italia / 12 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</JP>
+            <US>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</US>
+            <GB>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</GB>
+            <FR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FR>
+            <ES>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</ES>
+            <DE>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</DE>
+            <IT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</IT>
+            <NL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</NL>
+            <PT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PT>
+            <RU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</RU>
+            <PL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PL>
+            <TR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</TR>
+            <KR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</KR>
+            <EL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</EL>
+            <FI>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FI>
+            <CZ>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</CZ>
+            <HU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</HU>
+            <BP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</BP>
+            <MS>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="30" />
+          <datetime datetime="2011/06/10 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="10" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID" />
+          <time_progress_speed value="1" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="0" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="50000" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="169715" />
+            <prize value="47000" />
+            <prize value="22000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="motegi" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries>
+            <country value="IT" />
+          </countries>
+          <car_categories>
+            <category value="NORMAL" />
+            <category value="CONCEPT" />
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="730" />
+          <limit_pp value="590" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="10" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1250" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="10" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="143" />
+    <event_id_list>2500486</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="102" />
+            <ai_skill_breaking value="114" />
+            <ai_skill_cornering value="105" />
+            <cars>
+              <car label="_458_italia_09" />
+              <car label="enzo_ferrari_02" />
+              <car label="_430_scuderia_07" />
+              <car label="_599_gtb_fiorano_06" />
+              <car label="sp1_08" />
+              <car label="aventador_lp700_4_11" />
+              <car label="murcielago_lp670_4_sv_09" />
+              <car label="murcielago_lp640_09" />
+              <car label="gallardo_lp560_4_08" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="105" />
+            <ai_cornering value="102" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500486" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Festival Italia / 2 Laps</JP>
+            <US>Festival Italia / 2 Laps</US>
+            <GB>Festival Italia / 2 Laps</GB>
+            <FR>Festival Italia / 2 Laps</FR>
+            <ES>Festival Italia / 2 Laps</ES>
+            <DE>Festival Italia / 2 Laps</DE>
+            <IT>Festival Italia / 2 Laps</IT>
+            <NL>Festival Italia / 2 Laps</NL>
+            <PT>Festival Italia / 2 Laps</PT>
+            <RU>Festival Italia / 2 Laps</RU>
+            <PL>Festival Italia / 2 Laps</PL>
+            <TR>Festival Italia / 2 Laps</TR>
+            <KR>Festival Italia / 2 Laps</KR>
+            <EL>Festival Italia / 2 Laps</EL>
+            <FI>Festival Italia / 2 Laps</FI>
+            <CZ>Festival Italia / 2 Laps</CZ>
+            <HU>Festival Italia / 2 Laps</HU>
+            <BP>Festival Italia / 2 Laps</BP>
+            <MS>Festival Italia / 2 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Festival Italia / 2 Laps</JP>
+            <US>Festival Italia / 2 Laps</US>
+            <GB>Festival Italia / 2 Laps</GB>
+            <FR>Festival Italia / 2 Laps</FR>
+            <ES>Festival Italia / 2 Laps</ES>
+            <DE>Festival Italia / 2 Laps</DE>
+            <IT>Festival Italia / 2 Laps</IT>
+            <NL>Festival Italia / 2 Laps</NL>
+            <PT>Festival Italia / 2 Laps</PT>
+            <RU>Festival Italia / 2 Laps</RU>
+            <PL>Festival Italia / 2 Laps</PL>
+            <TR>Festival Italia / 2 Laps</TR>
+            <KR>Festival Italia / 2 Laps</KR>
+            <EL>Festival Italia / 2 Laps</EL>
+            <FI>Festival Italia / 2 Laps</FI>
+            <CZ>Festival Italia / 2 Laps</CZ>
+            <HU>Festival Italia / 2 Laps</HU>
+            <BP>Festival Italia / 2 Laps</BP>
+            <MS>Festival Italia / 2 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</JP>
+            <US>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</US>
+            <GB>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</GB>
+            <FR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FR>
+            <ES>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</ES>
+            <DE>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</DE>
+            <IT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</IT>
+            <NL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</NL>
+            <PT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PT>
+            <RU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</RU>
+            <PL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PL>
+            <TR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</TR>
+            <KR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</KR>
+            <EL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</EL>
+            <FI>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FI>
+            <CZ>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</CZ>
+            <HU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</HU>
+            <BP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</BP>
+            <MS>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="60" />
+          <datetime datetime="2011/06/10 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="16" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID" />
+          <time_progress_speed value="1" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="0" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="50000" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="169715" />
+            <prize value="47000" />
+            <prize value="22000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="rome" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries>
+            <country value="IT" />
+          </countries>
+          <car_categories>
+            <category value="NORMAL" />
+            <category value="CONCEPT" />
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="730" />
+          <limit_pp value="590" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="10" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1250" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="10" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+    </events>
+  </GameParameter>
+</xml>

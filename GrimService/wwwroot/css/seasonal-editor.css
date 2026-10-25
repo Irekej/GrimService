@@ -1,0 +1,33 @@
+#seasonal-editor { max-width: 1180px; margin: auto; }
+#seasonal-editor .season-toolbar { display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin:16px 0; }
+#seasonal-editor button, #seasonal-editor select, #seasonal-editor input, #seasonal-editor textarea { border:1px solid #adb5bd; border-radius:5px; padding:7px; font:inherit; max-width:100%; }
+#seasonal-editor button { background:#edf2f7; cursor:pointer; }
+#seasonal-editor button:disabled { opacity:.5; cursor:default; }
+#seasonal-editor #publish { background:#146c43; color:white; }
+#seasonal-editor label { display:flex; flex-direction:column; gap:4px; overflow-wrap:anywhere; }
+#seasonal-editor details { border:1px solid #dce1e6; border-radius:6px; padding:12px; margin:10px 0; }
+#seasonal-editor summary { cursor:pointer; font-weight:600; }
+#seasonal-editor .fields { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:12px; margin:12px 0; }
+#seasonal-editor textarea { width:100%; min-height:180px; font-family:monospace; }
+#seasonal-editor table { width:100%; margin:20px 0; }
+#seasonal-editor td, #seasonal-editor th { padding:10px; border-bottom:1px solid #ddd; text-align:left; }
+#seasonal-editor #message { padding:12px; white-space:pre-wrap; }
+#seasonal-editor .error { background:#ffe5e5; color:#842029; }
+#seasonal-editor .success { background:#e5f4ea; color:#14532d; }
+#seasonal-editor pre { max-height:450px; overflow:auto; white-space:pre-wrap; }
+#seasonal-editor .node-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+#seasonal-editor .event-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:16px; margin:20px 0; }
+#seasonal-editor .event-card, #seasonal-editor .config-panel { border:1px solid #dce1e6; border-radius:12px; padding:20px; background:#fff; color:#243247; }
+#seasonal-editor .event-card { display:flex; flex-direction:column; gap:10px; }
+#seasonal-editor .event-card h3 { margin:0; font-size:1.2rem; }
+#seasonal-editor .event-card .node-actions { margin-top:auto; }
+#seasonal-editor .event-description { white-space:pre-wrap; overflow-wrap:anywhere; max-height:120px; overflow:auto; }
+#seasonal-editor .config-panel { margin:16px 0; }
+#seasonal-editor .config-panel h3 { font-size:1.2rem; margin:0 0 16px; }
+#seasonal-editor .config-panel label { margin:10px 0; }
+#seasonal-editor .config-panel textarea { min-height:100px; font-family:inherit; }
+#seasonal-editor .car-row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:8px 0; }
+#seasonal-editor small { color:#526178; }
+#seasonal-editor #create-event { background:#194b91; color:white; }
+#seasonal-editor [hidden] { display:none !important; }
+@media (max-width:600px) { #seasonal-editor .event-cards { grid-template-columns:1fr; } #seasonal-editor .season-toolbar > label { width:100%; } }

@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xml>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="141" />
+    <event_id_list>2500475</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="110" />
+            <cars>
+              <car label="lexus_is_us_98" />
+              <car label="lexus_is200_rs200_98" />
+              <car label="lexus_is300_sc_us_01" />
+              <car label="altezza_as200_98" />
+              <car label="altezza_rs200_98" />
+              <car label="altezza_gita_as300_01" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_lv value="80" />
+            <entry_num value="12" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="11" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="108" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500475" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Altezza Race / 5 Laps</JP>
+            <US>Altezza Race / 5 Laps</US>
+            <GB>Altezza Race / 5 Laps</GB>
+            <FR>Altezza Race / 5 Laps</FR>
+            <ES>Altezza Race / 5 Laps</ES>
+            <DE>Altezza Race / 5 Laps</DE>
+            <IT>Altezza Race / 5 Laps</IT>
+            <NL>Altezza Race / 5 Laps</NL>
+            <PT>Altezza Race / 5 Laps</PT>
+            <RU>Altezza Race / 5 Laps</RU>
+            <PL>Altezza Race / 5 Laps</PL>
+            <TR>Altezza Race / 5 Laps</TR>
+            <KR>Altezza Race / 5 Laps</KR>
+            <EL>Altezza Race / 5 Laps</EL>
+            <FI>Altezza Race / 5 Laps</FI>
+            <CZ>Altezza Race / 5 Laps</CZ>
+            <HU>Altezza Race / 5 Laps</HU>
+            <BP>Altezza Race / 5 Laps</BP>
+            <MS>Altezza Race / 5 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Altezza Race / 5 Laps</JP>
+            <US>Altezza Race / 5 Laps</US>
+            <GB>Altezza Race / 5 Laps</GB>
+            <FR>Altezza Race / 5 Laps</FR>
+            <ES>Altezza Race / 5 Laps</ES>
+            <DE>Altezza Race / 5 Laps</DE>
+            <IT>Altezza Race / 5 Laps</IT>
+            <NL>Altezza Race / 5 Laps</NL>
+            <PT>Altezza Race / 5 Laps</PT>
+            <RU>Altezza Race / 5 Laps</RU>
+            <PL>Altezza Race / 5 Laps</PL>
+            <TR>Altezza Race / 5 Laps</TR>
+            <KR>Altezza Race / 5 Laps</KR>
+            <EL>Altezza Race / 5 Laps</EL>
+            <FI>Altezza Race / 5 Laps</FI>
+            <CZ>Altezza Race / 5 Laps</CZ>
+            <HU>Altezza Race / 5 Laps</HU>
+            <BP>Altezza Race / 5 Laps</BP>
+            <MS>Altezza Race / 5 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</JP>
+            <US>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</US>
+            <GB>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</GB>
+            <FR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FR>
+            <ES>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</ES>
+            <DE>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</DE>
+            <IT>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</IT>
+            <NL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</NL>
+            <PT>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PT>
+            <RU>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</RU>
+            <PL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PL>
+            <TR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</TR>
+            <KR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</KR>
+            <EL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</EL>
+            <FI>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FI>
+            <CZ>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</CZ>
+            <HU>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</HU>
+            <BP>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</BP>
+            <MS>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="1970/00/00 11:00:00" />
+          <decisive_weather value="SUNNY" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="5" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING2" />
+          <time_progress_speed value="1" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="2" />
+          <weather_min_celsius value="2" />
+          <weather_no_precipitation value="0" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="12" />
+          <racers_max value="12" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="8400" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="38000" />
+            <prize value="12000" />
+            <prize value="5000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="midfield_ps2" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="230" />
+          <limit_pp value="410" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="2" />
+          <limit_tire_r value="2" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1300" />
+          <need_tire_f value="2" />
+          <need_tire_r value="2" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+            <car label="lexus_is_us_98" />
+            <car label="lexus_is200_rs200_98" />
+            <car label="lexus_is300_sc_us_01" />
+            <car label="altezza_as200_98" />
+            <car label="altezza_rs200_98" />
+            <car label="altezza_gita_as300_01" />
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="141" />
+    <event_id_list>2500476</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="110" />
+            <cars>
+              <car label="lexus_is_us_98" />
+              <car label="lexus_is200_rs200_98" />
+              <car label="lexus_is300_sc_us_01" />
+              <car label="altezza_as200_98" />
+              <car label="altezza_rs200_98" />
+              <car label="altezza_gita_as300_01" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_lv value="80" />
+            <entry_num value="12" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="11" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="108" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500476" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Altezza Race / 5 Laps</JP>
+            <US>Altezza Race / 5 Laps</US>
+            <GB>Altezza Race / 5 Laps</GB>
+            <FR>Altezza Race / 5 Laps</FR>
+            <ES>Altezza Race / 5 Laps</ES>
+            <DE>Altezza Race / 5 Laps</DE>
+            <IT>Altezza Race / 5 Laps</IT>
+            <NL>Altezza Race / 5 Laps</NL>
+            <PT>Altezza Race / 5 Laps</PT>
+            <RU>Altezza Race / 5 Laps</RU>
+            <PL>Altezza Race / 5 Laps</PL>
+            <TR>Altezza Race / 5 Laps</TR>
+            <KR>Altezza Race / 5 Laps</KR>
+            <EL>Altezza Race / 5 Laps</EL>
+            <FI>Altezza Race / 5 Laps</FI>
+            <CZ>Altezza Race / 5 Laps</CZ>
+            <HU>Altezza Race / 5 Laps</HU>
+            <BP>Altezza Race / 5 Laps</BP>
+            <MS>Altezza Race / 5 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Altezza Race / 5 Laps</JP>
+            <US>Altezza Race / 5 Laps</US>
+            <GB>Altezza Race / 5 Laps</GB>
+            <FR>Altezza Race / 5 Laps</FR>
+            <ES>Altezza Race / 5 Laps</ES>
+            <DE>Altezza Race / 5 Laps</DE>
+            <IT>Altezza Race / 5 Laps</IT>
+            <NL>Altezza Race / 5 Laps</NL>
+            <PT>Altezza Race / 5 Laps</PT>
+            <RU>Altezza Race / 5 Laps</RU>
+            <PL>Altezza Race / 5 Laps</PL>
+            <TR>Altezza Race / 5 Laps</TR>
+            <KR>Altezza Race / 5 Laps</KR>
+            <EL>Altezza Race / 5 Laps</EL>
+            <FI>Altezza Race / 5 Laps</FI>
+            <CZ>Altezza Race / 5 Laps</CZ>
+            <HU>Altezza Race / 5 Laps</HU>
+            <BP>Altezza Race / 5 Laps</BP>
+            <MS>Altezza Race / 5 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</JP>
+            <US>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</US>
+            <GB>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</GB>
+            <FR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FR>
+            <ES>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</ES>
+            <DE>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</DE>
+            <IT>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</IT>
+            <NL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</NL>
+            <PT>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PT>
+            <RU>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</RU>
+            <PL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PL>
+            <TR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</TR>
+            <KR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</KR>
+            <EL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</EL>
+            <FI>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FI>
+            <CZ>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</CZ>
+            <HU>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</HU>
+            <BP>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</BP>
+            <MS>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="2011/04/12 13:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="5" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="4" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="5" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING2" />
+          <time_progress_speed value="1" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="2" />
+          <weather_min_celsius value="2" />
+          <weather_no_precipitation value="0" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="1" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="0" />
+          <boost_flag value="0" />
+          <entry_max value="12" />
+          <racers_max value="12" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="8600" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="35000" />
+            <prize value="12000" />
+            <prize value="5000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="highspeedring_wet" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="230" />
+          <limit_pp value="410" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="2" />
+          <limit_tire_r value="2" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1300" />
+          <need_tire_f value="2" />
+          <need_tire_r value="2" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+            <car label="lexus_is_us_98" />
+            <car label="lexus_is200_rs200_98" />
+            <car label="lexus_is300_sc_us_01" />
+            <car label="altezza_as200_98" />
+            <car label="altezza_rs200_98" />
+            <car label="altezza_gita_as300_01" />
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="142" />
+    <event_id_list>2500477</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="110" />
+            <cars>
+              <car label="lexus_is_us_98" />
+              <car label="lexus_is200_rs200_98" />
+              <car label="lexus_is300_sc_us_01" />
+              <car label="altezza_as200_98" />
+              <car label="altezza_rs200_98" />
+              <car label="altezza_gita_as300_01" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_lv value="80" />
+            <entry_num value="12" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="11" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="108" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500477" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Altezza Race / 4 laps</JP>
+            <US>Altezza Race / 4 laps</US>
+            <GB>Altezza Race / 4 laps</GB>
+            <FR>Altezza Race / 4 laps</FR>
+            <ES>Altezza Race / 4 laps</ES>
+            <DE>Altezza Race / 4 laps</DE>
+            <IT>Altezza Race / 4 laps</IT>
+            <NL>Altezza Race / 4 laps</NL>
+            <PT>Altezza Race / 4 laps</PT>
+            <RU>Altezza Race / 4 laps</RU>
+            <PL>Altezza Race / 4 laps</PL>
+            <TR>Altezza Race / 4 laps</TR>
+            <KR>Altezza Race / 4 laps</KR>
+            <EL>Altezza Race / 4 laps</EL>
+            <FI>Altezza Race / 4 laps</FI>
+            <CZ>Altezza Race / 4 laps</CZ>
+            <HU>Altezza Race / 4 laps</HU>
+            <BP>Altezza Race / 4 laps</BP>
+            <MS>Altezza Race / 4 laps</MS>
+          </title>
+          <one_line_title>
+            <JP>Altezza Race / 4 laps</JP>
+            <US>Altezza Race / 4 laps</US>
+            <GB>Altezza Race / 4 laps</GB>
+            <FR>Altezza Race / 4 laps</FR>
+            <ES>Altezza Race / 4 laps</ES>
+            <DE>Altezza Race / 4 laps</DE>
+            <IT>Altezza Race / 4 laps</IT>
+            <NL>Altezza Race / 4 laps</NL>
+            <PT>Altezza Race / 4 laps</PT>
+            <RU>Altezza Race / 4 laps</RU>
+            <PL>Altezza Race / 4 laps</PL>
+            <TR>Altezza Race / 4 laps</TR>
+            <KR>Altezza Race / 4 laps</KR>
+            <EL>Altezza Race / 4 laps</EL>
+            <FI>Altezza Race / 4 laps</FI>
+            <CZ>Altezza Race / 4 laps</CZ>
+            <HU>Altezza Race / 4 laps</HU>
+            <BP>Altezza Race / 4 laps</BP>
+            <MS>Altezza Race / 4 laps</MS>
+          </one_line_title>
+          <description>
+            <JP>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</JP>
+            <US>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</US>
+            <GB>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</GB>
+            <FR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FR>
+            <ES>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</ES>
+            <DE>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</DE>
+            <IT>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</IT>
+            <NL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</NL>
+            <PT>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PT>
+            <RU>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</RU>
+            <PL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PL>
+            <TR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</TR>
+            <KR>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</KR>
+            <EL>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</EL>
+            <FI>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FI>
+            <CZ>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</CZ>
+            <HU>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</HU>
+            <BP>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</BP>
+            <MS>This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="2011/05/24 10:00:00" />
+          <decisive_weather value="SUNNY" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="4" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID" />
+          <time_progress_speed value="1" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="2" />
+          <weather_min_celsius value="2" />
+          <weather_no_precipitation value="0" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="12" />
+          <racers_max value="12" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="7000" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="36000" />
+            <prize value="12000" />
+            <prize value="5000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="apricot_ps2" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="230" />
+          <limit_pp value="410" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="2" />
+          <limit_tire_r value="2" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1300" />
+          <need_tire_f value="2" />
+          <need_tire_r value="2" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+            <car label="lexus_is_us_98" />
+            <car label="lexus_is200_rs200_98" />
+            <car label="lexus_is300_sc_us_01" />
+            <car label="altezza_as200_98" />
+            <car label="altezza_rs200_98" />
+            <car label="altezza_gita_as300_01" />
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+    </events>
+  </GameParameter>
+</xml>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<GameParameter version="106">
+		<championship value="0" />
+		<folder_id value="102" />
+		<events>
+      <event>
+        <achieve_condition>
+          <num value="0" />
+          <type value="GOAL_V" />
+        </achieve_condition>
+        <begin_date>2010/04/02 12:00:00</begin_date>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="-1" />
+          <asm value="-1" />
+          <driving_line value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="0" />
+          <suggest_tire_f value="-1" />
+          <suggest_tire_r value="-1" />
+          <tcs value="-1" />
+        </constraint>
+        <end_date>2010/04/02 12:00:00</end_date>
+        <entry_set>
+          <entry>
+            <car color="0" label="rx8_types_07" />
+            <delay value="0" />
+            <driver_name value="Player" />
+            <initial_position value="-875" />
+            <initial_velocity value="108" />
+            <player_no value="0" />
+            <start_type value="NONE" />
+          </entry>
+          <entry>
+            <car color="0" label="_120i_04" />
+            <delay value="0" />
+            <driver_name value="Enemy" />
+            <initial_position value="-860" />
+            <initial_velocity value="111" />
+            <player_no value="-1" />
+            <start_type value="NONE" />
+          </entry>
+          <entry>
+            <car color="2" label="legacy_b4_30r_03" />
+            <delay value="0" />
+            <driver_name value="Enemy" />
+            <initial_position value="-856" />
+            <initial_velocity value="104" />
+            <player_no value="-1" />
+            <start_type value="NONE" />
+          </entry>
+          <entry>
+            <car color="11" label="tt_coupe_32_07" />
+            <delay value="0" />
+            <driver_name value="Enemy" />
+            <initial_position value="-844" />
+            <initial_velocity value="103" />
+            <player_no value="-1" />
+            <start_type value="NONE" />
+          </entry>
+          <entry_generate>
+            <enemy_list_type value="SAME" />
+            <generate_type value="NONE" />
+            <ai_skill value="0" />
+            <ai_skill_breaking value="100" />
+            <ai_skill_cornering value="100" />
+            <ai_skill_accelerating value="100" />
+            <entry_num value="0" />
+            <player_pos value="0" />
+            <enemy_lv value="0" />
+            <enemy_bspec_lv value="0" />
+            <cars />
+            <delays />
+          </entry_generate>
+        </entry_set>
+        <eval_condition>
+          <bronze value="3" />
+          <ghost_data_path value="" />
+          <gold value="1" />
+          <silver value="2" />
+          <type value="ORDER" />
+        </eval_condition>
+        <event_id value="1002271" />
+        <event_type value="RACE" />
+        <failure_condition>
+          <type_list>
+            <type value="COURSE_OUT" />
+            <type value="HIT_CAR_HARD" />
+            <type value="HIT_WALL_HARD" />
+            <type value="PYLON" />
+          </type_list>
+        </failure_condition>
+        <game_mode value="ONLINE_DRIFT_ATTACK" />
+        <information>
+          <advanced_notice />
+          <description />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <one_line_title />
+          <title />
+          <race_info_minute value="0" />
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="0" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <boost_params>
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+          </boost_params>
+          <complete_type value="NONE" />
+          <datetime datetime="2010/04/02 12:00:00" />
+          <decisive_weather value="0" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <entry_max value="4" />
+          <event_goal_v value="500" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <pace_note value="0" />
+          <penalty_level value="0" />
+          <race_limit_laps value="0" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <racers_max value="4" />
+          <start_type value="ROLLING_NOLIMIT" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="0" />
+          <time_to_start value="3000" />
+          <weather_accel100 value="100" />
+          <weather_base_celsius value="20" />
+          <weather_max_celsius value="0" />
+          <weather_min_celsius value="0" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60.000000" />
+          <weather_rate_sec2 value="120.000000" />
+          <weather_total_sec value="180.000000" />
+          <weather_value0 value="0.000000" />
+          <weather_value1 value="0.000000" />
+          <weather_value2 value="0.000000" />
+          <weather_value3 value="0.000000" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+        </race>
+        <reward>
+          <point_table>
+            <point value="160" />
+            <point value="130" />
+            <point value="115" />
+          </point_table>
+          <prize_table />
+          <special_reward_code value="0" />
+        </reward>
+        <track>
+          <course_code label="new_fisco" />
+          <course_layout_no value="0" />
+          <goal_position value="-1" />
+          <goal_width value="-1" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="BOTH_A_AND_B" />
+        </play_style>
+        <regulation>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="-1" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="-1" />
+          <limit_tire_r value="-1" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="-1" />
+          <need_tire_f value="-1" />
+          <need_tire_r value="-1" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+        </regulation>
+      </event>
+    
+
+		</events>
+		<series_reward>
+			<prize_table />
+			<point_table />
+		</series_reward>
+	</GameParameter>
+</xml>
+

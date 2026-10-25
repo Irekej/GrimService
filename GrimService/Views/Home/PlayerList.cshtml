@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Players List";
+}
+<h1>@T["Players List"]</h1>
+<div id="forecastContainer" class="row g-3" aria-live="polite"><p>@T["Ładowanie…"]</p></div>
+@section Scripts {
+    <script src="~/js/players-list.js" asp-append-version="true"></script>
+}

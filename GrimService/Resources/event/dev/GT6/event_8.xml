@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+<GameParameter version="106">
+		<championship value="0" />
+		<folder_id value="8" />
+		<event_id_list>1000015</event_id_list>
+		<events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="0" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="9" />
+          <limit_tire_r value="9" />
+          <need_tire_f value="8" />
+          <need_tire_r value="8" />
+          <simulation value="1" />
+          <suggest_tire_f value="-1" />
+          <suggest_tire_r value="-1" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="keihin_hsv_010_12" color="0" />
+              <ballast_weight value="0" />
+              <power_limiter value="100" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="raybrig_hsv_010_12" color="0" />
+              <ballast_weight value="0" />
+              <power_limiter value="100" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="weider_hsv_010_11" color="0" />
+              <power_limiter value="100" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="petronas_toms_sc430_08" color="0" />
+              <engine_na_tune_stage value="LEVEL3" />
+              <power_limiter value="79" />
+              <ballast_weight value="10" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="eneos_sc430_08" color="0" />
+              <engine_na_tune_stage value="LEVEL3" />
+              <power_limiter value="78" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="denso_dunlop_sard_sc430_08" color="0" />
+              <engine_na_tune_stage value="LEVEL3" />
+              <power_limiter value="79" />
+              <ballast_weight value="10" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="yellowhat_yms_tomica_gtr_08" color="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="xanavi_nismo_gtr_08" color="0" />
+              <power_limiter value="100" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="woodone_advan_clarion_gtr_08" color="0" />
+              <power_limiter value="100" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="motul_autech_gtr_08" color="0" />
+              <power_limiter value="100" />
+            </entry_base>
+          </entry>
+        </entry_set>
+        <event_id value="1000015" />
+        <event_type value="RACE" />
+        <game_mode value="ONLINE_BATTLE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Super GT500 Battle</JP>
+            <US>Super GT500 Battle</US>
+            <GB>Super GT500 Battle</GB>
+            <FR>Super GT500 Battle</FR>
+            <ES>Super GT500 Battle</ES>
+            <DE>Super GT500 Battle</DE>
+            <IT>Super GT500 Battle</IT>
+            <NL>Super GT500 Battle</NL>
+            <PT>Super GT500 Battle</PT>
+            <RU>Super GT500 Battle</RU>
+            <PL>Puchar MX-5 — Motegi</PL>
+            <TR>Super GT500 Battle</TR>
+            <KR>Super GT500 Battle</KR>
+            <EL>Super GT500 Battle</EL>
+            <FI>Super GT500 Battle</FI>
+            <CZ>Super GT500 Battle</CZ>
+            <HU>Super GT500 Battle</HU>
+            <BP>Super GT500 Battle</BP>
+            <MS>Super GT500 Battle</MS>
+          </title>
+          <one_line_title>
+            <JP>Super GT500 Battle</JP>
+            <US>Super GT500 Battle</US>
+            <GB>Super GT500 Battle</GB>
+            <FR>Super GT500 Battle</FR>
+            <ES>Super GT500 Battle</ES>
+            <DE>Super GT500 Battle</DE>
+            <IT>Super GT500 Battle</IT>
+            <NL>Super GT500 Battle</NL>
+            <PT>Super GT500 Battle</PT>
+            <RU>Super GT500 Battle</RU>
+            <PL>Puchar MX-5 — Motegi</PL>
+            <TR>Super GT500 Battle</TR>
+            <KR>Super GT500 Battle</KR>
+            <EL>Super GT500 Battle</EL>
+            <FI>Super GT500 Battle</FI>
+            <CZ>Super GT500 Battle</CZ>
+            <HU>Super GT500 Battle</HU>
+            <BP>Super GT500 Battle</BP>
+            <MS>Super GT500 Battle</MS>
+          </one_line_title>
+          <description>
+            <JP>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</JP>
+            <US>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</US>
+            <GB>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</GB>
+            <FR>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</FR>
+            <ES>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</ES>
+            <DE>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</DE>
+            <IT>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</IT>
+            <NL>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</NL>
+            <PT>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</PT>
+            <RU>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</RU>
+            <PL>8 okrążeń Motegi East. Wypożyczona Super GT, bez tuningu, opony Racing Hard. Nie potrzebujesz auta w garażu. Kary włączone. Bez pit stopów.</PL>
+            <TR>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</TR>
+            <KR>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</KR>
+            <EL>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</EL>
+            <FI>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</FI>
+            <CZ>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</CZ>
+            <HU>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</HU>
+            <BP>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</BP>
+            <MS>10 laps at Fuji Speedway. Rental Super GT provided, BoP (subject to change during the week), 5x fuel / 5x tyres.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="REAL" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="50" />
+          <consume_tire value="50" />
+          <datetime datetime="2014/07/15 15:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="RANDOM" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="ONE" />
+          <line_ghost_play_max value="1" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <pace_note value="0" />
+          <penalty_level value="2" />
+          <penalty_condition value="0"/>
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="10" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID_FLYING" />
+          <time_progress_speed value="1" />
+          <time_to_finish value="60000" />
+          <time_to_start value="-1" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="0" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_total_sec value="180" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <weather_accel10 value="5" />
+          <weather_accel_water_retention10 value="5" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+          <lucky_slot_id value="0"/>
+          <auto_end_session_with_finish value="0"/>
+          <online_on value="1"/>
+          <is_lan value="0"/>
+          <team_count value="0"/>
+          <complete_laps value="0"/>
+          <rolling_player_grid value="0"/>
+          <packet_timeout_interval value="1000"/>
+          <packet_timeout_latency value="1000"/>
+          <packet_timeout_lag value="1000"/>
+          <consume_rigidity value="1"/>
+          <temperature_tire value="1"/>
+          <consume_nitro value="0"/>
+          <consume_brake value="0"/>
+          <replace_at_overturned value="1"/>
+        </race>
+        <reward>
+          <is_once value="0" />
+          <percent_at_pp100 value="0" />
+          <pp_base value="0" />
+          <prize_type value="0" />
+          <star_table />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="105049" />
+            <prize value="85000" />
+            <prize value="62000" />
+            <prize value="30000" />
+            <prize value="20000" />
+            <prize value="12000" />
+            <prize value="8000" />
+            <prize value="6000" />
+            <prize value="4000" />
+            <prize value="2000" />
+            <prize value="1000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+        </reward>
+        <track>
+          <course_code label="new_fisco" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="-1" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="9" />
+          <limit_tire_r value="9" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="-1" />
+          <need_tire_f value="8" />
+          <need_tire_r value="8" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="0" />
+          <restrictor_limit value="-1" />
+          <NOS value="0" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/10/28 00:00:00</begin_date>
+        <end_date>2026/10/5 12:00:00</end_date>
+      </event>
+  </events>
+</GameParameter>
+<GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="8" />
+	  <event_id_list>1000016</event_id_list>
+	  <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="8" />
+          <limit_tire_r value="8" />
+          <need_tire_f value="8" />
+          <need_tire_r value="8" />
+          <simulation value="1" />
+          <suggest_tire_f value="8" />
+          <suggest_tire_r value="8" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_chevrolet_ss_88_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_chevrolet_ss_24_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_chevrolet_ss_48_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_chevrolet_ss_42_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_chevrolet_ss_14_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_fusion_43_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_fusion_99_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_camry_11_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+         </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_camry_18_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="nascar_camry_20_13" color="0" />
+              <tire_f value="RACING_MEDIUM" />
+              <tire_r value="RACING_MEDIUM" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+        </entry_set>
+        <event_id value="1000016" />
+        <event_type value="RACE" />
+        <game_mode value="ONLINE_BATTLE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Nascar Challenge</JP>
+            <US>Nascar Challenge</US>
+            <GB>Nascar Challenge</GB>
+            <FR>Nascar Challenge</FR>
+            <ES>Nascar Challenge</ES>
+            <DE>Nascar Challenge</DE>
+            <IT>Nascar Challenge</IT>
+            <NL>Nascar Challenge</NL>
+            <PT>Nascar Challenge</PT>
+            <RU>Nascar Challenge</RU>
+            <PL>GT3 — Silverstone</PL>
+            <TR>Nascar Challenge</TR>
+            <KR>Nascar Challenge</KR>
+            <EL>Nascar Challenge</EL>
+            <FI>Nascar Challenge</FI>
+            <CZ>Nascar Challenge</CZ>
+            <HU>Nascar Challenge</HU>
+            <BP>Nascar Challenge</BP>
+            <MS>Nascar Challenge</MS>
+          </title>
+          <one_line_title>
+            <JP>Nascar Challenge</JP>
+            <US>Nascar Challenge</US>
+            <GB>Nascar Challenge</GB>
+            <FR>Nascar Challenge</FR>
+            <ES>Nascar Challenge</ES>
+            <DE>Nascar Challenge</DE>
+            <IT>Nascar Challenge</IT>
+            <NL>Nascar Challenge</NL>
+            <PT>Nascar Challenge</PT>
+            <RU>Nascar Challenge</RU>
+            <PL>GT3 — Silverstone</PL>
+            <TR>Nascar Challenge</TR>
+            <KR>Nascar Challenge</KR>
+            <EL>Nascar Challenge</EL>
+            <FI>Nascar Challenge</FI>
+            <CZ>Nascar Challenge</CZ>
+            <HU>Nascar Challenge</HU>
+            <BP>Nascar Challenge</BP>
+            <MS>Nascar Challenge</MS>
+          </one_line_title>
+          <description>
+            <JP>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</JP>
+            <US>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</US>
+            <GB>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</GB>
+            <FR>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</FR>
+            <ES>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</ES>
+            <DE>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</DE>
+            <IT>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</IT>
+            <NL>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</NL>
+            <PT>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</PT>
+            <RU>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</RU>
+            <PL>4 okrążenia Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 lub Mercedes SLS AMG GT3. Bez tuningu, Racing Hard, kary włączone.</PL>
+            <TR>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</TR>
+            <KR>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</KR>
+            <EL>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</EL>
+            <FI>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</FI>
+            <CZ>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</CZ>
+            <HU>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</HU>
+            <BP>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</BP>
+            <MS>4 laps at Silverstone. Audi R8 LMS ultra, Nissan GT-R NISMO GT3 or Mercedes SLS AMG GT3. Stock setup, Racing Hard, penalties enabled.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="REAL" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="1" />
+          <datetime datetime="2014/07/15 20:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="RANDOM" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="ONE" />
+          <line_ghost_play_max value="1" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <pace_note value="0" />
+          <penalty_level value="2" />
+          <penalty_condition value="0"/>
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="8" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID_FLYING" />
+          <time_progress_speed value="10" />
+          <time_to_finish value="60000" />
+          <time_to_start value="-1" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_total_sec value="180" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <weather_accel10 value="0" />
+          <weather_accel_water_retention10 value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+          <lucky_slot_id value="0"/>
+          <auto_end_session_with_finish value="0"/>
+          <online_on value="1"/>
+          <is_lan value="0"/>
+          <team_count value="0"/>
+          <complete_laps value="0"/>
+          <rolling_player_grid value="0"/>
+          <packet_timeout_interval value="1000"/>
+          <packet_timeout_latency value="1000"/>
+          <packet_timeout_lag value="1000"/>
+          <consume_rigidity value="1"/>
+          <temperature_tire value="1"/>
+          <consume_nitro value="0"/>
+          <consume_brake value="0"/>
+          <replace_at_overturned value="1"/>
+        </race>
+        <reward>
+          <is_once value="0" />
+          <percent_at_pp100 value="0" />
+          <pp_base value="0" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table />
+          <prize_table>
+            <prize value="48000" />
+            <prize value="30000" />
+            <prize value="15000" />
+            <prize value="8000" />
+            <prize value="5000" />
+            <prize value="3000" />
+            <prize value="1500" />
+            <prize value="800" />
+            <prize value="400" />
+            <prize value="200" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present_type value="ORDER" />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="daytona_daynight" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="-1" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="7" />
+          <limit_tire_r value="7" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="-1" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="0" />
+          <restrictor_limit value="-1" />
+          <NOS value="0" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/10/28 00:00:00</begin_date>
+        <end_date>2026/10/5 12:00:00</end_date>
+      </event>
+  </events>
+</GameParameter>
+<GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="8" />
+    <event_id_list>1000017</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="5" />
+          <limit_tire_r value="5" />
+          <need_tire_f value="5" />
+          <need_tire_r value="5" />
+          <simulation value="1" />
+          <suggest_tire_f value="5" />
+          <suggest_tire_r value="5" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="racing_kart_125_sp_xx" color="0" />
+            </entry_base>
+          </entry>
+        </entry_set>
+        <event_id value="1000017" />
+        <event_type value="RACE" />
+        <game_mode value="ONLINE_BATTLE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Gran Turismo Karting on London</JP>
+            <US>Gran Turismo Karting on London</US>
+            <GB>Gran Turismo Karting on London</GB>
+            <FR>Gran Turismo Karting on London</FR>
+            <ES>Gran Turismo Karting on London</ES>
+            <DE>Gran Turismo Karting on London</DE>
+            <IT>Gran Turismo Karting on London</IT>
+            <NL>Gran Turismo Karting on London</NL>
+            <PT>Gran Turismo Karting on London</PT>
+            <RU>Gran Turismo Karting on London</RU>
+            <PL>DTM — strategia opon</PL>
+            <TR>Gran Turismo Karting on London</TR>
+            <KR>Gran Turismo Karting on London</KR>
+            <EL>Gran Turismo Karting on London</EL>
+            <FI>Gran Turismo Karting on London</FI>
+            <CZ>Gran Turismo Karting on London</CZ>
+            <HU>Gran Turismo Karting on London</HU>
+            <BP>Gran Turismo Karting on London</BP>
+            <MS>Gran Turismo Karting on London</MS>
+          </title>
+          <one_line_title>
+            <JP>Gran Turismo Karting on London</JP>
+            <US>Gran Turismo Karting on London</US>
+            <GB>Gran Turismo Karting on London</GB>
+            <FR>Gran Turismo Karting on London</FR>
+            <ES>Gran Turismo Karting on London</ES>
+            <DE>Gran Turismo Karting on London</DE>
+            <IT>Gran Turismo Karting on London</IT>
+            <NL>Gran Turismo Karting on London</NL>
+            <PT>Gran Turismo Karting on London</PT>
+            <RU>Gran Turismo Karting on London</RU>
+            <PL>DTM — strategia opon</PL>
+            <TR>Gran Turismo Karting on London</TR>
+            <KR>Gran Turismo Karting on London</KR>
+            <EL>Gran Turismo Karting on London</EL>
+            <FI>Gran Turismo Karting on London</FI>
+            <CZ>Gran Turismo Karting on London</CZ>
+            <HU>Gran Turismo Karting on London</HU>
+            <BP>Gran Turismo Karting on London</BP>
+            <MS>Gran Turismo Karting on London</MS>
+          </one_line_title>
+          <description>
+            <JP>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</JP>
+            <US>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</US>
+            <GB>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</GB>
+            <FR>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</FR>
+            <ES>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</ES>
+            <DE>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</DE>
+            <IT>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</IT>
+            <NL>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</NL>
+            <PT>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</PT>
+            <RU>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</RU>
+            <PL>8 okrążeń Nürburgring GP. Astra Touring Car, CLK Touring Car lub Audi TT-R. Bez tuningu, Racing Hard. Paliwo x2, opony x5; pit lane otwarty. Postój nie jest obowiązkowy. Kary włączone.</PL>
+            <TR>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</TR>
+            <KR>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</KR>
+            <EL>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</EL>
+            <FI>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</FI>
+            <CZ>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</CZ>
+            <HU>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</HU>
+            <BP>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</BP>
+            <MS>8 laps at Nurburgring GP. Astra Touring Car, CLK Touring Car or Audi TT-R. Stock setup, Racing Hard. Fuel x2, tyres x5; pit lane open. Pit stop not mandatory. Penalties enabled.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="0" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="REAL" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="2014/07/15 15:00:00" />
+          <decisive_weather value="SUNNY" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="RANDOM" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="-1" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="ONE" />
+          <line_ghost_play_max value="1" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <pace_note value="0" />
+          <penalty_level value="2" />
+          <penalty_condition value="0"/>
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="6" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID_FLYING" />
+          <time_progress_speed value="10" />
+          <time_to_finish value="60000" />
+          <time_to_start value="-1" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="0" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_total_sec value="180" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <weather_accel10 value="0" />
+          <weather_accel_water_retention10 value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+          <lucky_slot_id value="0"/>
+          <auto_end_session_with_finish value="0"/>
+          <online_on value="1"/>
+          <is_lan value="0"/>
+          <team_count value="0"/>
+          <complete_laps value="0"/>
+          <rolling_player_grid value="0"/>
+          <packet_timeout_interval value="1000"/>
+          <packet_timeout_latency value="1000"/>
+          <packet_timeout_lag value="1000"/>
+          <consume_rigidity value="1"/>
+          <temperature_tire value="1"/>
+          <consume_nitro value="0"/>
+          <consume_brake value="0"/>
+          <replace_at_overturned value="1"/>
+        </race>
+        <reward>
+          <is_once value="0" />
+          <percent_at_pp100 value="0" />
+          <pp_base value="0" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table />
+          <prize_table>
+            <prize value="48000" />
+            <prize value="30000" />
+            <prize value="15000" />
+            <prize value="8000" />
+            <prize value="5000" />
+            <prize value="3000" />
+            <prize value="1500" />
+            <prize value="800" />
+            <prize value="400" />
+            <prize value="200" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present_type value="ORDER" />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="london" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="-1" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="5" />
+          <limit_tire_r value="5" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="-1" />
+          <need_tire_f value="5" />
+          <need_tire_r value="5" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="1" />
+          <tuning value="0" />
+          <restrictor_limit value="-1" />
+          <NOS value="0" />
+          <cars>
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/10/28 00:00:00</begin_date>
+        <end_date>2026/10/5 12:00:00</end_date>
+      </event>
+  </events>
+</GameParameter>
+<GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="8" />
+	  <event_id_list>1000018</event_id_list>
+	  <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="8" />
+          <limit_tire_r value="8" />
+          <need_tire_f value="8" />
+          <need_tire_r value="8" />
+          <simulation value="1" />
+          <suggest_tire_f value="8" />
+          <suggest_tire_r value="8" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="sls_amg_gt3_11" color="0" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="r8_lms_ultra_12" color="0" />
+              <power_limiter value="95" />
+              <ballast_weight value="15" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="z4_gt3_11" color="0" />
+              <power_limiter value="91" />
+              <ballast_weight value="85" />
+              <engine_na_tune_stage value="LEVEL3" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="gtr_nismo_gt3_13" color="0" />
+              <power_limiter value="100" />
+              <ballast_weight value="0" />
+              <downforce_f value="400" />
+              <downforce_r value="726" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="gtr_nismo_gt3_13_color" color="0" />
+              <power_limiter value="99" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="r8_gt3_oreca_10" color="0" />
+              <power_limiter value="81" />
+              <ballast_weight value="10" />
+              <engine_na_tune_stage value="LEVEL3" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="r8_lms_ps_color_09" color="0" />
+              <power_limiter value="97" />
+              <ballast_weight value="35" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="gtr_nismo_gt3_base_13" color="0" />
+              <power_limiter value="99" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="m3_gt2_10" color="0" />
+              <power_limiter value="66" />
+              <engine_turbo_kit value="LEVEL3" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+          <entry>
+            <player_no value="0" />
+            <entry_base>
+              <car label="m3_gt2_11" color="0" />
+              <power_limiter value="66" />
+              <engine_turbo_kit value="LEVEL3" />
+              <ballast_weight value="0" />
+            </entry_base>
+          </entry>
+        </entry_set>
+        <event_id value="1000018" />
+        <event_type value="RACE" />
+        <game_mode value="ONLINE_BATTLE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>GT3 Challenge</JP>
+            <US>GT3 Challenge</US>
+            <GB>GT3 Challenge</GB>
+            <FR>GT3 Challenge</FR>
+            <ES>GT3 Challenge</ES>
+            <DE>GT3 Challenge</DE>
+            <IT>GT3 Challenge</IT>
+            <NL>GT3 Challenge</NL>
+            <PT>GT3 Challenge</PT>
+            <RU>GT3 Challenge</RU>
+            <PL>Puchar Audi R8 LMS</PL>
+            <TR>GT3 Challenge</TR>
+            <KR>GT3 Challenge</KR>
+            <EL>GT3 Challenge</EL>
+            <FI>GT3 Challenge</FI>
+            <CZ>GT3 Challenge</CZ>
+            <HU>GT3 Challenge</HU>
+            <BP>GT3 Challenge</BP>
+            <MS>GT3 Challenge</MS>
+          </title>
+          <one_line_title>
+            <JP>GT3 Challenge</JP>
+            <US>GT3 Challenge</US>
+            <GB>GT3 Challenge</GB>
+            <FR>GT3 Challenge</FR>
+            <ES>GT3 Challenge</ES>
+            <DE>GT3 Challenge</DE>
+            <IT>GT3 Challenge</IT>
+            <NL>GT3 Challenge</NL>
+            <PT>GT3 Challenge</PT>
+            <RU>GT3 Challenge</RU>
+            <PL>Puchar Audi R8 LMS</PL>
+            <TR>GT3 Challenge</TR>
+            <KR>GT3 Challenge</KR>
+            <EL>GT3 Challenge</EL>
+            <FI>GT3 Challenge</FI>
+            <CZ>GT3 Challenge</CZ>
+            <HU>GT3 Challenge</HU>
+            <BP>GT3 Challenge</BP>
+            <MS>GT3 Challenge</MS>
+          </one_line_title>
+          <description>
+            <JP>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</JP>
+            <US>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</US>
+            <GB>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</GB>
+            <FR>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</FR>
+            <ES>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</ES>
+            <DE>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</DE>
+            <IT>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</IT>
+            <NL>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</NL>
+            <PT>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</PT>
+            <RU>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</RU>
+            <PL>5 okrążeń Autumn Ring. Jeden model: Audi R8 LMS ultra '12, bez tuningu, Racing Hard. Kary włączone. Bez pit stopów.</PL>
+            <TR>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</TR>
+            <KR>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</KR>
+            <EL>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</EL>
+            <FI>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</FI>
+            <CZ>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</CZ>
+            <HU>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</HU>
+            <BP>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</BP>
+            <MS>5 laps at Autumn Ring. FF Challenge Road Cars, stock setup, Racing Hard. Penalties enabled. No pit stops.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="REAL" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="1" />
+          <datetime datetime="2014/07/15 15:00:00" />
+          <decisive_weather value="SUNNY" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="RANDOM" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="-1" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="ONE" />
+          <line_ghost_play_max value="1" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <pace_note value="0" />
+          <penalty_level value="1" />
+          <penalty_condition value="0"/>
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="3" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID_FLYING" />
+          <time_progress_speed value="10" />
+          <time_to_finish value="60000" />
+          <time_to_start value="-1" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="0" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_total_sec value="180" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <weather_accel10 value="0" />
+          <weather_accel_water_retention10 value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+          <lucky_slot_id value="0"/>
+          <auto_end_session_with_finish value="0"/>
+          <online_on value="1"/>
+          <is_lan value="0"/>
+          <team_count value="0"/>
+          <complete_laps value="0"/>
+          <rolling_player_grid value="0"/>
+          <packet_timeout_interval value="1000"/>
+          <packet_timeout_latency value="1000"/>
+          <packet_timeout_lag value="1000"/>
+          <consume_rigidity value="1"/>
+          <temperature_tire value="1"/>
+          <consume_nitro value="0"/>
+          <consume_brake value="0"/>
+          <replace_at_overturned value="1"/>
+        </race>
+        <reward>
+          <is_once value="0" />
+          <percent_at_pp100 value="0" />
+          <pp_base value="0" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table />
+          <prize_table>
+            <prize value="48000" />
+            <prize value="30000" />
+            <prize value="15000" />
+            <prize value="8000" />
+            <prize value="5000" />
+            <prize value="3000" />
+            <prize value="1500" />
+            <prize value="800" />
+            <prize value="400" />
+            <prize value="200" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+        </reward>
+        <track>
+          <course_code label="suzuka_2014" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="-1" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="7" />
+          <limit_tire_r value="7" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="-1" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="0" />
+          <restrictor_limit value="-1" />
+          <NOS value="0" />
+          <cars />
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/10/28 00:00:00</begin_date>
+        <end_date>2026/10/5 12:00:00</end_date>
+      </event>
+    </events>
+</GameParameter>
+<GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="8" />
+    <event_id_list>1000019</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="5" />
+          <limit_tire_r value="5" />
+          <need_tire_f value="5" />
+          <need_tire_r value="5" />
+          <simulation value="1" />
+          <suggest_tire_f value="5" />
+          <suggest_tire_r value="5" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <event_id value="1000019" />
+        <event_type value="RACE" />
+        <game_mode value="ONLINE_BATTLE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>500PP Road Cars Battle</JP>
+            <US>500PP Road Cars Battle</US>
+            <GB>500PP Road Cars Battle</GB>
+            <FR>500PP Road Cars Battle</FR>
+            <ES>500PP Road Cars Battle</ES>
+            <DE>500PP Road Cars Battle</DE>
+            <IT>500PP Road Cars Battle</IT>
+            <NL>500PP Road Cars Battle</NL>
+            <PT>500PP Road Cars Battle</PT>
+            <RU>500PP Road Cars Battle</RU>
+            <PL>Rajdowe legendy — Tokio</PL>
+            <TR>500PP Road Cars Battle</TR>
+            <KR>500PP Road Cars Battle</KR>
+            <EL>500PP Road Cars Battle</EL>
+            <FI>500PP Road Cars Battle</FI>
+            <CZ>500PP Road Cars Battle</CZ>
+            <HU>500PP Road Cars Battle</HU>
+            <BP>500PP Road Cars Battle</BP>
+            <MS>500PP Road Cars Battle</MS>
+          </title>
+          <one_line_title>
+            <JP>500PP Road Cars Battle</JP>
+            <US>500PP Road Cars Battle</US>
+            <GB>500PP Road Cars Battle</GB>
+            <FR>500PP Road Cars Battle</FR>
+            <ES>500PP Road Cars Battle</ES>
+            <DE>500PP Road Cars Battle</DE>
+            <IT>500PP Road Cars Battle</IT>
+            <NL>500PP Road Cars Battle</NL>
+            <PT>500PP Road Cars Battle</PT>
+            <RU>500PP Road Cars Battle</RU>
+            <PL>Rajdowe legendy — Tokio</PL>
+            <TR>500PP Road Cars Battle</TR>
+            <KR>500PP Road Cars Battle</KR>
+            <EL>500PP Road Cars Battle</EL>
+            <FI>500PP Road Cars Battle</FI>
+            <CZ>500PP Road Cars Battle</CZ>
+            <HU>500PP Road Cars Battle</HU>
+            <BP>500PP Road Cars Battle</BP>
+            <MS>500PP Road Cars Battle</MS>
+          </one_line_title>
+          <description>
+            <JP>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</JP>
+            <US>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</US>
+            <GB>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</GB>
+            <FR>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</FR>
+            <ES>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</ES>
+            <DE>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</DE>
+            <IT>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</IT>
+            <NL>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</NL>
+            <PT>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</PT>
+            <RU>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</RU>
+            <PL>5 okrążeń Tokyo R246. Focus, Impreza, Lancer Evo VI lub Peugeot 206 — rajdówki z 1999 roku. Bez tuningu, Racing Hard. Kary włączone. Bez pit stopów.</PL>
+            <TR>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</TR>
+            <KR>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</KR>
+            <EL>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</EL>
+            <FI>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</FI>
+            <CZ>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</CZ>
+            <HU>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</HU>
+            <BP>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</BP>
+            <MS>5 laps at Tokyo R246. Focus, Impreza, Lancer Evo VI or Peugeot 206 rally cars from 1999. Stock setup, Racing Hard. Penalties enabled. No pit stops.</MS>
+          </description>
+					<logo_image_path value=""/>
+					<logo_image_layout value="1" />
+				</information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="REAL" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="2014/07/15 15:00:00" />
+          <decisive_weather value="SUNNY" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="PREV_RANK_REVERSE" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="-1" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="ONE" />
+          <line_ghost_play_max value="1" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <pace_note value="0" />
+          <penalty_level value="2" />
+          <penalty_condition value="0"/>
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="4" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID_FLYING" />
+          <time_progress_speed value="10" />
+          <time_to_finish value="60000" />
+          <time_to_start value="-1" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="0" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_total_sec value="180" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <weather_accel10 value="0" />
+          <weather_accel_water_retention10 value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+          <lucky_slot_id value="0"/>
+          <auto_end_session_with_finish value="0"/>
+          <online_on value="1"/>
+          <is_lan value="0"/>
+          <team_count value="0"/>
+          <complete_laps value="0"/>
+          <rolling_player_grid value="0"/>
+          <packet_timeout_interval value="1000"/>
+          <packet_timeout_latency value="1000"/>
+          <packet_timeout_lag value="1000"/>
+          <consume_rigidity value="1"/>
+          <temperature_tire value="1"/>
+          <consume_nitro value="0"/>
+          <consume_brake value="0"/>
+          <replace_at_overturned value="1"/>
+        </race>
+        <reward>
+          <is_once value="0" />
+          <percent_at_pp100 value="0" />
+          <pp_base value="0" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table />
+          <prize_table>
+            <prize value="48000" />
+            <prize value="30000" />
+            <prize value="15000" />
+            <prize value="8000" />
+            <prize value="5000" />
+            <prize value="3000" />
+            <prize value="1500" />
+            <prize value="800" />
+            <prize value="400" />
+            <prize value="200" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present_type value="ORDER" />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="laguna" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="1" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories>
+            <category value="NORMAL" />
+            <category value="CONCEPT" />
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="500" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="5" />
+          <limit_tire_r value="5" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1000" />
+          <need_tire_f value="5" />
+          <need_tire_r value="5" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <NOS value="0" />
+          <cars />
+          <ban_cars>
+            <car label="esprit_sport350_00" />
+            <car label="acura_hsc_04" />
+            <car label="hsc_concept_03" />
+            <car label="gt40_mk1_66" />
+            <car label="rx500_70" />
+            <car label="gsx_r_4_tmv_01" />
+          </ban_cars>
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/10/28 00:00:00</begin_date>
+        <end_date>2026/10/5 12:00:00</end_date>
+      </event>
+    </events>
+</GameParameter>
+</xml>

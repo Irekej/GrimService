@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <NuGetAudit>true</NuGetAudit>
+    <NuGetAuditMode>all</NuGetAuditMode>
+    <NuGetAuditLevel>low</NuGetAuditLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Preserve the existing PostgreSQL timestamp contract until a separate data migration. -->
+    <RuntimeHostConfigurationOption Include="Npgsql.EnableLegacyTimestampBehavior" Value="true" />
+    <RuntimeHostConfigurationOption Include="Npgsql.DisableDateTimeInfinityConversions" Value="true" />
+  </ItemGroup>
+</Project>

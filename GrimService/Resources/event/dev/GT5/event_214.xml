@@ -1,0 +1,1043 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xml>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="214" />
+    <event_id_list>2500487</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="0" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="8" />
+          <limit_tire_f value="8" />
+          <limit_tire_r value="8" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <simulation value="1" />
+          <suggest_tire_f value="7" />
+          <suggest_tire_r value="7" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="115" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="115" />
+            <cars>
+              <car label="_155_v6ti_dtm_93" />
+              <car label="_190e_evo2_dtm_92" />
+              <car label="opel_calibra_race_94" />
+              <car label="vauxhall_calibra_race_94" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_bspec_lv value="110" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="11" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="115" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500487" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="40" />
+          <title>
+            <JP>B-Spec Challenge Race 1</JP>
+            <US>B-Spec Challenge Race 1</US>
+            <GB>B-Spec Challenge Race 1</GB>
+            <FR>B-Spec Challenge Race 1</FR>
+            <ES>B-Spec Challenge Race 1</ES>
+            <DE>B-Spec Challenge Race 1</DE>
+            <IT>B-Spec Challenge Race 1</IT>
+            <NL>B-Spec Challenge Race 1</NL>
+            <PT>B-Spec Challenge Race 1</PT>
+            <RU>B-Spec Challenge Race 1</RU>
+            <PL>B-Spec Challenge Race 1</PL>
+            <TR>B-Spec Challenge Race 1</TR>
+            <KR>B-Spec Challenge Race 1</KR>
+            <EL>B-Spec Challenge Race 1</EL>
+            <FI>B-Spec Challenge Race 1</FI>
+            <CZ>B-Spec Challenge Race 1</CZ>
+            <HU>B-Spec Challenge Race 1</HU>
+            <BP>B-Spec Challenge Race 1</BP>
+            <MS>B-Spec Challenge Race 1</MS>
+          </title>
+          <one_line_title>
+            <JP>B-Spec Challenge Race 1</JP>
+            <US>B-Spec Challenge Race 1</US>
+            <GB>B-Spec Challenge Race 1</GB>
+            <FR>B-Spec Challenge Race 1</FR>
+            <ES>B-Spec Challenge Race 1</ES>
+            <DE>B-Spec Challenge Race 1</DE>
+            <IT>B-Spec Challenge Race 1</IT>
+            <NL>B-Spec Challenge Race 1</NL>
+            <PT>B-Spec Challenge Race 1</PT>
+            <RU>B-Spec Challenge Race 1</RU>
+            <PL>B-Spec Challenge Race 1</PL>
+            <TR>B-Spec Challenge Race 1</TR>
+            <KR>B-Spec Challenge Race 1</KR>
+            <EL>B-Spec Challenge Race 1</EL>
+            <FI>B-Spec Challenge Race 1</FI>
+            <CZ>B-Spec Challenge Race 1</CZ>
+            <HU>B-Spec Challenge Race 1</HU>
+            <BP>B-Spec Challenge Race 1</BP>
+            <MS>B-Spec Challenge Race 1</MS>
+          </one_line_title>
+          <description>
+            <JP />
+            <US />
+            <GB />
+            <FR />
+            <ES />
+            <DE />
+            <IT />
+            <NL />
+            <PT />
+            <RU />
+            <PL />
+            <TR />
+            <KR />
+            <EL />
+            <FI />
+            <CZ />
+            <HU />
+            <BP />
+            <MS />
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="WEAK" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="20" />
+          <consume_tire value="50" />
+          <datetime datetime="2010/05/13 16:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="0" />
+          <initial_velocity value="100" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="17" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING_DL" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="0" />
+          <time_to_start value="9000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0.5" />
+          <weather_value1 value="0.1" />
+          <weather_value2 value="0.2" />
+          <weather_value3 value="0.3" />
+          <weather_accel100 value="200" />
+          <weather_accel_water_retention10 value="3.0" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="0" />
+          <pp_base value="0" />
+          <prize_type value="1" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="74050" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="188000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <present_type value="ORDER" />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="nurburgring_GP" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_B" />
+          <leave_limit value="0" />
+          <no_instant_replay value="0" />
+          <no_quickmenu value="0" />
+          <play_type value="RACE" />
+          <time_limit value="0" />
+          <window_num value="1" />
+        </play_style>
+        <regulation>
+          <countries>
+          </countries>
+          <car_categories>
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="480" />
+          <limit_pp value="550" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="8" />
+          <limit_tire_r value="8" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="10" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="970" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="10" />
+          <limit_bspec_driver_count value="2" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+            <car label="_155_v6ti_dtm_93" />
+            <car label="_190e_evo2_dtm_92" />
+            <car label="opel_calibra_race_94" />
+            <car label="vauxhall_calibra_race_94" />
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="214" />
+    <event_id_list>2500488</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="0" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="8" />
+          <limit_tire_f value="8" />
+          <limit_tire_r value="8" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <simulation value="1" />
+          <suggest_tire_f value="7" />
+          <suggest_tire_r value="7" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="115" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="115" />
+            <cars>
+              <car label="corvette_cr5_00" />
+              <car label="dodge_viper_gtsr_oreca_00" />
+              <car label="panoz_esperante_race_98" />
+              <car label="mclaren_f1_gtr_long_97" />
+              <car label="xj220_gt_race_92" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_bspec_lv value="110" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="11" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="115" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500488" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="40" />
+          <title>
+            <JP>B-Spec Challenge Race 2</JP>
+            <US>B-Spec Challenge Race 2</US>
+            <GB>B-Spec Challenge Race 2</GB>
+            <FR>B-Spec Challenge Race 2</FR>
+            <ES>B-Spec Challenge Race 2</ES>
+            <DE>B-Spec Challenge Race 2</DE>
+            <IT>B-Spec Challenge Race 2</IT>
+            <NL>B-Spec Challenge Race 2</NL>
+            <PT>B-Spec Challenge Race 2</PT>
+            <RU>B-Spec Challenge Race 2</RU>
+            <PL>B-Spec Challenge Race 2</PL>
+            <TR>B-Spec Challenge Race 2</TR>
+            <KR>B-Spec Challenge Race 2</KR>
+            <EL>B-Spec Challenge Race 2</EL>
+            <FI>B-Spec Challenge Race 2</FI>
+            <CZ>B-Spec Challenge Race 2</CZ>
+            <HU>B-Spec Challenge Race 2</HU>
+            <BP>B-Spec Challenge Race 2</BP>
+            <MS>B-Spec Challenge Race 2</MS>
+          </title>
+          <one_line_title>
+            <JP>B-Spec Challenge Race 2</JP>
+            <US>B-Spec Challenge Race 2</US>
+            <GB>B-Spec Challenge Race 2</GB>
+            <FR>B-Spec Challenge Race 2</FR>
+            <ES>B-Spec Challenge Race 2</ES>
+            <DE>B-Spec Challenge Race 2</DE>
+            <IT>B-Spec Challenge Race 2</IT>
+            <NL>B-Spec Challenge Race 2</NL>
+            <PT>B-Spec Challenge Race 2</PT>
+            <RU>B-Spec Challenge Race 2</RU>
+            <PL>B-Spec Challenge Race 2</PL>
+            <TR>B-Spec Challenge Race 2</TR>
+            <KR>B-Spec Challenge Race 2</KR>
+            <EL>B-Spec Challenge Race 2</EL>
+            <FI>B-Spec Challenge Race 2</FI>
+            <CZ>B-Spec Challenge Race 2</CZ>
+            <HU>B-Spec Challenge Race 2</HU>
+            <BP>B-Spec Challenge Race 2</BP>
+            <MS>B-Spec Challenge Race 2</MS>
+          </one_line_title>
+          <description>
+            <JP />
+            <US />
+            <GB />
+            <FR />
+            <ES />
+            <DE />
+            <IT />
+            <NL />
+            <PT />
+            <RU />
+            <PL />
+            <TR />
+            <KR />
+            <EL />
+            <FI />
+            <CZ />
+            <HU />
+            <BP />
+            <MS />
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="WEAK" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="40" />
+          <datetime datetime="2010/05/13 16:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="0" />
+          <initial_velocity value="100" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="23" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING_DR" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="0" />
+          <time_to_start value="9000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0.5" />
+          <weather_value1 value="0.1" />
+          <weather_value2 value="0.2" />
+          <weather_value3 value="0.3" />
+          <weather_accel100 value="200" />
+          <weather_accel_water_retention10 value="3.0" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="715" />
+          <pp_base value="1" />
+          <prize_type value="1" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="83000" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="205310" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <present_type value="ORDER" />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="trialmt" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_B" />
+          <leave_limit value="0" />
+          <no_instant_replay value="0" />
+          <no_quickmenu value="0" />
+          <play_type value="RACE" />
+          <time_limit value="0" />
+          <window_num value="1" />
+        </play_style>
+        <regulation>
+          <countries>
+          </countries>
+          <car_categories>
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="775" />
+          <limit_pp value="660" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="8" />
+          <limit_tire_r value="8" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="10" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="950" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_bspec_driver_count value="2" />
+          <need_bspec_driver_count value="1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+            <car label="corvette_cr5_00" />
+            <car label="dodge_viper_gtsr_oreca_00" />
+            <car label="panoz_esperante_race_98" />
+            <car label="mclaren_f1_gtr_long_97" />
+            <car label="xj220_gt_race_92" />
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="214" />
+    <event_id_list>2500489</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="-1" />
+          <asm value="0" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="11" />
+          <limit_tire_r value="11" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <simulation value="1" />
+          <suggest_tire_f value="11" />
+          <suggest_tire_r value="11" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="120" />
+            <ai_skill_cornering value="120" />
+            <cars>
+              <car label="_330_p4_67" />
+              <car label="gt40_mk4_race_67" />
+              <car label="gt40_race_69" />
+              <car label="xj13_66" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_bspec_lv value="110" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="12" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="110" />
+            <ai_cornering value="109" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500489" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="40" />
+          <title>
+            <JP>B-Spec Challenge Race 3</JP>
+            <US>B-Spec Challenge Race 3</US>
+            <GB>B-Spec Challenge Race 3</GB>
+            <FR>B-Spec Challenge Race 3</FR>
+            <ES>B-Spec Challenge Race 3</ES>
+            <DE>B-Spec Challenge Race 3</DE>
+            <IT>B-Spec Challenge Race 3</IT>
+            <NL>B-Spec Challenge Race 3</NL>
+            <PT>B-Spec Challenge Race 3</PT>
+            <RU>B-Spec Challenge Race 3</RU>
+            <PL>B-Spec Challenge Race 3</PL>
+            <TR>B-Spec Challenge Race 3</TR>
+            <KR>B-Spec Challenge Race 3</KR>
+            <EL>B-Spec Challenge Race 3</EL>
+            <FI>B-Spec Challenge Race 3</FI>
+            <CZ>B-Spec Challenge Race 3</CZ>
+            <HU>B-Spec Challenge Race 3</HU>
+            <BP>B-Spec Challenge Race 3</BP>
+            <MS>B-Spec Challenge Race 3</MS>
+          </title>
+          <one_line_title>
+            <JP>B-Spec Challenge Race 3</JP>
+            <US>B-Spec Challenge Race 3</US>
+            <GB>B-Spec Challenge Race 3</GB>
+            <FR>B-Spec Challenge Race 3</FR>
+            <ES>B-Spec Challenge Race 3</ES>
+            <DE>B-Spec Challenge Race 3</DE>
+            <IT>B-Spec Challenge Race 3</IT>
+            <NL>B-Spec Challenge Race 3</NL>
+            <PT>B-Spec Challenge Race 3</PT>
+            <RU>B-Spec Challenge Race 3</RU>
+            <PL>B-Spec Challenge Race 3</PL>
+            <TR>B-Spec Challenge Race 3</TR>
+            <KR>B-Spec Challenge Race 3</KR>
+            <EL>B-Spec Challenge Race 3</EL>
+            <FI>B-Spec Challenge Race 3</FI>
+            <CZ>B-Spec Challenge Race 3</CZ>
+            <HU>B-Spec Challenge Race 3</HU>
+            <BP>B-Spec Challenge Race 3</BP>
+            <MS>B-Spec Challenge Race 3</MS>
+          </one_line_title>
+          <description>
+            <JP />
+            <US />
+            <GB />
+            <FR />
+            <ES />
+            <DE />
+            <IT />
+            <NL />
+            <PT />
+            <RU />
+            <PL />
+            <TR />
+            <KR />
+            <EL />
+            <FI />
+            <CZ />
+            <HU />
+            <BP />
+            <MS />
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="0" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="WEAK" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="25" />
+          <datetime datetime="1968/05/17 16:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="1" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="7" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="10" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING_DR" />
+          <time_progress_speed value="8" />
+          <time_to_finish value="0" />
+          <time_to_start value="13000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="6" />
+          <weather_min_celsius value="4" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="450" />
+          <weather_total_sec value="1120" />
+          <weather_value0 value="-0.3" />
+          <weather_value1 value="-0.1" />
+          <weather_value2 value="0.2" />
+          <weather_value3 value="0.5" />
+          <weather_accel10 value="3.0" />
+          <weather_accel_water_retention10 value="4.0" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="1" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="1" />
+          <pp_base value="1" />
+          <prize_type value="1" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="124080" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="320104" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <present_type value="ORDER" />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="sarthe2009_daynight" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_B" />
+          <leave_limit value="0" />
+          <no_instant_replay value="0" />
+          <no_quickmenu value="0" />
+          <play_type value="RACE" />
+          <time_limit value="0" />
+          <window_num value="1" />
+        </play_style>
+        <regulation>
+          <countries>
+          </countries>
+          <car_categories>
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="535" />
+          <limit_pp value="610" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="7" />
+          <limit_tire_r value="7" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="10" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="792" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_bspec_driver_count value="2" />
+          <need_bspec_driver_count value="1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars>
+            <car label="_330_p4_67" />
+            <car label="gt40_mk4_race_67" />
+            <car label="gt40_race_69" />
+            <car label="xj13_66" />
+          </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+</xml>

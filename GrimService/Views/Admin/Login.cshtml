@@ -1,0 +1,21 @@
+@model string
+@{
+    ViewData["Title"] = "Panel administracyjny";
+}
+<div class="row justify-content-center py-5">
+    <div class="col-md-5 col-lg-4">
+        <div class="card shadow-sm"><div class="card-body p-4">
+            <h1 class="h3 mb-3">@T["Logowanie administratora"]</h1>
+            @foreach (var entry in ViewData.ModelState.Values) {
+                foreach (var error in entry.Errors) { <div class="text-danger">@T[error.ErrorMessage]</div> }
+            }
+            <form method="post" asp-action="Login">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="returnUrl" value="@Model" />
+                <div class="mb-3"><label class="form-label" for="username">@T["Login"]</label><input class="form-control" id="username" name="username" autocomplete="username" required /></div>
+                <div class="mb-3"><label class="form-label" for="password">@T["Hasło"]</label><input class="form-control" id="password" name="password" type="password" autocomplete="current-password" required /></div>
+                <button class="btn btn-dark w-100" type="submit">@T["Zaloguj"]</button>
+            </form>
+        </div></div>
+    </div>
+</div>

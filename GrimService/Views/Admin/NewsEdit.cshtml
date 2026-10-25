@@ -1,0 +1,63 @@
+@model GrimService.Models.Admin.NewsPost
+@{ ViewData["Title"] = "Edytor newsów"; }
+<a asp-action="Index" asp-route-game="@Model.Game" asp-route-server="@Model.Server" asp-route-region="@Model.Region">@T["← Lista newsów"]</a>
+<h1>@T["Edytor newsów"] · @Model.Game @(Model.Id == 0 ? "" : "#" + Model.Id)</h1>
+@if (TempData["NewsMessage"] is string message) { <div class="alert alert-success">@T[message]</div> }
+<div asp-validation-summary="All" class="text-danger"></div>
+<form method="post" asp-action="Save" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" /><input type="hidden" asp-for="Game" /><input type="hidden" asp-for="Version" />
+    <input type="hidden" asp-for="Server" /><input type="hidden" asp-for="Region" />
+    <p>@T["Gra"]: @Model.Game · @T["Serwer / katalog"]: @Model.Server · @T["Region newsa"]: @Model.Region</p>
+    <p class="text-muted">@T["Region us jest domyślny dla innych regionów. Język panelu nie zmienia języka treści newsa."]</p>
+    <div class="mb-3"><label class="form-label" asp-for="Title">@T["Tytuł"]</label><input asp-for="Title" class="form-control" maxlength="200" required /></div>
+    <div class="mb-3"><label class="form-label" asp-for="Headline">@T["Krótki nagłówek"]</label><input asp-for="Headline" class="form-control" maxlength="500" /></div>
+    <div class="mb-3"><label class="form-label" asp-for="Body">@T["Treść newsa"]</label><textarea asp-for="Body" class="form-control" rows="10" maxlength="30000"></textarea></div>
+    <h2 class="h4">@T["Dodatkowe wersje językowe"]</h2>
+    <p class="text-muted">@T["Brak wersji językowej oznacza użycie US. Zdjęcia i publikacja są wspólne. Aby usunąć tłumaczenie, wyczyść wszystkie trzy pola."]</p>
+    @if (Model.Region != "us") { <p class="alert alert-info">@T["Ten starszy news ma inny region bazowy. Uzupełnij wersję US, aby udostępnić go graczom bez tłumaczenia."]</p> }
+    @for (int i = 0; i < Model.Translations.Count; i++) {
+        var language = Model.Translations[i];
+        var label = language.Region switch { "us" => "English / US", "gb" => "English / GB", "pl" => "Polski / PL", "es" => "Español / ES", "fr" => "Français / FR", "br" => "Português / BR", "pt" => "Português / PT", "jp" => "日本語 / JP", "de" => "Deutsch / DE", "it" => "Italiano / IT", _ => language.Region };
+        <details class="border rounded p-3 mb-2" open="@(!string.IsNullOrWhiteSpace(language.Title))">
+            <summary>@label</summary>
+            <input type="hidden" asp-for="Translations[i].Region" />
+            <div class="mb-3 mt-3"><label class="form-label" asp-for="Translations[i].Title">@T["Tytuł"]</label><input asp-for="Translations[i].Title" class="form-control" maxlength="200" /></div>
+            <div class="mb-3"><label class="form-label" asp-for="Translations[i].Headline">@T["Krótki nagłówek"]</label><input asp-for="Translations[i].Headline" class="form-control" maxlength="500" /></div>
+            <div class="mb-3"><label class="form-label" asp-for="Translations[i].Body">@T["Treść newsa"]</label><textarea asp-for="Translations[i].Body" class="form-control" rows="6" maxlength="30000"></textarea></div>
+        </details>
+    }
+    @if (Model.Game == "GT6") {
+        <input type="hidden" name="Category1" value="1" />
+        <div class="mb-3"><label asp-for="Category2" class="form-label">@T["Kategoria"]</label><select asp-for="Category2" class="form-select">
+            <option value="1">@T["Aktualizacje"]</option><option value="2">@T["Ogłoszenia"]</option><option value="0">@T["Pasek wiadomości"]</option>
+        </select></div>
+    } else {
+    <details class="mb-3"><summary>@T["Zaawansowane: kategoria w grze"]</summary>
+        <label asp-for="Category1">@T["Kategoria"] 1</label><input asp-for="Category1" type="number" min="0" max="9999" />
+        <label asp-for="Category2">@T["Kategoria"] 2</label><input asp-for="Category2" type="number" min="0" max="9999" />
+    </details>
+    }
+    <h2 class="h4">@T["Zdjęcia"]</h2>
+    <p>@T["JPEG lub PNG, do 2 MB na plik, maksymalnie 8 zdjęć. Serwer przygotuje JPEG do 1280 × 720 dla gry."]</p>
+    <div class="row g-3 mb-3">
+    @foreach (var image in Model.Images) {
+        <div class="col-sm-4"><figure class="card p-2">
+            <img src="@Url.Action("PreviewImage", new { id=Model.Id,imageId=image.Id,game=Model.Game })" alt="@image.Caption" class="img-fluid" />
+            <figcaption>@image.Caption</figcaption>
+            <label><input type="checkbox" name="removeImages" value="@image.Id" /> @T["Usuń zdjęcie przy zapisie"]</label>
+        </figure></div>
+    }
+    </div>
+    <div class="mb-3"><label for="pictures" class="form-label">@T["Dodaj zdjęcia"]</label><input id="pictures" name="pictures" type="file" accept="image/jpeg,image/png" multiple class="form-control" /></div>
+    <div class="mb-3"><label for="imageCaption" class="form-label">@T["Podpis nowych zdjęć"]</label><input id="imageCaption" name="imageCaption" maxlength="300" class="form-control" /></div>
+    <div class="form-check mb-3"><input asp-for="Published" class="form-check-input" /><label asp-for="Published" class="form-check-label">@T["Opublikuj w grze (bez zaznaczenia: szkic)"]</label></div>
+    <button class="btn btn-primary" type="submit">@T["Zapisz news"]</button>
+</form>
+@if (Model.Id > 0) {
+    <form method="post" asp-action="Delete" class="mt-4">
+        @Html.AntiForgeryToken()<input type="hidden" name="id" value="@Model.Id" /><input type="hidden" name="game" value="@Model.Game" /><input type="hidden" name="version" value="@Model.Version" />
+        <label><input type="checkbox" required /> @T["Potwierdzam wycofanie newsa"]</label>
+        <button class="btn btn-outline-danger" type="submit">@T["Wycofaj news"]</button>
+    </form>
+}

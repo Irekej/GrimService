@@ -1,0 +1,22 @@
+@{ ViewData["Title"] = "Seasonals"; }
+<h1>Seasonals</h1>
+<p>@T["Wybierz grę i event. Opisy eventów są po angielsku."]</p>
+<div class="row g-3 mb-3">
+<div class="col-sm-3"><label for="season-game">@T["Gra"]</label><select id="season-game" class="form-select"><option>GT6</option><option>GT5</option></select></div>
+<div class="col-sm-6"><label for="season-search">@T["Szukaj eventu"]</label><input id="season-search" class="form-control" type="search" /></div>
+<div class="col-sm-3 align-self-end"><label><input id="season-archive" type="checkbox" /> @T["Tylko eventy z rankingiem"]</label></div>
+</div>
+<p id="season-status" role="status" aria-live="polite"></p>
+<div class="row g-4">
+<aside class="col-lg-4"><label for="season-event">@T["Eventy"]</label><select id="season-event" size="14" class="form-select" aria-label="@T["Eventy"]"></select></aside>
+<section class="col-lg-8" id="season-detail" hidden>
+<h2 id="season-title"></h2><p id="season-description" style="white-space:pre-wrap;overflow-wrap:anywhere"></p>
+<dl id="season-meta" class="row"></dl>
+<details class="mb-3"><summary>@T["Parametry eventu"]</summary><pre id="season-parameters" style="white-space:pre-wrap"></pre></details>
+<h3>@T["Ranking"]</h3><p id="ranking-status" role="status" aria-live="polite"></p>
+<div class="table-responsive"><table class="table"><thead><tr><th>#</th><th>@T["Gracz"]</th><th>@T["Kraj"]</th><th>@T["Czas"]</th></tr></thead><tbody id="season-ranking"></tbody></table></div>
+<div class="d-flex gap-2"><button id="ranking-prev" class="btn btn-outline-primary" disabled>@T["← Poprzednia"]</button><button id="ranking-next" class="btn btn-outline-primary" disabled>@T["Następna →"]</button></div>
+</section></div>
+@section Scripts {
+<script src="~/js/seasonals.js" asp-append-version="true"></script>
+}

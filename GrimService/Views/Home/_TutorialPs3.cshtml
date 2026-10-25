@@ -1,0 +1,122 @@
+@model TutorialViewModel
+<section id="tutorial-next-step" class="tutorial-platform-step" aria-labelledby="tutorial-install-heading">
+    <span class="tutorial-step">@T["Krok 3 · Sposób instalacji"]</span>
+    @if (Model.Platform == "PS3")
+    {
+    <h2 id="tutorial-install-heading">@T["Jak chcesz zainstalować pliki?"]</h2>
+    <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-region-step" data-tutorial-form class="tutorial-games" aria-label="@T["Sposób instalacji"]">
+        <input type="hidden" name="game" value="@Model.Game" />
+        <input type="hidden" name="platform" value="PS3" />
+        <article class="tutorial-platform-card @(Model.Installation == "automatic" ? "is-selected" : "")">
+            <h3>@T["Instalacja automatyczna"]</h3>
+            <p>@T["Pobierasz plik PKG odpowiedni dla swojej gry i regionu, przenosisz go na konsolę i uruchamiasz instalator pakietów. Pakiet instaluje przygotowane pliki za Ciebie."]</p>
+            <button type="submit" name="installation" value="automatic" class="tutorial-platform-select" aria-pressed="@(Model.Installation == "automatic" ? "true" : "false")">@T["Wybierz instalację automatyczną"]</button>
+        </article>
+        <article class="tutorial-platform-card @(Model.Installation == "manual" ? "is-selected" : "")">
+            <h3>@T["Instalacja manualna"]</h3>
+            <p>@T["Samodzielnie kopiujesz pliki do odpowiednich katalogów na PS3, korzystając z pendrive’a lub FTP. Ta opcja nie używa instalatora PKG."]</p>
+            <button type="submit" name="installation" value="manual" class="tutorial-platform-select" aria-pressed="@(Model.Installation == "manual" ? "true" : "false")">@T["Wybierz instalację manualną"]</button>
+        </article>
+    </form>
+    <small class="tutorial-disclaimer">@T["Uwaga: ta ścieżka PS3 korzysta z oficjalnych serwerów PlayStation Network (PSN). Używasz modyfikacji na własne ryzyko, w tym ryzyko ograniczenia lub zablokowania konta albo konsoli. Twórca modyfikacji nie ponosi odpowiedzialności za skutki jej użytkowania."]</small>
+    }
+    else
+    {
+        <h2 id="tutorial-install-heading">@T["Instalacja manualna"] · RPCS3</h2>
+        <p>@T["W RPCS3 używamy wyłącznie instalacji manualnej: pobierz ZIP dla swojego regionu i skopiuj wypakowane pliki do katalogu aktualizacji gry w emulatorze. Nie potrzebujesz instalatora PKG."]</p>
+    }
+
+    @if (Model.Installation != null)
+    {
+        <section id="tutorial-region-step" class="tutorial-platform-step" aria-labelledby="tutorial-region-heading">
+            <span class="tutorial-step">@T["Krok 4 · Region gry"]</span>
+            <h2 id="tutorial-region-heading">@T["Wybierz identyfikator swojego wydania"]</h2>
+            <p>@T["Kod regionu gry znajdziesz na płycie lub jej opakowaniu. Przepisz cały identyfikator, nie tylko nazwę kraju. Jeśli masz wersję cyfrową, sprawdź identyfikator zainstalowanej gry zamiast płyty."]</p>
+            <p class="tutorial-warning">@T["Wybierz dokładnie ten sam kod co w Twojej grze. Nie instaluj pakietu przeznaczonego dla innego wydania."]</p>
+            <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-install-details" data-tutorial-form class="tutorial-region-form">
+                <input type="hidden" name="game" value="@Model.Game" />
+                <input type="hidden" name="platform" value="@Model.Platform" />
+                <input type="hidden" name="installation" value="@Model.Installation" />
+                <label for="tutorial-region">@(Model.Game == "GT5" ? "Gran Turismo 5" : "Gran Turismo 6") — @T["Region gry"]</label>
+                <div class="tutorial-region-controls">
+                    <select id="tutorial-region" name="region" class="form-select" required data-tutorial-auto-submit>
+                        <option value="">@T["Wybierz kod z listy"]</option>
+                        @foreach (var region in Model.Regions)
+                        {
+                            <option value="@region" selected="@(Model.Region == region)">@region</option>
+                        }
+                    </select>
+                    <button type="submit" class="tutorial-platform-select">@T["Pokaż instrukcję"]</button>
+                </div>
+            </form>
+            @if (Model.Region != null)
+            {
+                <section id="tutorial-install-details" class="tutorial-selection" aria-labelledby="tutorial-details-heading">
+                    <h3 id="tutorial-details-heading">@(Model.Game == "GT5" ? "Gran Turismo 5" : "Gran Turismo 6") · @Model.Platform · @Model.Region</h3>
+                    @if (Model.Installation == "automatic")
+                    {
+                        <h4>@T["Pobierz pakiet PKG"]</h4>
+                        @if (Model.PackageAvailable)
+                        {
+                            <a class="tutorial-download" asp-controller="TutorialDownloads" asp-action="Package" asp-route-game="@Model.Game" asp-route-region="@Model.Region">@T["Pobierz PKG"] — @Model.Region</a>
+                        }
+                        else
+                        {
+                            <p role="status">@T["Pakiet dla tego wydania jest obecnie niedostępny. Spróbuj ponownie później."]</p>
+                        }
+                        <h4>@T["Przenieś pakiet na konsolę"]</h4>
+                        <p>@T["Wybierz jeden z dwóch sposobów przeniesienia pobranego pliku PKG:"]</p>
+                        <ul class="tutorial-transfer-options">
+                            <li><strong>USB:</strong> @T["Na pendrivie utwórz folder"] <code>packages</code> @T["w katalogu głównym i skopiuj do niego pobrany plik PKG. Następnie podłącz pendrive do PS3."]</li>
+                            <li><strong>FTP:</strong> @T["Połącz się z konsolą przez FTP i prześlij plik PKG do"] <code>/dev_hdd0/packages/</code>. @T["Jeśli folder packages nie istnieje, możesz utworzyć go za pomocą FTP."]</li>
+                        </ul>
+                        <h4>@T["Zainstaluj pakiet"]</h4>
+                        <p>@T["Na PS3 otwórz menedżer pakietów (Package Manager), wybierz instalację plików PKG i wskaż pobrany pakiet z pendrive’a lub dysku konsoli. Poczekaj na zakończenie instalacji."]</p>
+                        <p class="tutorial-platform-note">@T["Dostępność i nazwy opcji instalatora zależą od oprogramowania konsoli. Samo pobranie PKG nie oznacza, że niezmodyfikowana konsola potrafi go zainstalować."]</p>
+                    }
+                    else
+                    {
+                        <h4>@T["Instalacja manualna"]</h4>
+                        @if (Model.ManualAvailable)
+                        {
+                            <a class="tutorial-download" asp-controller="TutorialDownloads" asp-action="Manual" asp-route-game="@Model.Game" asp-route-region="@Model.Region">@T["Pobierz ZIP"] — @Model.Region</a>
+                        }
+                        else
+                        {
+                            <p role="status">@T["Paczka ZIP dla tego wydania jest obecnie niedostępna. Nie używaj plików dla innego regionu."]</p>
+                        }
+                        <ol class="tutorial-transfer-options">
+                            <li>@T["Zamknij grę, pobierz ZIP dla wybranego regionu i wypakuj archiwum na komputerze. Przed nadpisaniem plików wykonaj kopię oryginałów."]</li>
+                            @if (Model.Platform == "PS3")
+                            {
+                                <li>@T["Przenieś wypakowane pliki na konsolę przez pendrive i menedżer plików lub prześlij je przez FTP do folderu aktualizacji gry:"] <code>/dev_hdd0/game/@(Model.Region)/</code></li>
+                            }
+                            else
+                            {
+                                <li>@T["W katalogu danych RPCS3 odszukaj folder aktualizacji gry i skopiuj do niego wypakowane pliki:"] <code>dev_hdd0/game/@(Model.Region)/</code></li>
+                            }
+                            <li>@T["Zachowaj strukturę katalogów. Nie kopiuj dodatkowych folderów opakowujących archiwum; połącz zawartość USRDIR z istniejącym USRDIR gry. Nie wgrywaj plików do katalogu płyty PS3_GAME."]</li>
+                            @if (Model.Game == "GT5")
+                            {
+                                <li>@T["W GT5 plik EBOOT.BIN musi trafić do USRDIR/EBOOT.BIN, także gdy ZIP zawiera go bez folderu USRDIR. Jeżeli paczka zawiera PARAM.SFO, umieść go w katalogu głównym aktualizacji, obok USRDIR."]</li>
+                            }
+                            else
+                            {
+                                <li>@T["W GT6 plik EMAIN.SELF musi trafić do USRDIR/EMAIN.SELF. Skopiuj również zawartość katalogu USRDIR/PDIPFS, zachowując podkatalogi."]</li>
+                            }
+                        </ol>
+                        @if (Model.Game == "GT6")
+                        {
+                            <p class="tutorial-platform-note">@T["Paczka GT6 zawiera też oryginalny plik EMAIN.SELF jako EMAIN.SELF.original. Zachowaj go do przywrócenia oryginału; podczas instalacji używaj zmodyfikowanego EMAIN.SELF."]</p>
+                        }
+                        else
+                        {
+                            <p class="tutorial-platform-note">@T["Obecne paczki GT5 nie zawierają osobnej kopii oryginalnego EBOOT.BIN. Zachowaj własny oryginał przed instalacją, aby móc cofnąć zmiany."]</p>
+                            <p class="tutorial-platform-note">@T["Po instalacji tego moda możesz opcjonalnie zainstalować Master Mod dla GT5."]</p>
+                        }
+                    }
+                </section>
+            }
+        </section>
+    }
+</section>

@@ -1,0 +1,88 @@
+@model TutorialViewModel
+<section id="tutorial-next-step" class="tutorial-platform-step" aria-labelledby="tutorial-crossplay-install-heading">
+    <span class="tutorial-step">@Model.Game @Model.GameVersion · PS3 (Crossplay)</span>
+    <h2 id="tutorial-crossplay-install-heading">@T["Instalacja PS3 Crossplay"]</h2>
+    <partial name="_TutorialCrossplayRequirements" model="Model" />
+    @if (Model.Game == "GT5")
+    {
+        <p class="tutorial-platform-note">@T["Mod wspiera Master Mod. Najpierw zainstaluj ten mod Crossplay, a dopiero potem Master Mod."]</p>
+    }
+    <p>@T["Ten mod łączy konsolę PS3 z RPCN, siecią wykorzystywaną przez RPCS3, i pozwala grać razem z użytkownikami emulatora."]</p>
+    <p>@T["Do pełnego działania potrzebujesz własnego konta RPCN. Możesz utworzyć je w ustawieniach RPCN emulatora RPCS3. Nie musisz logować konsoli do PSN."]</p>
+    <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-crossplay-details" data-tutorial-form class="tutorial-region-form">
+        <input type="hidden" name="game" value="@Model.Game" />
+        <input type="hidden" name="platform" value="PS3-CROSSPLAY" />
+        <label for="tutorial-crossplay-region">@T["Region gry"]</label>
+        <p>@T["Wybierz dokładny kod z płyty lub opakowania gry. Paczki Crossplay i standardowej instalacji PS3 nie są zamienne."]</p>
+        <div class="tutorial-region-controls">
+            <select id="tutorial-crossplay-region" name="region" class="form-select" required data-tutorial-auto-submit>
+                <option value="">@T["Wybierz kod z listy"]</option>
+                @foreach (var region in Model.Regions)
+                {
+                    <option value="@region" selected="@(Model.Region == region)">@region</option>
+                }
+            </select>
+            <button type="submit" class="tutorial-platform-select">@T["Pokaż instrukcję"]</button>
+        </div>
+    </form>
+    <section class="tutorial-selection" aria-labelledby="tutorial-rpcn-account-heading">
+        <h3 id="tutorial-rpcn-account-heading">@T["Konto RPCN · rpcn.yml"]</h3>
+        <p>@T["Skopiuj cały własny plik rpcn.yml z katalogu konfiguracji RPCS3 do /dev_hdd0/tmp/rpcn.yml na PS3. Jeden plik obsługuje GT5, GT6 i wszystkie regiony."]</p>
+        <p class="tutorial-hint">@T["W typowej instalacji RPCS3 plik znajduje się w config/rpcn.yml. Użyj pliku ze swojej aktywnej konfiguracji emulatora."]</p>
+        <a class="tutorial-download" asp-controller="TutorialDownloads" asp-action="RpcnTemplate">@T["Pobierz pusty szablon rpcn.yml"]</a>
+        <details class="tutorial-rpcn-manual">
+            <summary>@T["Jak uzupełnić szablon ręcznie?"]</summary>
+            <p>@T["Szablon wymaga własnego, zarejestrowanego konta. Uzupełnij NPID (login), Password (64-znakowy hash szesnastkowy z RPCS3) i Token (16-znakowy token z e-maila, jeśli jest wymagany). Zachowaj Version: 2 oraz Host: np.rpcs3.net."]</p>
+            <p class="tutorial-warning">@T["Password nie jest zwykłym hasłem. Skopiuj gotową wartość z własnego rpcn.yml utworzonego przez RPCS3. Zapisz plik jako rpcn.yml, bez końcówki .txt, i nie udostępniaj go innym osobom."]</p>
+        </details>
+        <h4>@T["Lub pobierz uzupełniony plik"]</h4>
+        <p>@T["Wpisz dane istniejącego konta RPCN. Przeglądarka przeliczy hasło i utworzy gotowy rpcn.yml lokalnie. Dane nie są wysyłane do serwera strony ani zapisywane w jej pamięci lokalnej."]</p>
+        <form method="post" asp-antiforgery="false" class="tutorial-rpcn-generator" data-rpcn-generator
+              data-working="@T["Tworzenie pliku…"]" data-success="@T["Plik jest gotowy. Skopiuj pobrany rpcn.yml do /dev_hdd0/tmp/ na PS3."]"
+              data-error="@T["Nie udało się utworzyć pliku. Sprawdź login i token lub użyj pustego szablonu."]">
+            @* Inputs deliberately have no name: native form submission must never send credentials. *@
+            <fieldset disabled>
+                <label for="rpcn-username">@T["Login RPCN"]</label>
+                <input id="rpcn-username" data-rpcn-username type="text" class="form-control" autocomplete="off" autocapitalize="none" spellcheck="false" pattern="[A-Za-z0-9_-]{3,16}" minlength="3" maxlength="16" required />
+                <label for="rpcn-password">@T["Hasło RPCN"]</label>
+                <input id="rpcn-password" data-rpcn-password type="password" class="form-control" autocomplete="off" maxlength="1024" required />
+                <label for="rpcn-token">@T["Token z e-maila (opcjonalnie)"]</label>
+                <input id="rpcn-token" data-rpcn-token type="text" class="form-control" autocomplete="off" autocapitalize="none" spellcheck="false" pattern="[A-Za-z0-9]{16}" maxlength="16" />
+                <button type="submit" class="tutorial-download">@T["Pobierz gotowy rpcn.yml"]</button>
+            </fieldset>
+            <p data-rpcn-status role="status" aria-live="polite"></p>
+            <noscript><p>@T["Tworzenie pliku wymaga JavaScript. Możesz pobrać pusty szablon i uzupełnić go ręcznie."]</p></noscript>
+        </form>
+        <p>@T["Pliki grim_rpcn*.conf zawierają wyłącznie opcje modułu. Nie wpisuj do nich loginu, hasła ani tokena. Brak lub błędny rpcn.yml uniemożliwia połączenie z RPCN; szczegóły znajdziesz w logu modułu."]</p>
+        <p class="tutorial-platform-note">@T["Rejestrację i aktywację konta wykonaj w RPCS3. Ta wersja moda nie ma menu konta na PS3 ani skrótu R2 + Trójkąt. Przed grą na PS3 rozłącz to samo konto w RPCS3; każdy gracz powinien używać własnego konta RPCN."]</p>
+    </section>
+    @if (Model.Region != null)
+    {
+        <section id="tutorial-crossplay-details" class="tutorial-selection" aria-labelledby="tutorial-crossplay-details-heading">
+            <h3 id="tutorial-crossplay-details-heading">@Model.Game · PS3 (Crossplay) · @Model.Region</h3>
+            @if (Model.CrossplayAvailable)
+            {
+                <a class="tutorial-download" asp-controller="TutorialDownloads" asp-action="Crossplay" asp-route-game="@Model.Game" asp-route-region="@Model.Region">@T["Pobierz ZIP"] — @Model.Region</a>
+            }
+            else
+            {
+                <p role="status">@T["Paczka ZIP dla tego wydania jest obecnie niedostępna. Nie używaj plików dla innego regionu."]</p>
+            }
+            <ol class="tutorial-transfer-options">
+                <li>@T["Zamknij grę i wypakuj ZIP na komputerze. Zrób kopię aktualnych plików gry oraz własnej konfiguracji moda, jeśli już go używasz."]</li>
+                <li>@T["Skopiuj zawartość dev_hdd0/tmp z archiwum bezpośrednio do"] <code>/dev_hdd0/tmp/</code>. @T["Nie twórz dodatkowego folderu tmp wewnątrz tmp. Zachowaj oryginalne nazwy plików."]</li>
+                <li>@T["Skopiuj folder swojego regionu z katalogu dev_hdd0/game w archiwum do"] <code>/dev_hdd0/game/</code>. @T["Połącz katalogi i zachowaj strukturę. Główny zmodyfikowany plik gry musi znaleźć się tutaj:"] <code>/dev_hdd0/game/@(Model.Region)/USRDIR/@Model.CrossplayExecutable</code></li>
+                <li>@T["Przez FTP lub pendrive i menedżer plików konsoli wgraj wszystkie pliki z paczki. To mod tylko dla fizycznego PS3, nie instaluj go w RPCS3."]</li>
+                <li>@T["Wgraj własny plik konta do"] <code>/dev_hdd0/tmp/rpcn.yml</code>. @T["Opcje modułu dla tego regionu znajdują się w"] <code>/dev_hdd0/tmp/@(Model.CrossplayModule).conf</code>.</li>
+                <li>@T["Uruchom grę z aktywnym CFW, bez logowania do PSN. Moduł powinien połączyć się z RPCN i GrimService."]</li>
+            </ol>
+            <p class="tutorial-platform-note">@T["Zachowaj własną kopię oryginalnych plików. Dołączone pliki .org lub .ORG służą do cofnięcia zmian; nie zastępuj nimi plików moda podczas instalacji."]</p>
+            @if (Model.Game == "GT6")
+            {
+                <p class="tutorial-platform-note">@T["Nowe regiony GT6 wymagają jeszcze testów na konsoli. Zacięcie garażu po dłuższej sesji pozostaje w diagnostyce."]</p>
+            }
+            <h4>@T["Co sprawdzić po instalacji?"]</h4>
+            <p>@T["Sprawdź logowanie do RPCN i GrimService, tworzenie lobby, dołączanie i jazdę z graczem RPCS3. W razie problemów podaj region, wersję CFW oraz log tego modułu:"] <code>/dev_hdd0/tmp/@(Model.CrossplayModule).log</code>. @T["Przed wysłaniem logu usuń dane uwierzytelniające."]</p>
+        </section>
+    }
+</section>

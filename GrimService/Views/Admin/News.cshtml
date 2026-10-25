@@ -1,0 +1,24 @@
+@model GrimService.Models.Admin.NewsIndexModel
+@{ ViewData["Title"] = "Newsy"; }
+<a href="/admin">@T["← Panel"]</a>
+<h1>@T["Newsy"] · @Model.Game</h1>
+<p>@T["GT5 i GT6 mają osobne newsy. Wpisy z panelu i zdjęcia są zapisywane w bazie; stare XML-e pozostają dostępne w grze."]</p>
+@if (TempData["NewsMessage"] is string message) { <div class="alert alert-success">@T[message]</div> }
+<form method="get" class="row g-3 mb-4">
+    <div class="col-sm-2"><label class="form-label" for="Game">@T["Gra"]</label><select asp-for="Game" class="form-select"><option>GT5</option><option>GT6</option></select></div>
+    <div class="col-sm-3"><label class="form-label" for="Server">@T["Serwer / katalog"]</label><input asp-for="Server" class="form-control" maxlength="32" required /></div>
+    <div class="col-sm-3"><label class="form-label" for="Region">@T["Region newsa"]</label><select asp-for="Region" class="form-select"><option value="us">English / us</option><option value="gb">English / gb</option><option value="pl">Polski / pl</option><option value="es">Español / es</option><option value="fr">Français / fr</option><option value="jp">日本語 / jp</option><option value="br">Português / br</option></select></div>
+    <div class="col-sm-3 align-self-end"><button class="btn btn-primary">@T["Odśwież listę"]</button></div>
+</form>
+<a class="btn btn-success mb-3" asp-action="Edit" asp-route-game="@Model.Game" asp-route-server="@Model.Server" asp-route-region="@Model.Region">@T["+ Dodaj news"]</a>
+<div class="row g-3">
+@if (!Model.Posts.Any()) { <p class="text-muted">@T["Brak newsów dla wybranej gry i regionu."]</p> }
+@foreach (var post in Model.Posts) {
+    <div class="col-md-6"><article class="card h-100"><div class="card-body">
+        <small>#@post.Id · @post.Region · @(post.Published ? T["Opublikowany"] : T["Szkic"])</small>
+        @if (post.Translations.Count > 0) { <div class="text-muted small">@string.Join(" · ", post.Translations.Select(t => t.Region.ToUpperInvariant()))</div> }
+        <h2 class="h4">@post.Title</h2><p>@post.Headline</p>
+        <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@post.Id" asp-route-game="@post.Game" asp-route-server="@post.Server" asp-route-region="@post.Region">@T["Edytuj news"]</a>
+    </div></article></div>
+}
+</div>

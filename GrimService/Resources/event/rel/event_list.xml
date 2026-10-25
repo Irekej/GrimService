@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- GT5's Global Folder file -->
+<!-- Actually almost the same as GT6 -->
+<event_list>
+	<event>
+		<title>
+			<JP>EVENT NUMER 1</JP>
+			<US>EVENT NUMER 1</US>
+			<GB>EVENT NUMER 1</GB>
+			<FR>EVENT NUMER 1</FR>
+			<DE>EVENT NUMER 1</DE>
+			<IT>EVENT NUMER 1</IT>
+			<ES>EVENT NUMER 1</ES>
+			<PT>EVENT NUMER 1</PT>
+			<NL>EVENT NUMER 1</NL>
+			<RU>EVENT NUMER 1</RU>
+			<KR>EVENT NUMER 1</KR>
+			<TW>EVENT NUMER 1</TW>
+			<EL>EVENT NUMER 1</EL>
+			<TR>EVENT NUMER 1</TR>
+			<PL>EVENT NUMER 1</PL>
+			<CZ>EVENT NUMER 1</CZ>
+			<HU>EVENT NUMER 1</HU>
+			<BP>EVENT NUMER 1</BP>
+			<MS>EVENT NUMER 1</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002268</board_id>
+			</ranking>
+		</ranking_list>
+		<id>100</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<bg_image>prototype.png</bg_image> <!-- GT5 only, Must be either img or png, will point to /event/<server>/<fileName> -->
+		<icon_image/>
+		<event_type>3</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002268</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+	<event>
+		<title>
+			<JP>EVENT NUMER 2</JP>
+			<US>EVENT NUMER 2</US>
+			<GB>EVENT NUMER 2</GB>
+			<FR>EVENT NUMER 2</FR>
+			<DE>EVENT NUMER 2</DE>
+			<IT>EVENT NUMER 2</IT>
+			<ES>EVENT NUMER 2</ES>
+			<PT>EVENT NUMER 2</PT>
+			<NL>EVENT NUMER 2</NL>
+			<RU>EVENT NUMER 2</RU>
+			<KR>EVENT NUMER 2</KR>
+			<TW>EVENT NUMER 2</TW>
+			<EL>EVENT NUMER 2</EL>
+			<TR>EVENT NUMER 2</TR>
+			<PL>EVENT NUMER 2</PL>
+			<CZ>EVENT NUMER 2</CZ>
+			<HU>EVENT NUMER 2</HU>
+			<BP>EVENT NUMER 2</BP>
+			<MS>EVENT NUMER 2</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002270</board_id>
+			</ranking>
+		</ranking_list>
+		<id>101</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<icon_image/>
+		<event_type>1</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002269,1002270</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+	<event>
+		<title>
+			<JP>EVENT NUMER 3</JP>
+			<US>EVENT NUMER 3</US>
+			<GB>EVENT NUMER 3</GB>
+			<FR>EVENT NUMER 3</FR>
+			<DE>EVENT NUMER 3</DE>
+			<IT>EVENT NUMER 3</IT>
+			<ES>EVENT NUMER 3</ES>
+			<PT>EVENT NUMER 3</PT>
+			<NL>EVENT NUMER 3</NL>
+			<RU>EVENT NUMER 3</RU>
+			<KR>EVENT NUMER 3</KR>
+			<TW>EVENT NUMER 3</TW>
+			<EL>EVENT NUMER 3</EL>
+			<TR>EVENT NUMER 3</TR>
+			<PL>EVENT NUMER 3</PL>
+			<CZ>EVENT NUMER 3</CZ>
+			<HU>EVENT NUMER 3</HU>
+			<BP>EVENT NUMER 3</BP>
+			<MS>EVENT NUMER 3</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002271</board_id>
+			</ranking>
+		</ranking_list>
+		<id>102</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<icon_image/>
+		<event_type>4</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002271</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+	<event>
+		<title>
+			<JP>EVENT NUMER 4</JP>
+			<US>EVENT NUMER 4</US>
+			<GB>EVENT NUMER 4</GB>
+			<FR>EVENT NUMER 4</FR>
+			<DE>EVENT NUMER 4</DE>
+			<IT>EVENT NUMER 4</IT>
+			<ES>EVENT NUMER 4</ES>
+			<PT>EVENT NUMER 4</PT>
+			<NL>EVENT NUMER 4</NL>
+			<RU>EVENT NUMER 4</RU>
+			<KR>EVENT NUMER 4</KR>
+			<TW>EVENT NUMER 4</TW>
+			<EL>EVENT NUMER 4</EL>
+			<TR>EVENT NUMER 4</TR>
+			<PL>EVENT NUMER 4</PL>
+			<CZ>EVENT NUMER 4</CZ>
+			<HU>EVENT NUMER 4</HU>
+			<BP>EVENT NUMER 4</BP>
+			<MS>EVENT NUMER 4</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002272</board_id>
+			</ranking>
+		</ranking_list>
+		<id>103</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<icon_image/>
+		<event_type>5</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002272</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+		<event>
+		<title>
+			<JP>EVENT NUMER 5</JP>
+			<US>EVENT NUMER 5</US>
+			<GB>EVENT NUMER 5</GB>
+			<FR>EVENT NUMER 5</FR>
+			<DE>EVENT NUMER 5</DE>
+			<IT>EVENT NUMER 5</IT>
+			<ES>EVENT NUMER 5</ES>
+			<PT>EVENT NUMER 5</PT>
+			<NL>EVENT NUMER 5</NL>
+			<RU>EVENT NUMER 5</RU>
+			<KR>EVENT NUMER 5</KR>
+			<TW>EVENT NUMER 5</TW>
+			<EL>EVENT NUMER 5</EL>
+			<TR>EVENT NUMER 5</TR>
+			<PL>EVENT NUMER 5</PL>
+			<CZ>EVENT NUMER 5</CZ>
+			<HU>EVENT NUMER 5</HU>
+			<BP>EVENT NUMER 5</BP>
+			<MS>EVENT NUMER 5</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002273</board_id>
+			</ranking>
+		</ranking_list>
+		<id>104</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<icon_image/>
+		<event_type>1</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002273</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+		<event>
+		<title>
+			<JP>EVENT NUMER 6</JP>
+			<US>EVENT NUMER 6</US>
+			<GB>EVENT NUMER 6</GB>
+			<FR>EVENT NUMER 6</FR>
+			<DE>EVENT NUMER 6</DE>
+			<IT>EVENT NUMER 6</IT>
+			<ES>EVENT NUMER 6</ES>
+			<PT>EVENT NUMER 6</PT>
+			<NL>EVENT NUMER 6</NL>
+			<RU>EVENT NUMER 6</RU>
+			<KR>EVENT NUMER 6</KR>
+			<TW>EVENT NUMER 6</TW>
+			<EL>EVENT NUMER 6</EL>
+			<TR>EVENT NUMER 6</TR>
+			<PL>EVENT NUMER 6</PL>
+			<CZ>EVENT NUMER 6</CZ>
+			<HU>EVENT NUMER 6</HU>
+			<BP>EVENT NUMER 6</BP>
+			<MS>EVENT NUMER 6</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002274</board_id>
+			</ranking>
+		</ranking_list>
+		<id>105</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<icon_image/>
+		<event_type>1</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002274</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+		<event>
+		<title>
+			<JP>EVENT NUMER 7</JP>
+			<US>EVENT NUMER 7</US>
+			<GB>EVENT NUMER 7</GB>
+			<FR>EVENT NUMER 7</FR>
+			<DE>EVENT NUMER 7</DE>
+			<IT>EVENT NUMER 7</IT>
+			<ES>EVENT NUMER 7</ES>
+			<PT>EVENT NUMER 7</PT>
+			<NL>EVENT NUMER 7</NL>
+			<RU>EVENT NUMER 7</RU>
+			<KR>EVENT NUMER 7</KR>
+			<TW>EVENT NUMER 7</TW>
+			<EL>EVENT NUMER 7</EL>
+			<TR>EVENT NUMER 7</TR>
+			<PL>EVENT NUMER 7</PL>
+			<CZ>EVENT NUMER 7</CZ>
+			<HU>EVENT NUMER 7</HU>
+			<BP>EVENT NUMER 7</BP>
+			<MS>EVENT NUMER 7</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002275</board_id>
+			</ranking>
+		</ranking_list>
+		<id>106</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<icon_image/>
+		<event_type>1</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002275</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+</event_list>
+

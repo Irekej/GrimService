@@ -1,0 +1,66 @@
+.tutorial { max-width: 920px; margin: 0 auto; padding: 3rem 0 4rem; }
+.tutorial-header { margin-bottom: 2rem; }
+.tutorial-step { display: inline-block; padding: .4rem .85rem; border-radius: 2rem; background: #eaf5e4; color: #2d5a16; font-size: .85rem; font-weight: 700; }
+.tutorial-header h1 { margin: 1rem 0 .75rem; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -.04em; }
+.tutorial-header h1 span { color: #557a3d; }
+.tutorial-header p, .tutorial-hint { color: #5d6470; line-height: 1.6; }
+.tutorial-games { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.tutorial-game { position: relative; overflow: hidden; min-height: 230px; padding: 2rem; border: 2px solid transparent; border-radius: 18px; text-align: left; color: white; cursor: pointer; box-shadow: 0 10px 30px #17243912; transition: transform .15s ease, border-color .15s ease; }
+.tutorial-game-gt5 { background: linear-gradient(135deg, #122c52, #264f7c); }
+.tutorial-game-gt6 { background: linear-gradient(135deg, #153a38, #28665e); }
+.tutorial-game:hover { transform: translateY(-3px); border-color: #7ccf4c; }
+.tutorial-game:focus-visible { outline: 3px solid #212121; outline-offset: 4px; }
+.tutorial-game.is-selected { border-color: #7ccf4c; box-shadow: 0 0 0 3px #7ccf4c35; }
+.tutorial-game-number { position: absolute; right: .8rem; bottom: -2.7rem; font: 900 210px/1 system-ui, sans-serif; color: #ffffff14; pointer-events: none; }
+.tutorial-game-content { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: .7rem; }
+.tutorial-platform { color: #d2e3e9; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; }
+.tutorial-game-name { font-size: clamp(1.4rem, 3vw, 1.85rem); font-weight: 750; }
+.tutorial-game-action { margin-top: .65rem; padding: .4rem .8rem; border: 1px solid #ffffff65; border-radius: 7px; font-size: .9rem; }
+.is-selected .tutorial-game-action { background: #7ccf4c; border-color: #7ccf4c; color: #17310c; }
+.tutorial-selection { margin-top: 1.75rem; padding: 1.5rem; border: 1px solid #d8e5d1; border-radius: 12px; background: #f5f9f2; }
+.tutorial-selection h2 { margin: 0 0 .6rem; font-size: 1.2rem; }
+.tutorial-selection p { margin-bottom: .75rem; color: #53604c; }
+.tutorial-selection a { color: #335d21; text-decoration: underline; }
+.tutorial-hint { margin-top: 1.5rem; font-size: .9rem; }
+.tutorial-platform-step { margin-top: 3rem; }
+.tutorial-platform-step h2 { margin-top: 1rem; font-size: 1.8rem; font-weight: 750; }
+.tutorial-platform-card { display: flex; flex-direction: column; align-items: flex-start; padding: 1.75rem; border: 2px solid #dce2e6; border-radius: 16px; background: #fff; }
+.tutorial-platform-card.is-selected { border-color: #557a3d; background: #f5f9f2; }
+.tutorial-platform-card.tutorial-platform-preferred { border-color: #557a3d; box-shadow: 0 0 0 2px #557a3d20; }
+.tutorial-platform-card.tutorial-platform-preferred.is-selected { border-color: #2d5a16; box-shadow: 0 0 0 3px #557a3d40; }
+.tutorial-preferred-label { display: inline-block; margin-bottom: .8rem; padding: .3rem .65rem; border-radius: 2rem; background: #eaf5e4; color: #2d5a16; font-size: .8rem; font-weight: 750; }
+.tutorial-device-label { margin-bottom: .8rem; color: #4f6155; font-size: .8rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.tutorial-platform-card h3 { font-size: 1.5rem; font-weight: 750; }
+.tutorial-platform-card p { color: #47525c; line-height: 1.65; }
+.tutorial-platform-card .tutorial-platform-note { font-size: .9rem; color: #59636d; }
+.tutorial-platform-select { margin-top: auto; padding: .65rem 1rem; border: 2px solid #335d21; border-radius: 8px; background: #335d21; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.tutorial-platform-select:hover { background: #234217; border-color: #234217; }
+.tutorial-platform-select:focus-visible { outline: 3px solid #212121; outline-offset: 4px; }
+.is-selected .tutorial-platform-select { background: #eaf5e4; color: #234217; }
+.tutorial-region-form { margin-top: 1.25rem; }
+.tutorial-region-form label { display: block; margin-bottom: .5rem; font-weight: 700; }
+.tutorial-region-controls { display: flex; align-items: stretch; gap: .75rem; flex-wrap: wrap; }
+.tutorial-region-controls select { flex: 1; min-width: 190px; }
+.tutorial-region-controls button { margin-top: 0; }
+.tutorial-warning { padding: .85rem 1rem; border-left: 4px solid #af740e; background: #fff7e7; color: #62420c; }
+.tutorial-selection h3 { font-size: 1.3rem; }
+.tutorial-selection h4 { margin-top: 1.75rem; font-size: 1.1rem; }
+.tutorial-selection .tutorial-download { display: inline-block; padding: .8rem 1.1rem; border-radius: 8px; background: #335d21; color: white; text-decoration: none; font-weight: 700; }
+.tutorial-download:focus-visible { outline: 3px solid #212121; outline-offset: 4px; }
+.tutorial-transfer-options { padding-left: 1.3rem; }
+.tutorial-transfer-options li { margin-bottom: .85rem; line-height: 1.7; }
+.tutorial-transfer-options code { overflow-wrap: anywhere; }
+.tutorial-platform-options { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.tutorial-platform-options .tutorial-platform-card { padding: 1.25rem; }
+.tutorial-disclaimer { display: block; margin-top: 1.25rem; color: #59636d; font-size: .8rem; line-height: 1.6; }
+.tutorial-selection code { overflow-wrap: anywhere; }
+@media (max-width: 575px) { .tutorial { padding-top: 1.5rem; } .tutorial-games { grid-template-columns: 1fr; } .tutorial-game { min-height: 195px; padding: 1.5rem; } }
+@media (min-width: 576px) and (max-width: 767px) { .tutorial-platform-options { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .tutorial-game { transition: none; } .tutorial-game:hover { transform: none; } }
+.tutorial-rpcn-generator { max-width: 36rem; margin: 1rem 0; }
+.tutorial-rpcn-manual { margin: 1rem 0 1.5rem; }
+.tutorial-rpcn-manual summary { cursor: pointer; font-weight: 600; margin-bottom: .75rem; }
+.tutorial-rpcn-generator fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.tutorial-rpcn-generator label { display: block; margin: .75rem 0 .3rem; font-weight: 600; }
+.tutorial-rpcn-generator .tutorial-download { border: 0; cursor: pointer; margin-top: 1rem; }
+.tutorial-rpcn-generator fieldset:disabled { opacity: .65; }

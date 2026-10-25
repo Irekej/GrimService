@@ -1,0 +1,1401 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xml>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="142" />
+    <event_id_list>2500478</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="110" />
+            <cars>
+              <car label="xj220_gt_road_92" />
+              <car label="r34_gtr_rtune_99" />
+              <car label="r390_road_98" />
+              <car label="ctr2_96" />
+              <car label="cizeta_v16t_94" />
+              <car label="f40_92" />
+              <car label="v8_vantage_99" />
+              <car label="viper_gts_99" />
+              <car label="cerbera_speed6_97" />
+              <car label="griffith_500_94" />
+              <car label="xkr_coupe_99" />
+              <car label="carlton_90" />
+              <car label="elise_190_98" />
+              <car label="esprit_v8_se_98" />
+              <car label="esprit_v8_gt_98" />
+              <car label="corvette_zr1_90" />
+              <car label="lancer_evo6_tommi_gsr_scp_00" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="12" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="11" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="114" />
+            <ai_cornering value="106" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500478" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="10" />
+          <title>
+            <JP>90's Challenge / 4 laps</JP>
+            <US>90's Challenge / 4 laps</US>
+            <GB>90's Challenge / 4 laps</GB>
+            <FR>90's Challenge / 4 laps</FR>
+            <ES>90's Challenge / 4 laps</ES>
+            <DE>90's Challenge / 4 laps</DE>
+            <IT>90's Challenge / 4 laps</IT>
+            <NL>90's Challenge / 4 laps</NL>
+            <PT>90's Challenge / 4 laps</PT>
+            <RU>90's Challenge / 4 laps</RU>
+            <PL>90's Challenge / 4 laps</PL>
+            <TR>90's Challenge / 4 laps</TR>
+            <KR>90's Challenge / 4 laps</KR>
+            <EL>90's Challenge / 4 laps</EL>
+            <FI>90's Challenge / 4 laps</FI>
+            <CZ>90's Challenge / 4 laps</CZ>
+            <HU>90's Challenge / 4 laps</HU>
+            <BP>90's Challenge / 4 laps</BP>
+            <MS>90's Challenge / 4 laps</MS>
+          </title>
+          <one_line_title>
+            <JP>90's Challenge / 4 laps</JP>
+            <US>90's Challenge / 4 laps</US>
+            <GB>90's Challenge / 4 laps</GB>
+            <FR>90's Challenge / 4 laps</FR>
+            <ES>90's Challenge / 4 laps</ES>
+            <DE>90's Challenge / 4 laps</DE>
+            <IT>90's Challenge / 4 laps</IT>
+            <NL>90's Challenge / 4 laps</NL>
+            <PT>90's Challenge / 4 laps</PT>
+            <RU>90's Challenge / 4 laps</RU>
+            <PL>90's Challenge / 4 laps</PL>
+            <TR>90's Challenge / 4 laps</TR>
+            <KR>90's Challenge / 4 laps</KR>
+            <EL>90's Challenge / 4 laps</EL>
+            <FI>90's Challenge / 4 laps</FI>
+            <CZ>90's Challenge / 4 laps</CZ>
+            <HU>90's Challenge / 4 laps</HU>
+            <BP>90's Challenge / 4 laps</BP>
+            <MS>90's Challenge / 4 laps</MS>
+          </one_line_title>
+          <description>
+            <JP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</JP>
+            <US>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</US>
+            <GB>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</GB>
+            <FR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FR>
+            <ES>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</ES>
+            <DE>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</DE>
+            <IT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</IT>
+            <NL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</NL>
+            <PT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PT>
+            <RU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</RU>
+            <PL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PL>
+            <TR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</TR>
+            <KR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</KR>
+            <EL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</EL>
+            <FI>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FI>
+            <CZ>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</CZ>
+            <HU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</HU>
+            <BP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</BP>
+            <MS>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="1970/00/00 14:00:00" />
+          <decisive_weather value="SUNNY" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="4" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="8500" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="48000" />
+            <prize value="22000" />
+            <prize value="10000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="suzuka_wet" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories>
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="620" />
+          <limit_pp value="580" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="1450" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <cars>
+              <car label="xj220_gt_road_92" />
+              <car label="r34_gtr_rtune_99" />
+              <car label="r390_road_98" />
+              <car label="ctr2_96" />
+              <car label="cizeta_v16t_94" />
+              <car label="f40_92" />
+              <car label="v8_vantage_99" />
+              <car label="viper_gts_99" />
+              <car label="cerbera_speed6_97" />
+              <car label="griffith_500_94" />
+              <car label="xkr_coupe_99" />
+              <car label="carlton_90" />
+              <car label="elise_190_98" />
+              <car label="esprit_v8_se_98" />
+              <car label="esprit_v8_gt_98" />
+              <car label="corvette_zr1_90" />
+              <car label="lancer_evo6_tommi_gsr_scp_00" />
+            </cars>
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="142" />
+    <event_id_list>2500479</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="110" />
+            <cars>
+              <car label="xj220_gt_road_92" />
+              <car label="r34_gtr_rtune_99" />
+              <car label="r390_road_98" />
+              <car label="ctr2_96" />
+              <car label="cizeta_v16t_94" />
+              <car label="f40_92" />
+              <car label="v8_vantage_99" />
+              <car label="viper_gts_99" />
+              <car label="cerbera_speed6_97" />
+              <car label="griffith_500_94" />
+              <car label="xkr_coupe_99" />
+              <car label="carlton_90" />
+              <car label="elise_190_98" />
+              <car label="esprit_v8_se_98" />
+              <car label="esprit_v8_gt_98" />
+              <car label="corvette_zr1_90" />
+              <car label="lancer_evo6_tommi_gsr_scp_00" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="106" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500479" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>90's Challenge / 5 laps</JP>
+            <US>90's Challenge / 5 laps</US>
+            <GB>90's Challenge / 5 laps</GB>
+            <FR>90's Challenge / 5 laps</FR>
+            <ES>90's Challenge / 5 laps</ES>
+            <DE>90's Challenge / 5 laps</DE>
+            <IT>90's Challenge / 5 laps</IT>
+            <NL>90's Challenge / 5 laps</NL>
+            <PT>90's Challenge / 5 laps</PT>
+            <RU>90's Challenge / 5 laps</RU>
+            <PL>90's Challenge / 5 laps</PL>
+            <TR>90's Challenge / 5 laps</TR>
+            <KR>90's Challenge / 5 laps</KR>
+            <EL>90's Challenge / 5 laps</EL>
+            <FI>90's Challenge / 5 laps</FI>
+            <CZ>90's Challenge / 5 laps</CZ>
+            <HU>90's Challenge / 5 laps</HU>
+            <BP>90's Challenge / 5 laps</BP>
+            <MS>90's Challenge / 5 laps</MS>
+          </title>
+          <one_line_title>
+            <JP>90's Challenge / 5 laps</JP>
+            <US>90's Challenge / 5 laps</US>
+            <GB>90's Challenge / 5 laps</GB>
+            <FR>90's Challenge / 5 laps</FR>
+            <ES>90's Challenge / 5 laps</ES>
+            <DE>90's Challenge / 5 laps</DE>
+            <IT>90's Challenge / 5 laps</IT>
+            <NL>90's Challenge / 5 laps</NL>
+            <PT>90's Challenge / 5 laps</PT>
+            <RU>90's Challenge / 5 laps</RU>
+            <PL>90's Challenge / 5 laps</PL>
+            <TR>90's Challenge / 5 laps</TR>
+            <KR>90's Challenge / 5 laps</KR>
+            <EL>90's Challenge / 5 laps</EL>
+            <FI>90's Challenge / 5 laps</FI>
+            <CZ>90's Challenge / 5 laps</CZ>
+            <HU>90's Challenge / 5 laps</HU>
+            <BP>90's Challenge / 5 laps</BP>
+            <MS>90's Challenge / 5 laps</MS>
+          </one_line_title>
+          <description>
+            <JP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</JP>
+            <US>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</US>
+            <GB>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</GB>
+            <FR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FR>
+            <ES>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</ES>
+            <DE>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</DE>
+            <IT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</IT>
+            <NL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</NL>
+            <PT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PT>
+            <RU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</RU>
+            <PL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PL>
+            <TR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</TR>
+            <KR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</KR>
+            <EL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</EL>
+            <FI>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FI>
+            <CZ>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</CZ>
+            <HU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</HU>
+            <BP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</BP>
+            <MS>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="1970/00/00 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="5" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="GRID" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="8500" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="48000" />
+            <prize value="22000" />
+            <prize value="10000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="r_akasaka" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories>
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="600" />
+          <limit_pp value="580" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="650" />
+          <need_tire_f value="-1" />
+          <need_tire_r value="-1" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <cars />
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="142" />
+    <event_id_list>2500480</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="3" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="1" />
+          <suggest_tire_f value="3" />
+          <suggest_tire_r value="3" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="110" />
+            <cars>
+              <car label="xj220_gt_road_92" />
+              <car label="r34_gtr_rtune_99" />
+              <car label="r390_road_98" />
+              <car label="ctr2_96" />
+              <car label="cizeta_v16t_94" />
+              <car label="f40_92" />
+              <car label="v8_vantage_99" />
+              <car label="viper_gts_99" />
+              <car label="cerbera_speed6_97" />
+              <car label="griffith_500_94" />
+              <car label="xkr_coupe_99" />
+              <car label="carlton_90" />
+              <car label="elise_190_98" />
+              <car label="esprit_v8_se_98" />
+              <car label="esprit_v8_gt_98" />
+              <car label="corvette_zr1_90" />
+              <car label="lancer_evo6_tommi_gsr_scp_00" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="106" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500480" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>90's Challenge / 5 Laps</JP>
+            <US>90's Challenge / 5 Laps</US>
+            <GB>90's Challenge / 5 Laps</GB>
+            <FR>90's Challenge / 5 Laps</FR>
+            <ES>90's Challenge / 5 Laps</ES>
+            <DE>90's Challenge / 5 Laps</DE>
+            <IT>90's Challenge / 5 Laps</IT>
+            <NL>90's Challenge / 5 Laps</NL>
+            <PT>90's Challenge / 5 Laps</PT>
+            <RU>90's Challenge / 5 Laps</RU>
+            <PL>90's Challenge / 5 Laps</PL>
+            <TR>90's Challenge / 5 Laps</TR>
+            <KR>90's Challenge / 5 Laps</KR>
+            <EL>90's Challenge / 5 Laps</EL>
+            <FI>90's Challenge / 5 Laps</FI>
+            <CZ>90's Challenge / 5 Laps</CZ>
+            <HU>90's Challenge / 5 Laps</HU>
+            <BP>90's Challenge / 5 Laps</BP>
+            <MS>90's Challenge / 5 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>90's Challenge / 5 Laps</JP>
+            <US>90's Challenge / 5 Laps</US>
+            <GB>90's Challenge / 5 Laps</GB>
+            <FR>90's Challenge / 5 Laps</FR>
+            <ES>90's Challenge / 5 Laps</ES>
+            <DE>90's Challenge / 5 Laps</DE>
+            <IT>90's Challenge / 5 Laps</IT>
+            <NL>90's Challenge / 5 Laps</NL>
+            <PT>90's Challenge / 5 Laps</PT>
+            <RU>90's Challenge / 5 Laps</RU>
+            <PL>90's Challenge / 5 Laps</PL>
+            <TR>90's Challenge / 5 Laps</TR>
+            <KR>90's Challenge / 5 Laps</KR>
+            <EL>90's Challenge / 5 Laps</EL>
+            <FI>90's Challenge / 5 Laps</FI>
+            <CZ>90's Challenge / 5 Laps</CZ>
+            <HU>90's Challenge / 5 Laps</HU>
+            <BP>90's Challenge / 5 Laps</BP>
+            <MS>90's Challenge / 5 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</JP>
+            <US>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</US>
+            <GB>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</GB>
+            <FR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FR>
+            <ES>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</ES>
+            <DE>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</DE>
+            <IT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</IT>
+            <NL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</NL>
+            <PT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PT>
+            <RU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</RU>
+            <PL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PL>
+            <TR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</TR>
+            <KR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</KR>
+            <EL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</EL>
+            <FI>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FI>
+            <CZ>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</CZ>
+            <HU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</HU>
+            <BP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</BP>
+            <MS>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="1970/00/00 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="6" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING2" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="3000" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="8500" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="48000" />
+            <prize value="22000" />
+            <prize value="10000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="deepforest" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories>
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="600" />
+          <limit_pp value="580" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="650" />
+          <need_tire_f value="-1" />
+          <need_tire_r value="-1" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <cars />
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+	</events>
+  </GameParameter>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="142" />
+    <event_id_list>2500481</event_id_list>
+    <events>
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="0" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="7" />
+          <limit_tire_f value="7" />
+          <limit_tire_r value="7" />
+          <need_tire_f value="7" />
+          <need_tire_r value="7" />
+          <simulation value="1" />
+          <suggest_tire_f value="7" />
+          <suggest_tire_r value="7" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <entry_set>
+          <entry_generate>
+            <ai_skill value="120" />
+            <ai_skill_accelerating value="105" />
+            <ai_skill_breaking value="115" />
+            <ai_skill_cornering value="110" />
+            <cars>
+              <car label="xj220_gt_road_92" />
+              <car label="r34_gtr_rtune_99" />
+              <car label="r390_road_98" />
+              <car label="ctr2_96" />
+              <car label="cizeta_v16t_94" />
+              <car label="f40_92" />
+              <car label="v8_vantage_99" />
+              <car label="viper_gts_99" />
+              <car label="cerbera_speed6_97" />
+              <car label="griffith_500_94" />
+              <car label="xkr_coupe_99" />
+              <car label="carlton_90" />
+              <car label="elise_190_98" />
+              <car label="esprit_v8_se_98" />
+              <car label="esprit_v8_gt_98" />
+              <car label="corvette_zr1_90" />
+              <car label="lancer_evo6_tommi_gsr_scp_00" />
+            </cars>
+            <delays>
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+              <delay value="0" />
+            </delays>
+            <enemy_list_type value="SAME" />
+            <enemy_sort_type value="PP_DESCEND" />
+            <enemy_lv value="80" />
+            <entry_num value="16" />
+            <generate_type value="SHUFFLE" />
+            <player_pos value="15" />
+            <race_code value="0xffffffffffffffff" />
+            <ai_breaking value="115" />
+            <ai_cornering value="106" />
+          </entry_generate>
+        </entry_set>
+        <event_id value="2500481" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>90's Challenge / 5 Laps</JP>
+            <US>90's Challenge / 5 Laps</US>
+            <GB>90's Challenge / 5 Laps</GB>
+            <FR>90's Challenge / 5 Laps</FR>
+            <ES>90's Challenge / 5 Laps</ES>
+            <DE>90's Challenge / 5 Laps</DE>
+            <IT>90's Challenge / 5 Laps</IT>
+            <NL>90's Challenge / 5 Laps</NL>
+            <PT>90's Challenge / 5 Laps</PT>
+            <RU>90's Challenge / 5 Laps</RU>
+            <PL>90's Challenge / 5 Laps</PL>
+            <TR>90's Challenge / 5 Laps</TR>
+            <KR>90's Challenge / 5 Laps</KR>
+            <EL>90's Challenge / 5 Laps</EL>
+            <FI>90's Challenge / 5 Laps</FI>
+            <CZ>90's Challenge / 5 Laps</CZ>
+            <HU>90's Challenge / 5 Laps</HU>
+            <BP>90's Challenge / 5 Laps</BP>
+            <MS>90's Challenge / 5 Laps</MS>
+          </title>
+          <one_line_title>
+            <JP>90's Challenge / 5 Laps</JP>
+            <US>90's Challenge / 5 Laps</US>
+            <GB>90's Challenge / 5 Laps</GB>
+            <FR>90's Challenge / 5 Laps</FR>
+            <ES>90's Challenge / 5 Laps</ES>
+            <DE>90's Challenge / 5 Laps</DE>
+            <IT>90's Challenge / 5 Laps</IT>
+            <NL>90's Challenge / 5 Laps</NL>
+            <PT>90's Challenge / 5 Laps</PT>
+            <RU>90's Challenge / 5 Laps</RU>
+            <PL>90's Challenge / 5 Laps</PL>
+            <TR>90's Challenge / 5 Laps</TR>
+            <KR>90's Challenge / 5 Laps</KR>
+            <EL>90's Challenge / 5 Laps</EL>
+            <FI>90's Challenge / 5 Laps</FI>
+            <CZ>90's Challenge / 5 Laps</CZ>
+            <HU>90's Challenge / 5 Laps</HU>
+            <BP>90's Challenge / 5 Laps</BP>
+            <MS>90's Challenge / 5 Laps</MS>
+          </one_line_title>
+          <description>
+            <JP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</JP>
+            <US>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</US>
+            <GB>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</GB>
+            <FR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FR>
+            <ES>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</ES>
+            <DE>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</DE>
+            <IT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</IT>
+            <NL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</NL>
+            <PT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PT>
+            <RU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</RU>
+            <PL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PL>
+            <TR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</TR>
+            <KR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</KR>
+            <EL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</EL>
+            <FI>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FI>
+            <CZ>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</CZ>
+            <HU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</HU>
+            <BP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</BP>
+            <MS>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</MS>
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="MIDDLE" />
+          <behavior_slip_stream_type value="WEAK" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="10" />
+          <consume_tire value="10" />
+          <datetime datetime="1970/00/00 14:00:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="REAL" />
+          <mu_ratio100 value="100" />
+          <online_on value="1" />
+          <pace_note value="0" />
+          <penalty_level value="7" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="5" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <start_type value="ROLLING2" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="3000" />
+          <time_to_start value="10000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="1" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60" />
+          <weather_rate_sec2 value="120" />
+          <weather_total_sec value="180" />
+          <weather_value0 value="0" />
+          <weather_value1 value="0" />
+          <weather_value2 value="0" />
+          <weather_value3 value="0" />
+          <weather_accel10 value="100" />
+          <boost_flag value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+        </race>
+        <reward>
+          <is_once value="1" />
+          <percent_at_pp100 value="-1" />
+          <pp_base value="1" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="9050" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="54780" />
+            <prize value="22000" />
+            <prize value="10000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table />
+          <present>
+          </present>
+        </reward>
+        <track>
+          <course_code label="new_fisco_gt" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="ONLY_A" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories>
+          </car_categories>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="600" />
+          <limit_pp value="580" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="650" />
+          <need_tire_f value="-1" />
+          <need_tire_r value="-1" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <cars />
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+        <begin_date>2026/9/16 07:00:00</begin_date>
+        <end_date>2026/9/30 07:00:00</end_date>
+      </event>
+    </events>
+  </GameParameter>
+</xml>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="420" />
+    <events>
+      <!--5632145 - 60m Home Straight-->
+      <event>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="-1" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="-1" />
+          <limit_tire_r value="-1" />
+          <need_tire_f value="-1" />
+          <need_tire_r value="-1" />
+          <simulation value="-1" />
+          <suggest_tire_f value="-1" />
+          <suggest_tire_r value="-1" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+        <event_id value="5632145" />
+        <event_type value="RACE" />
+        <game_mode value="EVENT_RACE" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="" />
+          <title>
+            <JP>Event 1</JP>
+            <US>Event 1</US>
+            <GB>60m Home Straight</GB>
+            <FR>Event 1</FR>
+            <ES>Event 1</ES>
+            <DE>Event 1</DE>
+            <IT>Event 1</IT>
+            <NL>Event 1</NL>
+            <PT>Event 1</PT>
+            <RU>Event 1</RU>
+            <PL>Event 1</PL>
+            <TR>Event 1</TR>
+            <KR>Event 1</KR>
+            <EL>Event 1</EL>
+            <FI>Event 1</FI>
+            <CZ>Event 1</CZ>
+            <HU>Event 1</HU>
+            <BP>Event 1</BP>
+            <MS>Event 1</MS>
+          </title>
+          <one_line_title>
+            <JP />
+            <US />
+            <GB />
+            <FR />
+            <ES />
+            <DE />
+            <IT />
+            <NL />
+            <PT />
+            <RU />
+            <PL />
+            <TR />
+            <KR />
+            <EL />
+            <FI />
+            <CZ />
+            <HU />
+            <BP />
+            <MS />
+          </one_line_title>
+          <description>
+            <JP />
+            <US />
+            <GB />
+            <FR />
+            <ES />
+            <DE />
+            <IT />
+            <NL />
+            <PT />
+            <RU />
+            <PL />
+            <TR />
+            <KR />
+            <EL />
+            <FI />
+            <CZ />
+            <HU />
+            <BP />
+            <MS />
+          </description>
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="0" />
+          <behavior_damage_type value="WEAK" />
+          <behavior_slip_stream_type value="GAME" />
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="NONE" />
+          <consume_fuel value="0" />
+          <consume_tire value="0" />
+          <datetime datetime="1970/00/00 00:00:00" />
+          <decisive_weather value="SUNNY" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="FASTEST" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="ONELAP" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="0" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <line_ghost_record_type value="OFF" />
+          <low_mu_type value="MODERATE" />
+          <mu_ratio100 value="100" />
+          <online_on value="0" />
+          <pace_note value="0" />
+          <penalty_level value="0" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="1" />
+          <race_limit_minute value="0" />
+          <race_type value="TIMEATTACK" />
+          <start_type value="ATTACK" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="0" />
+          <time_to_start value="6000" />
+          <weather_base_celsius value="63" />
+          <weather_max_celsius value="3" />
+          <weather_min_celsius value="3" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="0" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_total_sec value="90" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+          <replace_at_courseout value="0" />
+          <weather_accel10 value="0" />
+          <weather_accel_water_retention10 value="0" />
+          <boost_flag value="0" />
+          <entry_max value="8" />
+          <racers_max value="8" />
+        </race>
+        <reward>
+          <is_once value="0" />
+          <percent_at_pp100 value="0" />
+          <pp_base value="0" />
+          <present_type value="ORDER" />
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+          <point_table />
+          <prize_table>
+            <prize value="25000" />
+            <prize value="12750" />
+            <prize value="7500" />
+            <prize value="5000" />
+            <prize value="2500" />
+            <prize value="1000" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <star_table>
+            <star value="RANK_1" />
+            <star value="RANK_3" />
+            <star value="COMPLETE" />
+          </star_table>
+        </reward>
+        <track>
+          <course_code label="coursemaker" />
+          <generated_course_id value="0" />
+          <edit_data value="xe73/zT8//9zDzELcXVhAIEMIGZyVGBgcAQyHB0YGJyfH9+97Wj2bSCXEYjFQNipACinUbgDpBakyencXSMGBJgDxOxA5RoQLlaaDUhfANK2QCOOQMxmOgGkeRkYmM8woAGXaYrLjqq6v0URm/Ne/ajaHVUkIUaXuR1OR3WexLnM4p99VPNLMsh9LtNdE4/q8ge7zBIJOar5Iwmsd0Lp8aPazZIoevtP/TuqWmjvMtnH9ahG8l2wXqi9LpNdFh3ViC0E+1XuaI+T3NIAIJMDptmpQMnfYaXFPag4CPCD5EHiTm/73jqszAPb5Xi9bBskbBjEnY0ucDkFvPaDiUPlQGbKOadz3XPKn1XqsJJNGSoOM1PNeWLFPqf33dscVkY7wNwDNdPU+Wz0aqfghHpHiVdLHSWOxDqK97Y7ioVtdBT++9WRPzHXkXPRP0fmJ/0Of3zsHT7o3XV4IljjcP2LlMPpazsc9u8Mc9g8+4vD8rpJDrMTDRz6nc87NKvlOuQJiTmEXg9ysJ3T56CaeNqBs+yt/alPb+zL9Sfb7Qqcvuf5xb37IiQf7jtge3Y/l3nofpO63fvjjintryhU3Z+2+fh+TUPxfQ09vHaprDvtjU48tp8lt83+1o1fDrwn5zvoqR1y8Gt+4pD3kM2hfb6Iw/SzSx2W/zF32KF1wuFEZKTDjfZXDi+2VTv8cBZxZGo748huneXItcrUkXdXuqPAqVmOwrfOOoq9ZgD517l3f8vc2Sr7WHlPnYClS0eW6DcTnyHEQHzHlug3G0uQxIB8x2OdD7c8RxID8p2AahuQzAPxnVSLns27hiQG5Du5dT7ctg8uxgDiO23jENn6AUkMyHfWPZWPLAbiOzd4bWjQQRID8p2n/G5ENg/Ed1650RpFL5DvfFkqDkUvkA/KqwA=" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="BOTH_A_AND_B" />
+          <rentcar_setting_enable value="0" />
+        </play_style>
+        <regulation>
+          <countries />
+          <car_categories />
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="-1" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="-1" />
+          <limit_tire_r value="-1" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="-1" />
+          <need_tire_f value="-1" />
+          <need_tire_r value="-1" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+          <limit_length value="-1" />
+          <need_length value="-1" />
+          <limit_aspec_level value="-1" />
+          <need_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <limit_bspec_driver_count value="-1" />
+          <need_bspec_driver_count value="-1" />
+          <kart_permitted value="-1" />
+          <tuning value="-1" />
+          <restrictor_limit value="-1" />
+          <cars />
+          <ban_cars />
+          <tuners />
+        </regulation>
+        <penalty_script value="" />
+        <ai_script value="" />
+        <inheritance value="0" />
+        <is_seasonal_event value="0" />
+        <begin_date>0001/01/01 00:00:00</begin_date>
+        <end_date>0001/01/01 00:00:00</end_date>
+      </event>
+    </events>
+    <series_reward>
+      <prize_table />
+      <point_table />
+    </series_reward>
+  </GameParameter>
+</xml>

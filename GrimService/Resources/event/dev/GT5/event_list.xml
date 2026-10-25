@@ -1,0 +1,699 @@
+
+<event_list>
+  <event>
+    <title><JP>B-Spec: Tsukuba</JP><US>B-Spec: Tsukuba</US><GB>B-Spec: Tsukuba</GB><FR>B-Spec: Tsukuba</FR><DE>B-Spec: Tsukuba</DE><IT>B-Spec: Tsukuba</IT><ES>B-Spec: Tsukuba</ES><PT>B-Spec: Tsukuba</PT><NL>B-Spec: Tsukuba</NL><RU>B-Spec: Tsukuba</RU><KR>B-Spec: Tsukuba</KR><TW>B-Spec: Tsukuba</TW><EL>B-Spec: Tsukuba</EL><TR>B-Spec: Tsukuba</TR><PL>B-Spec: Tsukuba</PL><CZ>B-Spec: Tsukuba</CZ><HU>B-Spec: Tsukuba</HU><BP>B-Spec: Tsukuba</BP><MS>B-Spec: Tsukuba</MS><FI>B-Spec: Tsukuba</FI></title>
+    <description><US>Remote race for shared B-Spec drivers.</US><GB>Remote race for shared B-Spec drivers.</GB><PL>Wyscig zdalny kierowcow B-Spec.</PL></description>
+    <ranking_list />
+    <id>901</id>
+    <voucher />
+    <registration>0</registration>
+    <bg_image />
+    <icon_image />
+    <event_type>2</event_type>
+    <gameitem_type>0</gameitem_type>
+    <gameitem_category>0</gameitem_category>
+    <gameitem_id>0</gameitem_id>
+    <gameitem_value />
+    <dlc_flag>0</dlc_flag>
+    <begin_date>2020-01-01T00:00:00+00:00</begin_date>
+    <end_date>2042-01-01T00:00:00+00:00</end_date>
+    <new_date>2026-09-19T00:00:00+00:00</new_date>
+    <event_id_list>1901001</event_id_list>
+  </event>
+	<event>
+		<title>
+		    <JP>Time Trial</JP>
+            <US>Time Trial</US>
+            <GB>Time Trial</GB>
+            <FR>Time Trial</FR>
+            <ES>Time Trial</ES>
+            <DE>Time Trial</DE>
+            <IT>Time Trial</IT>
+            <NL>Time Trial</NL>
+            <PT>Time Trial</PT>
+            <RU>Time Trial</RU>
+            <PL>Time Trial</PL>
+            <TR>Time Trial</TR>
+            <KR>Time Trial</KR>
+            <EL>Time Trial</EL>
+            <FI>Time Trial</FI>
+            <CZ>Time Trial</CZ>
+            <HU>Time Trial</HU>
+            <BP>Time Trial</BP>
+            <MS>Time Trial</MS>
+		</title>
+		<description>
+			<JP>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</JP>
+			<US>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</US>
+			<GB>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</GB>
+			<FR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</FR>
+			<ES>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</ES>
+			<DE>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</DE>
+			<IT>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!!</IT>
+			<NL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</NL>
+			<PT>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</PT>
+			<RU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!!</RU>
+			<PL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</PL>
+			<TR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</TR>
+			<KR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</KR>
+			<EL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</EL>
+			<FI>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</FI>
+			<CZ>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</CZ>
+			<HU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</HU>
+			<BP>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</BP>
+			<MS>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Time Trial</JP>
+					<US>Time Trial</US>
+					<GB>Time Trial</GB>
+					<FR>Time Trial</FR>
+					<ES>Time Trial</ES>
+					<DE>Time Trial</DE>
+					<IT>Time Trial</IT>
+					<NL>Time Trial</NL>
+					<PT>Time Trial</PT>
+					<RU>Time Trial</RU>
+					<PL>Time Trial</PL>
+					<TR>Time Trial</TR>
+					<KR>Time Trial</KR>
+					<EL>Time Trial</EL>
+					<FI>Time Trial</FI>
+					<CZ>Time Trial</CZ>
+					<HU>Time Trial</HU>
+					<BP>Time Trial</BP>
+					<MS>Time Trial</MS>
+				</title>
+				<board_id>2500471,2500472</board_id>
+			</ranking>
+		</ranking_list>
+		<id>2</id>
+		<voucher />
+		<registration>0</registration>
+		<bg_image>prototype.png</bg_image>
+		<icon_image />
+		<event_type>3</event_type>
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/5 07:00:00</end_date>
+		<new_date>2025/5/28 07:00:00</new_date>
+		<event_id_list>2500471,2500472</event_id_list>
+	</event>
+	<event>
+		<title>
+			<JP>Seasonal: Drift Trial</JP>
+			<US>Seasonal: Drift Trial</US>
+			<GB>Seasonal: Drift Trial</GB>
+			<FR>Seasonal: Drift Trial</FR>
+			<ES>Seasonal: Drift Trial</ES>
+			<DE>Seasonal: Drift Trial</DE>
+			<IT>Seasonal: Drift Trial</IT>
+			<NL>Seasonal: Drift Trial</NL>
+			<PT>Seasonal: Drift Trial</PT>
+			<RU>Seasonal: Drift Trial</RU>
+			<PL>Seasonal: Drift Trial</PL>
+			<TR>Seasonal: Drift Trial</TR>
+			<KR>Seasonal: Drift Trial</KR>
+			<EL>Seasonal: Drift Trial</EL>
+			<FI>Seasonal: Drift Trial</FI>
+			<CZ>Seasonal: Drift Trial</CZ>
+			<HU>Seasonal: Drift Trial</HU>
+			<BP>Seasonal: Drift Trial</BP>
+			<MS>Seasonal: Drift Trial</MS>
+		</title>
+		<description>
+			<JP>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</JP>
+			<US>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</US>
+			<GB>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</GB>
+			<FR>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</FR>
+			<ES>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</ES>
+			<DE>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</DE>
+			<IT>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!!</IT>
+			<NL>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</NL>
+			<PT>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</PT>
+			<RU>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!!</RU>
+			<PL>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</PL>
+			<TR>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</TR>
+			<KR>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</KR>
+			<EL>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</EL>
+			<FI>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</FI>
+			<CZ>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</CZ>
+			<HU>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</HU>
+			<BP>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</BP>
+			<MS>A drift competition to set the hightest score on the track. Use all of your driving drift skills and aim for the top of the rankings!</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Seasonal: Drift Trial</JP>
+					<US>Seasonal: Drift Trial</US>
+					<GB>Seasonal: Drift Trial</GB>
+					<FR>Seasonal: Drift Trial</FR>
+					<ES>Seasonal: Drift Trial</ES>
+					<DE>Seasonal: Drift Trial</DE>
+					<IT>Seasonal: Drift Trial</IT>
+					<NL>Seasonal: Drift Trial</NL>
+					<PT>Seasonal: Drift Trial</PT>
+					<RU>Seasonal: Drift Trial</RU>
+					<PL>Seasonal: Drift Trial</PL>
+					<TR>Seasonal: Drift Trial</TR>
+					<KR>Seasonal: Drift Trial</KR>
+					<EL>Seasonal: Drift Trial</EL>
+					<FI>Seasonal: Drift Trial</FI>
+					<CZ>Seasonal: Drift Trial</CZ>
+					<HU>Seasonal: Drift Trial</HU>
+					<BP>Seasonal: Drift Trial</BP>
+					<MS>Seasonal: Drift Trial</MS>
+				</title>
+				<board_id>2500473,2500474</board_id>
+			</ranking>
+		</ranking_list>
+		<id>91</id>
+		<voucher />
+		<registration>0</registration>
+		<icon_image />
+		<event_type>4</event_type>
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/5 07:00:00</end_date>
+		<new_date>2025/11/10 07:00:00</new_date>
+		<event_id_list>2500473,2500474</event_id_list>
+	</event>
+	<event>
+		<title>
+			<JP>Altezza Race</JP>
+            <US>Altezza Race</US>
+            <GB>Altezza Race</GB>
+            <FR>Altezza Race</FR>
+            <ES>Altezza Race</ES>
+            <DE>Altezza Race</DE>
+            <IT>Altezza Race</IT>
+            <NL>Altezza Race</NL>
+            <PT>Altezza Race</PT>
+            <RU>Altezza Race</RU>
+            <PL>Altezza Race</PL>
+            <TR>Altezza Race</TR>
+            <KR>Altezza Race</KR>
+            <EL>Altezza Race</EL>
+            <FI>Altezza Race</FI>
+            <CZ>Altezza Race</CZ>
+            <HU>Altezza Race</HU>
+            <BP>Altezza Race</BP>
+            <MS>Altezza Race</MS>
+		</title>
+		<description>
+            <JP>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</JP>
+            <US>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</US>
+            <GB>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</GB>
+            <FR>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FR>
+            <ES>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</ES>
+            <DE>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</DE>
+            <IT>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</IT>
+            <NL>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</NL>
+            <PT>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PT>
+            <RU>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</RU>
+            <PL>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</PL>
+            <TR>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</TR>
+            <KR>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</KR>
+            <EL>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</EL>
+            <FI>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</FI>
+            <CZ>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</CZ>
+            <HU>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</HU>
+            <BP>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</BP>
+            <MS>*PS2 Tracks Required ! This is a one make race between Altezzas that shows the undeniable enjoyment of front-engine, rear-drive cars.</MS>
+        </description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP></JP>
+					<US></US>
+					<GB></GB>
+					<FR></FR>
+					<DE></DE>
+					<IT></IT>
+					<ES></ES>
+					<PT></PT>
+					<NL></NL>
+					<RU></RU>
+					<KR></KR>
+					<TW></TW>
+					<EL></EL>
+					<TR></TR>
+					<PL></PL>
+					<CZ></CZ>
+					<HU></HU>
+					<BP></BP>
+					<MS></MS>
+				</title>
+				<board_id></board_id>
+			</ranking>
+		</ranking_list>
+		<id>141</id>
+		<voucher />
+		<registration>0</registration>
+		<bg_image>prototype.png</bg_image>
+		<icon_image />
+		<event_type>0</event_type>
+		<gameitem_type>9</gameitem_type>
+		<gameitem_category>901</gameitem_category>
+		<gameitem_id>127</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/1 07:00:00</end_date>
+		<new_date>2025/11/10 07:00:00</new_date>
+		<event_id_list>2500475,2500476,2500477</event_id_list>
+	</event>
+	<event>
+		<title>
+			<JP>90's Challenge</JP>
+            <US>90's Challenge</US>
+            <GB>90's Challenge</GB>
+            <FR>90's Challenge</FR>
+            <ES>90's Challenge</ES>
+            <DE>90's Challenge</DE>
+            <IT>90's Challenge</IT>
+            <NL>90's Challenge</NL>
+            <PT>90's Challenge</PT>
+            <RU>90's Challenge</RU>
+            <PL>90's Challenge</PL>
+            <TR>90's Challenge</TR>
+            <KR>90's Challenge</KR>
+            <EL>90's Challenge</EL>
+            <FI>90's Challenge</FI>
+            <CZ>90's Challenge</CZ>
+            <HU>90's Challenge</HU>
+            <BP>90's Challenge</BP>
+            <MS>90's Challenge</MS>
+		</title>
+		<description>
+			<JP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</JP>
+            <US>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</US>
+            <GB>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</GB>
+            <FR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FR>
+            <ES>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</ES>
+            <DE>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</DE>
+            <IT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</IT>
+            <NL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</NL>
+            <PT>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PT>
+            <RU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</RU>
+            <PL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</PL>
+            <TR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</TR>
+            <KR>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</KR>
+            <EL>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</EL>
+            <FI>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</FI>
+            <CZ>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</CZ>
+            <HU>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</HU>
+            <BP>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</BP>
+            <MS>The age of frenzied competition for performance. The golden age of Road cars is brought back to life.</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP></JP>
+					<US></US>
+					<GB></GB>
+					<FR></FR>
+					<DE></DE>
+					<IT></IT>
+					<ES></ES>
+					<PT></PT>
+					<NL></NL>
+					<RU></RU>
+					<KR></KR>
+					<TW></TW>
+					<EL></EL>
+					<TR></TR>
+					<PL></PL>
+					<CZ></CZ>
+					<HU></HU>
+					<BP></BP>
+					<MS></MS>
+				</title>
+				<board_id></board_id>
+			</ranking>
+		</ranking_list>
+		<id>142</id>
+		<voucher />
+		<registration>0</registration>
+		<bg_image>prototype.png</bg_image>
+		<icon_image />
+		<event_type>0</event_type>
+		<gameitem_type>9</gameitem_type>
+		<gameitem_category>901</gameitem_category>
+		<gameitem_id>241</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/1 07:00:00</end_date>
+		<new_date>2025/11/10 07:00:00</new_date>
+		<event_id_list>2500478,2500479,2500480,2500481</event_id_list>
+	</event>
+	<event>
+		<title>
+            <JP>Festival Italia</JP>
+            <US>Festival Italia</US>
+            <GB>Festival Italia</GB>
+            <FR>Festival Italia</FR>
+            <ES>Festival Italia</ES>
+            <DE>Festival Italia</DE>
+            <IT>Festival Italia</IT>
+            <NL>Festival Italia</NL>
+            <PT>Festival Italia</PT>
+            <RU>Festival Italia</RU>
+            <PL>Festival Italia</PL>
+            <TR>Festival Italia</TR>
+            <KR>Festival Italia</KR>
+            <EL>Festival Italia</EL>
+            <FI>Festival Italia</FI>
+            <CZ>Festival Italia</CZ>
+            <HU>Festival Italia</HU>
+            <BP>Festival Italia</BP>
+            <MS>Festival Italia</MS>
+		</title>
+		<description>
+			<JP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</JP>
+            <US>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</US>
+            <GB>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</GB>
+            <FR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FR>
+            <ES>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</ES>
+            <DE>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</DE>
+            <IT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</IT>
+            <NL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</NL>
+            <PT>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PT>
+            <RU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</RU>
+            <PL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</PL>
+            <TR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</TR>
+            <KR>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</KR>
+            <EL>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</EL>
+            <FI>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</FI>
+            <CZ>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</CZ>
+            <HU>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</HU>
+            <BP>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</BP>
+            <MS>Compete in a series of races featuring a different road car each round. Adapt to every machine and prove your versatility.</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP></JP>
+					<US></US>
+					<GB></GB>
+					<FR></FR>
+					<ES></ES>
+					<DE></DE>
+					<IT></IT>
+					<NL></NL>
+					<PT></PT>
+					<RU></RU>
+					<PL></PL>
+					<TR></TR>
+					<KR></KR>
+					<EL></EL>
+					<FI></FI>
+					<CZ></CZ>
+					<HU></HU>
+					<BP></BP>
+					<MS></MS>
+				</title>
+				<board_id></board_id>
+			</ranking>
+		</ranking_list>
+		<id>143</id>
+		<voucher />
+		<registration>0</registration>
+		<icon_image />
+		<event_type>0</event_type>
+		<gameitem_type>9</gameitem_type>
+		<gameitem_category>901</gameitem_category>
+		<gameitem_id>196</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<championship_value>0</championship_value>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/1 07:00:00</end_date>
+		<new_date>2025/11/10 07:00:00</new_date>
+		<event_id_list>2500482,2500483,2500484,2500485,2500486</event_id_list>	
+    </event>
+	<event>
+		<title>
+			<JP>Seasonal Events B-Spec Challenge</JP>
+            <US>Seasonal Events B-Spec Challenge</US>
+            <GB>Seasonal Events B-Spec Challenge</GB>
+            <FR>Seasonal Events B-Spec Challenge</FR>
+            <ES>Seasonal Events B-Spec Challenge</ES>
+            <DE>Seasonal Events B-Spec Challenge</DE>
+            <IT>Seasonal Events B-Spec Challenge</IT>
+            <NL>Seasonal Events B-Spec Challenge</NL>
+            <PT>Seasonal Events B-Spec Challenge</PT>
+            <RU>Seasonal Events B-Spec Challenge</RU>
+            <PL>Seasonal Events B-Spec Challenge</PL>
+            <TR>Seasonal Events B-Spec Challenge</TR>
+            <KR>Seasonal Events B-Spec Challenge</KR>
+            <EL>Seasonal Events B-Spec Challenge</EL>
+            <FI>Seasonal Events B-Spec Challenge</FI>
+            <CZ>Seasonal Events B-Spec Challenge</CZ>
+            <HU>Seasonal Events B-Spec Challenge</HU>
+            <BP>Seasonal Events B-Spec Challenge</BP>
+            <MS>Seasonal Events B-Spec Challenge</MS>
+		</title>
+		<description>
+            <JP>Compete in three long races in B-Spec mode.</JP>
+            <US>Compete in three long races in B-Spec mode.</US>
+            <GB>Compete in three long races in B-Spec mode.</GB>
+            <FR>Compete in three long races in B-Spec mode.</FR>
+            <ES>Compete in three long races in B-Spec mode.</ES>
+            <DE>Compete in three long races in B-Spec mode.</DE>
+            <IT>Compete in three long races in B-Spec mode.</IT>
+            <NL>Compete in three long races in B-Spec mode.</NL>
+            <PT>Compete in three long races in B-Spec mode.</PT>
+            <RU>Compete in three long races in B-Spec mode.</RU>
+            <PL>Compete in three long races in B-Spec mode.</PL>
+            <TR>Compete in three long races in B-Spec mode.</TR>
+            <KR>Compete in three long races in B-Spec mode.</KR>
+            <EL>Compete in three long races in B-Spec mode.</EL>
+            <FI>Compete in three long races in B-Spec mode.</FI>
+            <CZ>Compete in three long races in B-Spec mode.</CZ>
+            <HU>Compete in three long races in B-Spec mode.</HU>
+            <BP>Compete in three long races in B-Spec mode.</BP>
+            <MS>Compete in three long races in B-Spec mode.</MS>
+          </description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test race</JP>
+					<US>Test race</US>
+					<GB>Test race</GB>
+					<FR>Test race</FR>
+					<ES>Test race</ES>
+					<DE>Test race</DE>
+					<IT>Test race</IT>
+					<NL>Test race</NL>
+					<PT>Test race</PT>
+					<RU>Test race</RU>
+					<PL>Test race</PL>
+					<TR>Test race</TR>
+					<KR>Test race</KR>
+					<EL>Test race</EL>
+					<FI>Test race</FI>
+					<CZ>Test race</CZ>
+					<HU>Test race</HU>
+					<BP>Test race</BP>
+					<MS>Test race</MS>
+				</title>
+				<board_id>1600,1601</board_id>
+			</ranking>
+		</ranking_list>
+		<id>214</id>
+		<voucher />
+		<registration>0</registration>
+		<icon_image />
+		<event_type>1</event_type>
+		<gameitem_type>9</gameitem_type>
+		<gameitem_category>901</gameitem_category>
+		<gameitem_id>139</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/1 07:00:00</end_date>
+		<new_date>2025/11/10 15:00:00</new_date>
+		<event_id_list>2500487,2500488,2500489</event_id_list>
+	</event>
+	<event>
+		<title>
+            <JP>1,000 Miles II !</JP>
+            <US>1,000 Miles II !</US>
+            <GB>1,000 Miles II !</GB>
+            <FR>1,000 Miles II !</FR>
+            <ES>1,000 Miles II !</ES>
+            <DE>1,000 Miles II !</DE>
+            <IT>1,000 Miles II !</IT>
+            <NL>1,000 Miles II !</NL>
+            <PT>1,000 Miles II !</PT>
+            <RU>1,000 Miles II !</RU>
+            <PL>1,000 Miles II !</PL>
+            <TR>1,000 Miles II !</TR>
+            <KR>1,000 Miles II !</KR>
+            <EL>1,000 Miles II !</EL>
+            <FI>1,000 Miles II !</FI>
+            <CZ>1,000 Miles II !</CZ>
+            <HU>1,000 Miles II !</HU>
+            <BP>1,000 Miles II !</BP>
+            <MS>1,000 Miles II !</MS>
+		</title>
+		<description>
+			<JP>An endurance event for old-school vehicles.</JP>
+			<US>An endurance event for old-school vehicles.</US>
+			<GB>An endurance event for old-school vehicles.</GB>
+			<FR>An endurance event for old-school vehicles.</FR>
+			<DE>An endurance event for old-school vehicles.</DE>
+			<IT>An endurance event for old-school vehicles.</IT>
+			<ES>An endurance event for old-school vehicles.</ES>
+			<PT>An endurance event for old-school vehicles.</PT>
+			<NL>An endurance event for old-school vehicles.</NL>
+			<RU>An endurance event for old-school vehicles.</RU>
+			<KR>An endurance event for old-school vehicles.</KR>
+			<TW>An endurance event for old-school vehicles.</TW>
+			<EL>An endurance event for old-school vehicles.</EL>
+			<TR>An endurance event for old-school vehicles.</TR>
+			<PL>An endurance event for old-school vehicles.</PL>
+			<CZ>An endurance event for old-school vehicles.</CZ>
+			<HU>An endurance event for old-school vehicles.</HU>
+			<BP>An endurance event for old-school vehicles.</BP>
+			<MS>An endurance event for old-school vehicles.</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test race</JP>
+					<US>Test race</US>
+					<GB>Test race</GB>
+					<FR>Test race</FR>
+					<ES>Test race</ES>
+					<DE>Test race</DE>
+					<IT>Test race</IT>
+					<NL>Test race</NL>
+					<PT>Test race</PT>
+					<RU>Test race</RU>
+					<PL>Test race</PL>
+					<TR>Test race</TR>
+					<KR>Test race</KR>
+					<EL>Test race</EL>
+					<FI>Test race</FI>
+					<CZ>Test race</CZ>
+					<HU>Test race</HU>
+					<BP>Test race</BP>
+					<MS>Test race</MS>
+				</title>
+				<board_id></board_id>
+			</ranking>
+		</ranking_list>
+		<id>54</id>
+		<voucher />
+		<registration>0</registration>
+		<icon_image />
+		<event_type>0</event_type>
+		<gameitem_type>9</gameitem_type>
+		<gameitem_category>901</gameitem_category>
+		<gameitem_id>213</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/15 07:00:00</end_date>
+		<new_date>2025/12/11 16:00:00</new_date>
+		<event_id_list>2500490,2500491</event_id_list>
+	</event>
+	<event>
+		<title>
+            <JP>1,000 Miles II !</JP>
+            <US>1,000 Miles II !</US>
+            <GB>1,000 Miles II !</GB>
+            <FR>1,000 Miles II !</FR>
+            <ES>1,000 Miles II !</ES>
+            <DE>1,000 Miles II !</DE>
+            <IT>1,000 Miles II !</IT>
+            <NL>1,000 Miles II !</NL>
+            <PT>1,000 Miles II !</PT>
+            <RU>1,000 Miles II !</RU>
+            <PL>1,000 Miles II !</PL>
+            <TR>1,000 Miles II !</TR>
+            <KR>1,000 Miles II !</KR>
+            <EL>1,000 Miles II !</EL>
+            <FI>1,000 Miles II !</FI>
+            <CZ>1,000 Miles II !</CZ>
+            <HU>1,000 Miles II !</HU>
+            <BP>1,000 Miles II !</BP>
+            <MS>1,000 Miles II !</MS>
+		</title>
+		<description>
+			<JP>An endurance event for old-school vehicles.</JP>
+			<US>An endurance event for old-school vehicles.</US>
+			<GB>An endurance event for old-school vehicles.</GB>
+			<FR>An endurance event for old-school vehicles.</FR>
+			<DE>An endurance event for old-school vehicles.</DE>
+			<IT>An endurance event for old-school vehicles.</IT>
+			<ES>An endurance event for old-school vehicles.</ES>
+			<PT>An endurance event for old-school vehicles.</PT>
+			<NL>An endurance event for old-school vehicles.</NL>
+			<RU>An endurance event for old-school vehicles.</RU>
+			<KR>An endurance event for old-school vehicles.</KR>
+			<TW>An endurance event for old-school vehicles.</TW>
+			<EL>An endurance event for old-school vehicles.</EL>
+			<TR>An endurance event for old-school vehicles.</TR>
+			<PL>An endurance event for old-school vehicles.</PL>
+			<CZ>An endurance event for old-school vehicles.</CZ>
+			<HU>An endurance event for old-school vehicles.</HU>
+			<BP>An endurance event for old-school vehicles.</BP>
+			<MS>An endurance event for old-school vehicles.</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test race</JP>
+					<US>Test race</US>
+					<GB>Test race</GB>
+					<FR>Test race</FR>
+					<ES>Test race</ES>
+					<DE>Test race</DE>
+					<IT>Test race</IT>
+					<NL>Test race</NL>
+					<PT>Test race</PT>
+					<RU>Test race</RU>
+					<PL>Test race</PL>
+					<TR>Test race</TR>
+					<KR>Test race</KR>
+					<EL>Test race</EL>
+					<FI>Test race</FI>
+					<CZ>Test race</CZ>
+					<HU>Test race</HU>
+					<BP>Test race</BP>
+					<MS>Test race</MS>
+				</title>
+				<board_id></board_id>
+			</ranking>
+		</ranking_list>
+		<id>55</id>
+		<voucher />
+		<registration>0</registration>
+		<icon_image />
+		<event_type>1</event_type>
+		<gameitem_type>9</gameitem_type>
+		<gameitem_category>901</gameitem_category>
+		<gameitem_id>215</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2026/9/18 07:00:00</begin_date>
+        <end_date>2026/10/15 07:00:00</end_date>
+		<new_date>2025/12/11 16:00:00</new_date>
+		<event_id_list>2500492,2500493</event_id_list>
+	</event>
+</event_list>

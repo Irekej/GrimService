@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "GrimService": {
+      "commandName": "Project",
+      "launchUrl": "playersforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://127.0.0.1/"
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/GrimService",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://gtav.tplinkdns.com",
+      "sslPort": 0
+    }
+  }
+}

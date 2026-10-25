@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- GT5's Global Folder file -->
+<!-- Actually almost the same as GT6 -->
+<event_list>
+	<event>
+		<title>
+			<JP>The home of the finest events in Gran Turismo</JP>
+			<US>The home of the finest events in Gran Turismo</US>
+			<GB>The home of the finest events in Gran Turismo</GB>
+			<FR>The home of the finest events in Gran Turismo</FR>
+			<DE>The home of the finest events in Gran Turismo</DE>
+			<IT>The home of the finest events in Gran Turismo</IT>
+			<ES>The home of the finest events in Gran Turismo</ES>
+			<PT>The home of the finest events in Gran Turismo</PT>
+			<NL>The home of the finest events in Gran Turismo</NL>
+			<RU>The home of the finest events in Gran Turismo</RU>
+			<KR>The home of the finest events in Gran Turismo</KR>
+			<TW>The home of the finest events in Gran Turismo</TW>
+			<EL>The home of the finest events in Gran Turismo</EL>
+			<TR>The home of the finest events in Gran Turismo</TR>
+			<PL>The home of the finest events in Gran Turismo</PL>
+			<CZ>The home of the finest events in Gran Turismo</CZ>
+			<HU>The home of the finest events in Gran Turismo</HU>
+			<BP>The home of the finest events in Gran Turismo</BP>
+			<MS>The home of the finest events in Gran Turismo</MS>
+		</title>
+		<description>
+			<JP>Test Descriptions</JP>
+			<US>Test Descriptions</US>
+			<GB>Test Descriptions</GB>
+			<FR>Test Descriptions</FR>
+			<DE>Test Descriptions</DE>
+			<IT>Test Descriptions</IT>
+			<ES>Test Descriptions</ES>
+			<PT>Test Descriptions</PT>
+			<NL>Test Descriptions</NL>
+			<RU>Test Descriptions</RU>
+			<KR>Test Descriptions</KR>
+			<TW>Test Descriptions</TW>
+			<EL>Test Descriptions</EL>
+			<TR>Test Descriptions</TR>
+			<PL>Test Descriptions</PL>
+			<CZ>Test Descriptions</CZ>
+			<HU>Test Descriptions</HU>
+			<BP>Test Descriptions</BP>
+			<MS>Test Descriptions</MS>
+		</description>
+		<ranking_list>
+			<ranking>
+				<title>
+					<JP>Test</JP>
+					<US>Test</US>
+					<GB>Test</GB>
+					<FR>Test</FR>
+					<DE>Test</DE>
+					<IT>Test</IT>
+					<ES>Test</ES>
+					<PT>Test</PT>
+					<NL>Test</NL>
+					<RU>Test</RU>
+					<KR>Test</KR>
+					<TW>Test</TW>
+					<EL>Test</EL>
+					<TR>Test</TR>
+					<PL>Test</PL>
+					<CZ>Test</CZ>
+					<HU>Test</HU>
+					<BP>Test</BP>
+					<MS>Test</MS>
+				</title>
+				<board_id>1002268</board_id>
+			</ranking>
+		</ranking_list>
+		<id>146</id>
+		<!-- Should be 146, for seasonals -->
+		<voucher />
+		<registration>0</registration>
+		<bg_image>rick.png</bg_image> <!-- GT5 only, Must be either img or png, will point to /event/<server>/<fileName> -->
+		<icon_image/>
+		<event_type>5</event_type> <!-- Must not be 2 or 6-->
+		<gameitem_type>0</gameitem_type>
+		<gameitem_category>0</gameitem_category>
+		<gameitem_id>0</gameitem_id>
+		<gameitem_value />
+		<dlc_flag>0</dlc_flag>
+		<begin_date>2021-04-01T16:39:04.5176312+02:00</begin_date>
+		<end_date>2022-04-01T16:39:04.5176312+02:00</end_date>
+		<new_date>2021-04-01T16:39:04.5176312+02:00</new_date>
+		<event_id_list>1002268</event_id_list>
+		<!-- List of actual ids seperated by commas -->
+	</event>
+</event_list>
+

@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<GameParameter version="106">
+		<championship value="0" />
+		<folder_id value="2" />
+		<event_id_list>2500471</event_id_list>
+		<events>
+			<event>
+				<constraint>
+					<abs value="-1" />
+					<active_steering value="0" />
+					<asm value="-1" />
+					<drift_type value="-1" />
+					<driving_line value="-1" />
+					<enemy_tire value="-1" />
+					<limit_tire_f value="7" />
+					<limit_tire_r value="7" />
+					<need_tire_f value="7" />
+					<need_tire_r value="7" />
+					<simulation value="1" />
+					<suggest_tire_f value="7" />
+					<suggest_tire_r value="7" />
+					<tcs value="-1" />
+					<transmission value="-1" />
+				</constraint>
+				<entry_set>
+                    <entry>
+                        <car color="0" label="nascar_camry_20_gamestop_10" />
+                        <delay value="0" />
+                        <driver_name value="Player" />
+                        <player_no value="0" />
+                        <race_class_id value="0" />
+                        <entry_base />
+                    </entry>
+                </entry_set>
+				<event_id value="2500471" />
+				<event_type value="RACE" />
+				<game_mode value="ONLINE_TIME_ATTACK" />
+				<information>
+					<advanced_notice />
+					<flier_other_info value="" />
+					<logo_other_info value="" />
+					<race_info_minute value="" />
+					<title>
+						<JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+					</title>
+					<one_line_title>
+						<JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+					</one_line_title>
+					<description>
+						<JP>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</JP>
+						<US>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</US>
+						<GB>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</GB>
+						<FR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</FR>
+						<ES>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</ES>
+						<DE>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</DE>
+						<IT>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!!</IT>
+						<NL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</NL>
+						<PT>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</PT>
+						<RU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!!</RU>
+						<PL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</PL>
+						<TR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</TR>
+						<KR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</KR>
+						<EL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</EL>
+						<FI>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</FI>
+						<CZ>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</CZ>
+						<HU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</HU>
+						<BP>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</BP>
+						<MS>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</MS>
+					</description>
+				</information>
+				<inheritance value="0" />
+				<race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="STRONG" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="NONE" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <course_out_penalty_margin value="1" />
+                    <datetime datetime="1970/00/00 14:00:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="0" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="-1" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="ONELAP" />
+                    <grid_sort_type value="NONE" />
+                    <immediate_finish value="0" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="3" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="1" />
+                    <pace_note value="0" />
+                    <penalty_level value="-1" />
+                    <penalty_no_level value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="TIMEATTACK" />
+                    <start_type value="ATTACK" />
+                    <time_progress_speed value="0" />
+                    <time_to_finish value="0" />
+                    <time_to_start value="3000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="0" />
+                    <weather_min_celsius value="0" />
+                    <weather_no_precipitation value="1" />
+                    <weather_no_schedule value="1" />
+                    <weather_no_wind value="1" />
+                    <weather_point_num value="1" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="0" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="1" />
+                    <weather_accel10 value="0" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="0" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+				<reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table>
+					</point_table>
+                    <prize_table>
+					</prize_table>
+                    <star_table />
+                    <present_type value="ORDER" />
+                    <present>
+                    </present>
+				</reward>
+				<track>
+					<course_code label="indianapolis_f1" />
+					<course_layout_no value="0" />
+					<is_omedeto_difficulty value="0" />
+					<map_offset_world_x value="0" />
+					<map_offset_world_y value="0" />
+					<map_scale value="0" />
+					<use_generator value="0" />
+					<course_generator_param>
+						<use_random_seed value="0" />
+						<seed value="0" />
+						<course_generator_kind value="GENERATOR_CIRCUIT" />
+						<course_generator_length_type value="LENGTH" />
+						<lengthy value="0" />
+						<course_name value="" />
+					</course_generator_param>
+				</track>
+				<play_style>
+					<bspec_type value="ONLY_A" />
+					<rentcar_setting_enable value="0" />
+				</play_style>
+				<regulation>
+					<countries>
+					</countries>
+					<car_categories>
+					</car_categories>
+					<limit_aspec_level value="-1" />
+					<limit_bspec_level value="-1" />
+					<limit_power value="-1" />
+					<limit_pp value="-1" />
+					<limit_torque value="-1" />
+					<limit_weight value="-1" />
+					<limit_tire_f value="-1" />
+					<limit_tire_r value="-1" />
+					<limit_year value="-1" />
+					<need_aspec_level value="-1" />
+					<need_bspec_level value="-1" />
+					<need_power value="-1" />
+					<need_pp value="-1" />
+					<need_torque value="-1" />
+					<need_weight value="-1" />
+					<need_tire_f value="-1" />
+					<need_tire_r value="-1" />
+					<need_year value="-1" />
+					<need_aspiration value="-1" />
+					<need_drivetrain value="-1" />
+					<need_license value="-1" />
+					<limit_length value="-1" />
+					<need_length value="-1" />
+					<limit_aspec_level value="-1" />
+					<need_aspec_level value="-1" />
+					<limit_bspec_level value="-1" />
+					<need_bspec_level value="-1" />
+					<limit_bspec_driver_count value="-1" />
+					<need_bspec_driver_count value="-1" />
+					<kart_permitted value="-1" />
+					<tuning value="0" />
+					<restrictor_limit value="-1" />
+					<NOS value="0" />
+					<cars>
+					</cars>
+					<ban_cars />
+					<tuners />
+				</regulation>
+				<penalty_script value="" />
+				<ai_script value="" />
+				<inheritance value="0" />
+				<is_seasonal_event value="1" />
+				<begin_date>2026/9/18 07:00:00</begin_date>
+        		<end_date>2026/10/5 07:00:00</end_date>
+				<ranking>
+					<begin_date>2026/9/18 07:00:00</begin_date>
+        			<end_date>2026/10/5 07:00:00</end_date>
+					<type value="TIME" />
+					<board_id value="2500471" />
+					<display_rank_limit value="-1" />
+					<is_local value="0" />
+					<replay_rank_limit value="0" />
+					<registration value="0" />
+				</ranking>
+			</event>
+		</events>
+    </GameParameter>
+		<GameParameter version="106">
+		<championship value="0" />
+		<folder_id value="2" />
+		<event_id_list>2500472</event_id_list>
+		<events>
+			<event>
+				<constraint>
+					<abs value="-1" />
+					<active_steering value="0" />
+					<asm value="-1" />
+					<drift_type value="-1" />
+					<driving_line value="-1" />
+					<enemy_tire value="-1" />
+					<limit_tire_f value="3" />
+					<limit_tire_r value="3" />
+					<need_tire_f value="3" />
+					<need_tire_r value="3" />
+					<simulation value="1" />
+					<suggest_tire_f value="3" />
+					<suggest_tire_r value="3" />
+					<tcs value="-1" />
+					<transmission value="-1" />
+				</constraint>
+				<event_id value="2500472" />
+				<event_type value="RACE" />
+				<game_mode value="ONLINE_TIME_ATTACK" />
+				<information>
+					<advanced_notice />
+					<flier_other_info value="" />
+					<logo_other_info value="" />
+					<race_info_minute value="" />
+					<title>
+						<JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+					</title>
+					<one_line_title>
+						<JP>ラップタイムチャレンジ</JP>
+                        <US>Lap Time Challenge</US>
+                        <GB>Lap Time Challenge</GB>
+                        <FR>Défi de meilleur temps au tour</FR>
+                        <ES>Desafío de tiempo de vuelta</ES>
+                        <DE>Rundenzeit-Herausforderung</DE>
+                        <IT>Sfida giro veloce</IT>
+                        <NL>Rondetijduitdaging</NL>
+                        <PT>Desafio de tempo de volta</PT>
+                        <RU>Испытание на время круга</RU>
+                        <PL>Wyzwanie czasu okrążenia</PL>
+                        <TR>Tur Süresi Mücadelesi</TR>
+                        <KR>랩 ​타임 ​챌린지</KR>
+                        <EL>Lap Time Challenge</EL>
+                        <FI>Lap Time Challenge</FI>
+                        <CZ>Výzva na čas kola</CZ>
+                        <HU>Lap Time Challenge</HU>
+                        <BP>Desafio de tempo de volta</BP>
+                        <MS>Desafío de tiempo de vuelta</MS>
+					</one_line_title>
+					<description>
+						<JP>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</JP>
+						<US>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</US>
+						<GB>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</GB>
+						<FR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</FR>
+						<ES>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</ES>
+						<DE>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</DE>
+						<IT>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!!</IT>
+						<NL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</NL>
+						<PT>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</PT>
+						<RU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!!</RU>
+						<PL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</PL>
+						<TR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</TR>
+						<KR>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</KR>
+						<EL>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</EL>
+						<FI>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</FI>
+						<CZ>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</CZ>
+						<HU>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</HU>
+						<BP>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</BP>
+						<MS>A time trial competition to set the fastest lap time on the track. Use all of your driving skills and aim for the top of the rankings!</MS>
+					</description>
+				</information>
+				<inheritance value="0" />
+				<race>
+                    <academy_event value="0" />
+                    <accumulation value="0" />
+                    <allow_codriver value="0" />
+                    <auto_standing_delay value="0" />
+                    <autostart_pitout value="0" />
+                    <behavior_damage_type value="STRONG" />
+                    <behavior_slip_stream_type value="REAL" />
+                    <boost_type value="0" />
+                    <bspec_vitality10 value="10" />
+                    <complete_type value="NONE" />
+                    <consume_fuel value="0" />
+                    <consume_tire value="0" />
+                    <datetime datetime="2010/07/28 16:00:00" />
+                    <decisive_weather value="SUNNY" />
+                    <disable_collision value="0" />
+                    <disable_recording_replay value="0" />
+                    <enable_damage value="1" />
+                    <enable_pit value="0" />
+                    <endless value="0" />
+                    <event_goal_v value="-1" />
+                    <event_goal_width value="-1" />
+                    <finish_type value="TARGET" />
+                    <fixed_retention value="0" />
+                    <flagset value="FLAGSET_NORMAL" />
+                    <ghost_presence_type value="NORMAL" />
+                    <ghost_type value="ONELAP" />
+                    <grid_sort_type value="NONE" />
+                    <immediate_finish value="0" />
+                    <initial_retention10 value="0" />
+                    <keep_load_ghost value="0" />
+                    <lighting_mode value="AUTO" />
+                    <line_ghost_record_type value="ONE" />
+                    <line_ghost_play_max value="3" />
+                    <low_mu_type value="REAL" />
+                    <mu_ratio100 value="100" />
+                    <online_on value="1" />
+                    <pace_note value="0" />
+                    <penalty_level value="-1" />
+                    <penalty_no_level value="0" />
+                    <race_limit_laps value="1" />
+                    <race_limit_minute value="0" />
+                    <race_type value="TIMEATTACK" />
+                    <start_type value="ATTACK" />
+                    <time_progress_speed value="0" />
+                    <time_to_finish value="0" />
+                    <time_to_start value="3000" />
+                    <weather_base_celsius value="63" />
+                    <weather_max_celsius value="0" />
+                    <weather_min_celsius value="0" />
+                    <weather_no_precipitation value="1" />
+                    <weather_no_schedule value="1" />
+                    <weather_no_wind value="1" />
+                    <weather_point_num value="1" />
+                    <weather_prec_rain_only value="0" />
+                    <weather_prec_snow_only value="0" />
+                    <weather_random value="0" />
+                    <weather_random_seed value="0" />
+                    <weather_total_sec value="0" />
+                    <over_entry_max value="0" />
+                    <with_ghost value="0" />
+                    <replace_at_courseout value="1" />
+                    <weather_accel10 value="0" />
+                    <weather_accel_water_retention10 value="0" />
+                    <boost_flag value="0" />
+                    <entry_max value="1" />
+                    <racers_max value="1" />
+                </race>
+				<reward>
+                    <is_once value="1" />
+                    <percent_at_pp100 value="0" />
+                    <pp_base value="0" />
+                    <present_type value="ORDER" />
+                    <prize_type value="1" />
+                    <special_reward_code value="0" />
+                    <point_table>
+					</point_table>
+                    <prize_table>
+					</prize_table>
+                    <star_table />
+                    <present_type value="ORDER" />
+                    <present>
+                    </present>
+				</reward>
+				<track>
+					<course_code label="eiger_short" />
+					<course_layout_no value="0" />
+					<is_omedeto_difficulty value="0" />
+					<map_offset_world_x value="0" />
+					<map_offset_world_y value="0" />
+					<map_scale value="0" />
+					<use_generator value="0" />
+					<course_generator_param>
+						<use_random_seed value="0" />
+						<seed value="0" />
+						<course_generator_kind value="GENERATOR_CIRCUIT" />
+						<course_generator_length_type value="LENGTH" />
+						<lengthy value="0" />
+						<course_name value="" />
+					</course_generator_param>
+				</track>
+				<play_style>
+					<bspec_type value="ONLY_A" />
+					<rentcar_setting_enable value="0" />
+				</play_style>
+				<regulation>
+					<countries>
+						<country value="FR" />
+					</countries>
+					<car_categories>
+						<category value="NORMAL" />
+                    </car_categories>
+					<limit_aspec_level value="-1" />
+					<limit_bspec_level value="-1" />
+					<limit_power value="-1" />
+					<limit_pp value="450" />
+					<limit_torque value="-1" />
+					<limit_weight value="-1" />
+					<limit_tire_f value="3" />
+					<limit_tire_r value="3" />
+					<limit_year value="-1" />
+					<need_aspec_level value="-1" />
+					<need_bspec_level value="-1" />
+					<need_power value="-1" />
+					<need_pp value="-1" />
+					<need_torque value="-1" />
+					<need_weight value="1100" />
+					<need_tire_f value="-1" />
+					<need_tire_r value="-1" />
+					<need_year value="-1" />
+					<need_aspiration value="-1" />
+					<need_drivetrain value="-1" />
+					<need_license value="-1" />
+					<limit_length value="-1" />
+					<need_length value="-1" />
+					<limit_aspec_level value="-1" />
+					<need_aspec_level value="-1" />
+					<limit_bspec_level value="-1" />
+					<need_bspec_level value="-1" />
+					<limit_bspec_driver_count value="-1" />
+					<need_bspec_driver_count value="-1" />
+					<kart_permitted value="-1" />
+					<tuning value="-1" />
+					<restrictor_limit value="-1" />
+					<cars>
+					</cars>
+					<ban_cars>
+						<car label="gt_by_citroen_road_xx" />
+					</ban_cars>
+					<tuners />
+				</regulation>
+				<penalty_script value="" />
+				<ai_script value="" />
+				<inheritance value="0" />
+				<is_seasonal_event value="1" />
+				<begin_date>2026/9/18 07:00:00</begin_date>
+        		<end_date>2026/10/5 07:00:00</end_date>
+				<ranking>
+					<begin_date>2026/9/18 07:00:00</begin_date>
+        			<end_date>2026/10/5 07:00:00</end_date>
+					<type value="TIME" />
+					<board_id value="2500472" />
+					<display_rank_limit value="-1" />
+					<is_local value="0" />
+					<replay_rank_limit value="0" />
+					<registration value="0" />
+				</ranking>
+			</event>
+		</events>
+		<series_reward>
+			<prize_table />
+			<point_table />
+		</series_reward>
+	</GameParameter>
+</xml>

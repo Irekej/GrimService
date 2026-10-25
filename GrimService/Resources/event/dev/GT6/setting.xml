@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- GT6's Event Settings, shows "new" or not on the main screen -->
+<event_settings>
+	<quick_match_version>83</quick_match_version>
+	<seasonal_version>501</seasonal_version>
+	<gp_list>3</gp_list>
+	<event_id_list>1000920,1000921</event_id_list>
+</event_settings>

@@ -1,0 +1,6 @@
+Package: @noble/hashes
+Version: 2.0.1
+Source: https://github.com/paulmillr/noble-hashes/tree/2.0.1
+Tarball: https://registry.npmjs.org/@noble/hashes/-/hashes-2.0.1.tgz
+Integrity: sha512-XlOlEbQcE9fmuXxrVTXCTlG2nlRXa9Rj3rr5Ue/+tX+nmkgbX720YHh0VR3hBF9xDvwnb8D2shVGOwNx+ulArw==
+Only SHA3/PBKDF2 and their dependencies are included. Files are unmodified.

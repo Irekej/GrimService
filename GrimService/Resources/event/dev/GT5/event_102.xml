@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<GameParameter version="106">
+		<championship value="0" />
+		<folder_id value="102" />
+		<events>
+      <event>
+        <achieve_condition>
+          <num value="0" />
+          <type value="GOAL_V" />
+        </achieve_condition>
+        <begin_date>2010/04/02 12:00:00</begin_date>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="-1" />
+          <asm value="-1" />
+          <driving_line value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <simulation value="0" />
+          <suggest_tire_f value="-1" />
+          <suggest_tire_r value="-1" />
+          <tcs value="-1" />
+        </constraint>
+        <end_date>2010/04/02 12:00:00</end_date>
+        <entry_set>
+          <entry>
+            <car color="0" label="rx8_types_07" />
+            <delay value="0" />
+            <driver_name value="Player" />
+            <initial_position value="-875" />
+            <initial_velocity value="108" />
+            <player_no value="0" />
+            <start_type value="NONE" />
+          </entry>
+          <entry>
+            <car color="0" label="_120i_04" />
+            <delay value="0" />
+            <driver_name value="Enemy" />
+            <initial_position value="-860" />
+            <initial_velocity value="111" />
+            <player_no value="-1" />
+            <start_type value="NONE" />
+          </entry>
+          <entry>
+            <car color="2" label="legacy_b4_30r_03" />
+            <delay value="0" />
+            <driver_name value="Enemy" />
+            <initial_position value="-856" />
+            <initial_velocity value="104" />
+            <player_no value="-1" />
+            <start_type value="NONE" />
+          </entry>
+          <entry>
+            <car color="11" label="tt_coupe_32_07" />
+            <delay value="0" />
+            <driver_name value="Enemy" />
+            <initial_position value="-844" />
+            <initial_velocity value="103" />
+            <player_no value="-1" />
+            <start_type value="NONE" />
+          </entry>
+          <entry_generate>
+            <enemy_list_type value="SAME" />
+            <generate_type value="NONE" />
+            <ai_skill value="0" />
+            <ai_skill_breaking value="100" />
+            <ai_skill_cornering value="100" />
+            <ai_skill_accelerating value="100" />
+            <entry_num value="0" />
+            <player_pos value="0" />
+            <enemy_lv value="0" />
+            <enemy_bspec_lv value="0" />
+            <cars />
+            <delays />
+          </entry_generate>
+        </entry_set>
+        <eval_condition>
+          <gold value="1" />
+          <silver value="2" />
+          <bronze value="3" />
+          <type value="ORDER" />
+          <ghost_data_path value="" />
+        </eval_condition>
+        <event_id value="1002271" />
+        <event_type value="RACE" />
+        <failure_condition>
+          <type_list>
+            <type value="COURSE_OUT" />
+            <type value="HIT_CAR_HARD" />
+            <type value="HIT_WALL_HARD" />
+            <type value="PYLON" />
+          </type_list>
+        </failure_condition>
+        <game_mode value="ONLINE_DRIFT_ATTACK" />
+        <information>
+          <advanced_notice />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <race_info_minute value="0" />
+          <title>
+             <JP>-- Drift Challenge --</JP>
+			 <US>-- Drift Challenge --</US>
+			 <GB>-- Drift Challenge --</GB>
+			 <FR>-- Drift Challenge --</FR>
+			 <ES>-- Drift Challenge --</ES>
+			 <DE>-- Drift Challenge --</DE>
+			 <IT>-- Drift Challenge --</IT>
+			 <NL>-- Drift Challenge --</NL>
+			 <PT>-- Drift Challenge --</PT>
+			 <RU>-- Drift Challenge --</RU>
+			 <PL>-- Drift Challenge --</PL>
+			 <TR>-- Drift Challenge --</TR>
+			 <KR>-- Drift Challenge --</KR>
+			 <EL>-- Drift Challenge --</EL>
+			 <FI>-- Drift Challenge --</FI>
+			 <CZ>-- Drift Challenge --</CZ>
+			 <HU>-- Drift Challenge --</HU>
+			 <BP>-- Drift Challenge --</BP>
+			 <MS>-- Drift Challenge --</MS>
+          </title>
+          <one_line_title>
+             <JP>-- Drift Challenge --</JP>
+			 <US>-- Drift Challenge --</US>
+			 <GB>-- Drift Challenge --</GB>
+			 <FR>-- Drift Challenge --</FR>
+			 <ES>-- Drift Challenge --</ES>
+			 <DE>-- Drift Challenge --</DE>
+			 <IT>-- Drift Challenge --</IT>
+			 <NL>-- Drift Challenge --</NL>
+			 <PT>-- Drift Challenge --</PT>
+			 <RU>-- Drift Challenge --</RU>
+			 <PL>-- Drift Challenge --</PL>
+			 <TR>-- Drift Challenge --</TR>
+			 <KR>-- Drift Challenge --</KR>
+			 <EL>-- Drift Challenge --</EL>
+			 <FI>-- Drift Challenge --</FI>
+			 <CZ>-- Drift Challenge --</CZ>
+			 <HU>-- Drift Challenge --</HU>
+			 <BP>-- Drift Challenge --</BP>
+			 <MS>-- Drift Challenge --</MS>
+          </one_line_title>
+          <description>
+              <JP>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</JP>
+			  <US>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</US>
+			  <GB>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</GB>
+			  <FR>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</FR>
+			  <ES>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</ES>
+			  <DE>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</DE>
+			  <IT>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</IT>
+			  <NL>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</NL>
+			  <PT>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</PT>
+			  <RU>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</RU>
+			  <PL>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</PL>
+			  <TR>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</TR>
+			  <KR>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</KR>
+			  <EL>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</EL>
+			  <FI>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</FI>
+			  <CZ>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</CZ>
+			  <HU>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</HU>
+			  <BP>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</BP>
+			  <MS>A Drifting competition for the highest score. Utilise all of your drifitng techniques and aim for the top of the rankings!</MS>
+          </description>
+		  <logo_image_path value="prototype.png"/> <!-- Must be either img or png, will point to /event/<server>/<fileName> -->
+		  <logo_image_layout value="1" />
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="0" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <boost_params>
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+          </boost_params>
+          <complete_type value="NONE" />
+          <datetime datetime="2010/04/02 12:00:00" />
+          <decisive_weather value="0" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <entry_max value="4" />
+          <event_goal_v value="500" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_type value="NONE" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <pace_note value="0" />
+          <penalty_level value="0" />
+          <race_limit_laps value="0" />
+          <race_limit_minute value="0" />
+          <race_type value="COMPETITION" />
+          <racers_max value="4" />
+          <start_type value="ROLLING_NOLIMIT" />
+          <time_progress_speed value="0" />
+          <time_to_finish value="0" />
+          <time_to_start value="3000" />
+          <weather_accel100 value="100" />
+          <weather_base_celsius value="20" />
+          <weather_max_celsius value="0" />
+          <weather_min_celsius value="0" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60.000000" />
+          <weather_rate_sec2 value="120.000000" />
+          <weather_total_sec value="180.000000" />
+          <weather_value0 value="0.000000" />
+          <weather_value1 value="0.000000" />
+          <weather_value2 value="0.000000" />
+          <weather_value3 value="0.000000" />
+          <over_entry_max value="0" />
+          <with_ghost value="0" />
+        </race>
+        <reward>
+          <point_table>
+            <point value="160" />
+            <point value="130" />
+            <point value="115" />
+          </point_table>
+          <prize_table>
+            <prize value="30000" />
+            <prize value="20000" />
+            <prize value="10000" />
+          </prize_table>
+          <special_reward_code value="0" />
+        </reward>
+        <track>
+          <course_code label="new_fisco" />
+          <course_layout_no value="0" />
+          <goal_position value="-1" />
+          <goal_width value="-1" />
+          <use_generator value="0" />
+          <course_generator_param>
+            <use_random_seed value="0" />
+            <seed value="0" />
+            <course_generator_kind value="GENERATOR_CIRCUIT" />
+            <course_generator_length_type value="LENGTH" />
+            <lengthy value="0" />
+            <course_name value="" />
+          </course_generator_param>
+        </track>
+        <play_style>
+          <bspec_type value="BOTH_A_AND_B" />
+        </play_style>
+        <regulation>
+          <limit_aspec_level value="-1" />
+          <limit_bspec_level value="-1" />
+          <limit_power value="-1" />
+          <limit_pp value="-1" />
+          <limit_torque value="-1" />
+          <limit_weight value="-1" />
+          <limit_tire_f value="3" />
+          <limit_tire_r value="3" />
+          <limit_year value="-1" />
+          <need_aspec_level value="-1" />
+          <need_bspec_level value="-1" />
+          <need_power value="-1" />
+          <need_pp value="-1" />
+          <need_torque value="-1" />
+          <need_weight value="-1" />
+          <need_tire_f value="3" />
+          <need_tire_r value="3" />
+          <need_year value="-1" />
+          <need_aspiration value="-1" />
+          <need_drivetrain value="-1" />
+          <need_license value="-1" />
+		  <need_length value="-1" />
+		  <limit_aspec_level value="-1" />
+		  <need_aspec_level value="-1" />
+		  <limit_bspec_level value="-1" />
+		  <need_bspec_level value="-1" />
+		  <limit_bspec_driver_count value="-1" />
+		  <need_bspec_driver_count value="-1" />
+		  <kart_permitted value="-1" />
+		  <tuning value="-1" />
+		  <restrictor_limit value="-1" />
+		  <NOS value="0" />
+          <cars>
+              <car label="rx8_types_07" />
+              <car label="_120i_04" />
+              <car label="legacy_b4_30r_03" />
+              <car label="tt_coupe_32_07" />
+          </cars>
+		  <ban_cars />
+		  <tuners />
+        </regulation>
+        <inheritance value="0" />
+		<is_seasonal_event value="1" />
+		<begin_date>2023/8/24 16:30:00</begin_date> <!-- Putting it later will display without image, as "Coming Soon" -->
+		<end_date>2024/8/29 16:05:00</end_date>
+		<ranking>
+			<begin_date>2023/8/24 16:30:00</begin_date>
+			<end_date>2023/8/29 16:05:00</end_date>
+			<type value="TIME" />
+			<board_id value="1002271" />
+			<display_rank_limit value="-1" />
+			<is_local value="0" />
+			<replay_rank_limit value="0" />
+			<registration value="0" />
+		</ranking>
+      </event>
+    
+
+		</events>
+		<series_reward>
+			<prize_table />
+			<point_table />
+		</series_reward>
+	</GameParameter>
+</xml>
+

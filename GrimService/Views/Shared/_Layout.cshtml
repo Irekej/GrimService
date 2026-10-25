@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="@T.Language">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/img/favicon.ico" rel="icon">
+    <title>@T[ViewData["Title"]?.ToString()] - GrimService</title>
+    <script>window.GrimI18nData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(T.Messages));</script>
+    <script src="~/js/web-i18n.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GrimService</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-navigation" aria-controls="site-navigation"
+                        aria-expanded="false" aria-label="@T["Toggle navigation"]">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="site-navigation" class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">@T["Home"]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="PlayerList">@T["PlayerList"]</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="/seasonals">Seasonals</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-controller="Home" asp-action="Tutorial">@T["Poradnik"]</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item me-3">
+                            <form method="post" action="/language/set" class="d-flex align-items-center gap-2">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="returnUrl" value="@($"{Context.Request.PathBase}{Context.Request.Path}{Context.Request.QueryString}")" />
+                                <label for="site-language">@T["Język"]</label>
+                                <select id="site-language" name="language" class="form-select form-select-sm" onchange="this.form.requestSubmit()">
+                                    <option value="pl" selected="@(T.Language == "pl")">Polski</option>
+                                    <option value="en" selected="@(T.Language == "en")">English</option>
+                                    <option value="es" selected="@(T.Language == "es")">Español</option>
+                                    <option value="fr" selected="@(T.Language == "fr")">Français</option>
+                                    <option value="pt" selected="@(T.Language == "pt")">Português</option>
+                                    <option value="ja" selected="@(T.Language == "ja")">日本語</option>
+                                </select>
+                                <noscript><button type="submit">@T["Zmień"]</button></noscript>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-dark btn-sm mt-1" asp-controller="Admin" asp-action="Index">@T["Zaloguj się"]</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footerBottom">
+    <div class="container-fluid bg-light mt-1 py-1">
+        <div class="container pt-1">
+            <div class="row g-1">
+                <h6 class="mt-4 mb-3">@T["Test:"]</h6>
+                <div class="d-flex">
+                    <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+                <div>
+                    <h6 align="right" class="mt-4 mb-3">&copy; 2025 - Irekej / <span style="color:fuchsia">GrimService</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

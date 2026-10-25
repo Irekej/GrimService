@@ -1,0 +1,51 @@
+@{ ViewData["Title"] = "Konfigurator eventów"; }
+<link rel="stylesheet" href="~/css/seasonal-editor.css" asp-append-version="true" />
+<div id="seasonal-editor">
+    @Html.AntiForgeryToken()
+    <a href="/admin">@T["← Panel / gracze"]</a>
+    <h1>@T["Konfigurator eventów"]</h1>
+    <p>@T["1. Wybierz grę → 2. Wybierz event → 3. Ustaw zasady i opublikuj."]</p>
+    <div class="season-toolbar">
+        <label>@T["Gra"] <select id="game"><option>GT5</option><option>GT6</option></select></label>
+        <label>@T["Rodzaj listy"] <select id="category-filter"><option value="all">@T["Wszystkie"]</option><option value="seasonal">@T["Sezonowe"]</option><option value="bspec">B-Spec</option></select></label>
+        <label>@T["Szukaj eventu"] <input id="event-search" type="search" placeholder="@T["Nazwa, opis, trasa lub ID"]" /></label>
+        <label>@T["Serwer / katalog"] <select id="server"></select></label>
+        <button id="refresh" type="button">@T["Odśwież listę"]</button>
+    </div>
+    <div id="message" role="status" aria-live="polite"></div>
+    <details><summary>@T["+ Utwórz nowy event"]</summary><div class="season-toolbar">
+        <label>@T["Gdzie ma się pojawić?"] <select id="new-category"><option value="seasonal">@T["Eventy sezonowe"]</option><option value="bspec">B-Spec</option></select></label>
+        <label>@T["Co robimy?"] <select id="new-kind"><option value="race">@T["Wyścig z AI"]</option><option value="time">@T["Próba czasowa"]</option><option value="drift">@T["Drift"]</option></select></label>
+        <button type="button" id="create-event">@T["Utwórz szkic"]</button>
+    </div><p>@T["Nowe ID nadawane są automatycznie. Quick Match dopisuje event do istniejącego zestawu (do 5 pozycji). Nic nie trafia do gry przed publikacją."]</p></details>
+    <div id="season-list"></div>
+    <section id="workspace" hidden>
+        <h2 id="editor-title"></h2>
+        <div class="season-toolbar">
+            <button id="validate" type="button">@T["1. Sprawdź i pokaż podgląd"]</button>
+            <button id="publish" type="button" disabled>@T["2. Zatwierdź i opublikuj"]</button>
+            <button id="withdraw" type="button" disabled>@T["Wycofaj z listy sezonów"]</button>
+            <button id="export" type="button">@T["Pobierz XML eventu"]</button>
+            <label>@T["Import XML eventu"] <input type="file" id="import" accept=".xml,text/xml,application/xml" /></label>
+            <button id="save-draft" type="button">@T["Zapisz szkic w przeglądarce"]</button>
+            <button id="load-draft" type="button">@T["Przywróć szkic"]</button>
+        </div>
+        <div id="quick-form"></div>
+        <details><summary>@T["Informacje sezonu widoczne na liście w grze — wszystkie pola"]</summary><div id="listing-form"></div></details>
+        <details><summary>@T["Zaawansowane: wszystkie pola, nagrody i pogoda"]</summary>
+            <p>@T["Rozwiń sekcję. Powtarzane elementy (rywale, nagrody, pogoda, wyścigi) możesz kopiować i usuwać. Pola zachowują nazwy używane przez grę."]</p>
+            <div id="event-form"></div>
+        </details>
+        <details><summary>@T["Zaawansowane / naprawa XML / import z GTEventGenerator"]</summary>
+            <p>@T["Możesz zmienić dowolne pole lub dodać sekcję nieobecną w szablonie. Zastosuj XML przed walidacją. Nieobsługiwane przez daną wersję gry kombinacje nie są automatycznie konwertowane."]</p>
+            <label>@T["Wpis event_list.xml"]<textarea id="listing-xml" spellcheck="false"></textarea></label>
+            <label>@T["Plik eventu"]<textarea id="event-xml" spellcheck="false"></textarea></label>
+            <button type="button" id="apply-xml">@T["Zastosuj XML do formularzy"]</button>
+        </details>
+        <details id="preview"><summary>@T["Podgląd publikacji"]</summary><pre id="preview-text"></pre></details>
+        <p class="text-muted">@T["Przed podmianą tworzona jest kopia w katalogu .history. Katalog aut i tras:"] <a href="https://github.com/Nenkai/GTEventGenerator" target="_blank" rel="noopener">GTEventGenerator</a> (<a href="/data/GTEventGenerator-LICENSE.txt">@T["licencja"]</a>@T["). Baza aut nie określa wersji gry — auta oznaczone jako niepotwierdzone w lokalnych eventach GT5 wymagają sprawdzenia. Publikacja XML nie zastępuje testu na konsoli."]</p>
+    </section>
+</div>
+@section Scripts {
+    <script src="~/js/seasonal-editor.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,43 @@
+{
+  "status": "text-only-experimental",
+  "updated": "2026-09-30T00:00:00+00:00",
+  "note": "Autorskie karty tekstowe udostępniane przez MuseumResources jako XML. Obrazy nie są jeszcze dostępne. Identyfikatory z zakresu 900001+ są lokalnymi ID serwera, nie oficjalnymi ID gry. Publikacja nie przyznaje kart do zapisu gry.",
+  "cards": [
+    {
+      "key": "bmw-328-1936",
+      "id": 900001,
+      "dealer": "bmw",
+      "dealer_id": 900001,
+      "title": "BMW 328",
+      "year": 1936,
+      "caption_pl": "Sportowa legenda lat trzydziestych. BMW 328 łączyło lekką konstrukcję z sześciocylindrowym silnikiem i zapisało się w historii wyścigów samochodowych.",
+      "caption_en": "A sporting icon of the 1930s. The BMW 328 combined lightweight construction with a six-cylinder engine and earned its place in motor racing history.",
+      "source": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-122-1.bmw-328-model.html",
+      "image": null
+    },
+    {
+      "key": "mercedes-benz-300-sl-1954",
+      "id": 900002,
+      "dealer": "mercedes_benz",
+      "dealer_id": 900002,
+      "title": "Mercedes-Benz 300 SL Coupé",
+      "year": 1954,
+      "caption_pl": "Słynny Gullwing z drzwiami unoszonymi do góry. Produkowany w latach 1954–1957 model 300 SL Coupé przeniósł sportowy charakter marki na drogi publiczne.",
+      "caption_en": "The celebrated Gullwing with upward-opening doors. Built from 1954 to 1957, the 300 SL Coupé brought the marque's sporting character to the road.",
+      "source": "https://group.mercedes-benz.com/company/tradition/company-history/140-years-vehicle-icons.html",
+      "image": null
+    },
+    {
+      "key": "jaguar-e-type-1961",
+      "id": 900003,
+      "dealer": "jaguar",
+      "dealer_id": 900003,
+      "title": "Jaguar E-Type",
+      "year": 1961,
+      "caption_pl": "Brytyjski samochód sportowy zaprezentowany w Genewie w marcu 1961 roku. Długa maska i charakterystyczna sylwetka uczyniły E-Type jednym z najbardziej rozpoznawalnych klasyków motoryzacji.",
+      "caption_en": "A British sports car unveiled in Geneva in March 1961. Its long bonnet and distinctive silhouette made the E-Type one of motoring's most recognisable classics.",
+      "source": "https://www.jaguar.com/en-xi/jdx/about-jaguar/jaguar-classic/e-type-60-collection.html",
+      "image": null
+    }
+  ]
+}

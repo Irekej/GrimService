@@ -1,0 +1,184 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>GrimService</AssemblyName>
+    <RootNamespace>GrimService</RootNamespace>
+    <UserSecretsId>dad7dca7-d08d-49d3-ae30-7442c6550f5c</UserSecretsId>
+    <OutputType>Exe</OutputType>
+    <ApplicationIcon>favicon.png</ApplicationIcon>
+    <PackageIcon>favicon.png</PackageIcon>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>GrimService</PackageId>
+    <Authors>GrimService</Authors>
+    <Company>GrimService</Company>
+    <Product>GrimService</Product>
+    <Description>GrimService</Description>
+    <Copyright>GrimService</Copyright>
+    <StartupObject>Grim.Program</StartupObject>
+    <Win32Resource />
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+	<IsPackable>true</IsPackable>
+	<PackageIconUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Database\Scripts\**" />
+    <Compile Remove="Resources\event\dev\used_cars\**" />
+    <Compile Remove="Tests/**/*.cs" />
+    <Compile Remove="Native/**;Private/**;Artifacts/**" />
+    <Compile Remove="Tools\**" />
+    <Content Remove="Database\Scripts\**" />
+    <Content Remove="Private/**;Artifacts/**;Native/**" />
+    <Content Remove="Resources\event\dev\used_cars\**" />
+    <Content Remove="Tools\**" />
+    <None Remove="Database\Scripts\**" />
+    <None Remove="Private/**;Artifacts/**;Native/**" />
+    <Content Remove="Tests/**" />
+    <EmbeddedResource Remove="Database\Scripts\**" />
+    <EmbeddedResource Remove="Resources\event\dev\used_cars\**" />
+    <EmbeddedResource Remove="Tools\**" />
+    <None Remove="Resources\event\dev\used_cars\**" />
+    <None Remove="Tests/**" />
+    <None Remove="Tools\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="appsettings*.json;**/*.pfx;**/*.pem;**/*.key;Resources/photo/**;Resources/course/**;Resources/replay/**" Pack="false" />
+    <None Update="appsettings*.json;**/*.pfx;**/*.pem;**/*.key" Pack="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config/openssl-ps3.cnf" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="Resources/tutorial-assets/**/*.pkg" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Resources/tutorial-assets/**/*.zip" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Resources/tutorial-assets/**/*.yml" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="Resources/event/dev/used_cars/weekly_catalog.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="wwwroot/i18n/messages.json" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" />
+    <EmbeddedResource Include="wwwroot/i18n/messages.json" LogicalName="GrimService.WebMessages.json" />
+    <Content Update="Resources/data/museum/image/classic-cars.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+	
+  <ItemGroup>
+	<Content Include="Resources\*.*">
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Content>
+  </ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Resources\photo\image\*.*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	
+		<ItemGroup>
+		<Content Include="Resources\replay\*.*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+  <ItemGroup>
+    <None Remove="cert.pfx" />
+    <None Remove="Controllers\Profiles\AuthenticationController.cs~RF5af3ca6.TMP" />
+    <None Remove="Resources\banned_people.txt" />
+    <None Remove="Resources\certificate.pfx" />
+    <Content Include="cert.pfx" Condition="Exists('cert.pfx')" Pack="false" />
+    <Content Include="certificate.pfx" Condition="Exists('certificate.pfx')" Pack="false">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="favicon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="wwwroot\js\calc.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Dapper" />
+    <PackageReference Include="BouncyCastle.Cryptography" />
+    <PackageReference Include="FubarDev.FtpServer" />
+    <PackageReference Include="FubarDev.FtpServer.FileSystem.DotNet" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="Npgsql" />
+    <PackageReference Include="Serilog" />
+    <PackageReference Include="Serilog.Extensions.Hosting" />
+    <PackageReference Include="Serilog.Sinks.Console" />
+    <PackageReference Include="Serilog.Sinks.File" />
+    <PackageReference Include="SkiaSharp" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" />
+    <PackageReference Include="Syroot.BinaryData" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Resources\course\gt5\" />
+    <Folder Include="Resources\course\gt6\" />
+    <Folder Include="Resources\course\gt5\" />
+    <Folder Include="Resources\course\gt6\" />
+    <Folder Include="Resources\Logs\" />
+    <Folder Include="Resources\Logs\" />
+    <Folder Include="Resources\replay\" />
+    <Folder Include="Resources\replay\" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Content Update="Resources\clubs_test.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\css\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+	
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1development_1json__JsonSchema="https://deta.space/assets/spacefile.schema.json" appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+  
+</Project>

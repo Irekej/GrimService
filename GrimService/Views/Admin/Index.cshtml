@@ -1,0 +1,29 @@
+@model GrimService.Models.Admin.AdminDashboardViewModel
+@{
+    ViewData["Title"] = "Administracja";
+}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div><h1 class="h2 mb-0">@T["Panel serwera"]</h1><small class="text-muted">@T["Zalogowany:"] @User.Identity?.Name</small></div>
+    <form method="post" asp-action="Logout">@Html.AntiForgeryToken()<button class="btn btn-outline-secondary">@T["Wyloguj"]</button></form>
+</div>
+<div class="mb-3"><a class="btn btn-primary" href="/admin/events?game=GT5">@T["Eventy sezonowe GT5"]</a> <a class="btn btn-primary" href="/admin/events?game=GT6">@T["Eventy sezonowe GT6"]</a></div>
+<div class="row g-3 mb-4">
+    <div class="col-md-4"><div class="card"><div class="card-body"><div class="text-muted">@T["Wszyscy gracze"]</div><div class="display-6">@Model.TotalPlayers</div></div></div></div>
+    <div class="col-md-4"><div class="card"><div class="card-body"><div class="text-muted">@T["Online"]</div><div class="display-6 text-success">@Model.ConnectedPlayers</div></div></div></div>
+    <div class="col-md-4"><div class="card"><div class="card-body"><div class="text-muted">@T["Zbanowani"]</div><div class="display-6 text-danger">@Model.BannedPlayers</div></div></div></div>
+</div>
+<form class="mb-3" method="get"><div class="input-group"><select class="form-select" name="game" asp-for="Game"><option value="">@T["Wszystkie gry"]</option><option value="GT5">GT5</option><option value="GT6">GT6</option></select><input class="form-control" name="q" value="@Model.Query" placeholder="@T["Szukaj po PSN ID lub nicku"]" /><button class="btn btn-primary">@T["Szukaj"]</button></div></form>
+<p class="text-muted">@T["Do 100 ostatnio aktywnych graczy; filtr gry dotyczy ostatniej gry na wspólnym profilu. Liczniki powyżej obejmują cały serwer."]</p>
+<div class="card"><div class="table-responsive"><table class="table table-hover mb-0"><thead><tr><th>ID</th><th>PSN ID</th><th>@T["Nick"]</th><th>@T["Kraj"]</th><th>@T["Platforma"]</th><th>@T["Ostatnia aktywność"]</th><th>@T["Status"]</th></tr></thead><tbody>
+@foreach (var player in Model.Players) { <tr><td>@player.Id</td><td>@if(User.IsInRole("Administrator")){<a asp-action="Player" asp-route-id="@player.Id">@player.PSNUserId</a>}else{@player.PSNUserId}</td><td>@player.Nickname</td><td>@player.Country</td><td>@player.Platform</td><td>@player.LastActivity.ToString("u")</td><td>@(player.BanStatus == "1" ? T["Zbanowany"] : T["Aktywny"])</td></tr> }
+</tbody></table></div></div>
+@if(User.IsInRole("Administrator")) {
+<a class="btn btn-warning mt-3" href="/admin/reports">@T["Zgłoszenia"] GT5 / GT6</a>
+<div class="mt-4"><a class="btn btn-primary" href="/admin/news?game=GT5">@T["Newsy GT5"]</a> <a class="btn btn-primary" href="/admin/news?game=GT6">@T["Newsy GT6"]</a></div>
+<div class="card mt-4"><div class="card-body"><h2 class="h5">@T["Konta panelu"]</h2>
+@if (TempData["AdminError"] is string message) { <div class="alert alert-danger">@T[message]</div> }
+<form class="row g-2 mb-3" method="post" asp-action="CreateAdministrator">@Html.AntiForgeryToken()<div class="col-md-4"><input class="form-control" name="username" maxlength="64" placeholder="@T["Login"]" required /></div><div class="col-md-4"><input class="form-control" type="password" name="password" minlength="8" placeholder="@T["Hasło (min. 8 znaków)"]" required /></div><div class="col-md-4"><label><input type="checkbox" name="isAdmin" value="true" /> @T["Administrator"]</label> <button class="btn btn-dark">@T["Dodaj konto"]</button></div></form>
+<p class="text-muted">@T["Bez zaznaczenia: lista graczy i edycja sezonów GT5/GT6. Administrator: również moderacja i zarządzanie kontami. Istniejące konta zachowują uprawnienia."]</p>
+<ul class="list-group list-group-flush">@foreach (var admin in Model.Administrators) { <li class="list-group-item"><form method="post" asp-action="SetRole" asp-route-id="@admin.Id">@Html.AntiForgeryToken() @admin.Username <label><input type="checkbox" name="isAdmin" value="true" checked="@admin.IsAdmin" /> @T["Administrator"]</label> <button class="btn btn-sm btn-outline-primary">@T["Zapisz rolę"]</button></form></li> }</ul>
+</div></div>
+}

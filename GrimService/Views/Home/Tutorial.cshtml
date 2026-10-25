@@ -1,0 +1,93 @@
+@model TutorialViewModel
+@{
+    ViewData["Title"] = "Poradnik";
+}
+<link rel="stylesheet" href="~/css/tutorial.css" asp-append-version="true" />
+
+<div id="tutorial-status" class="visually-hidden" role="status" aria-live="polite"></div>
+<section id="tutorial" class="tutorial" data-tutorial-root aria-labelledby="tutorial-heading">
+    <header class="tutorial-header">
+        <span class="tutorial-step">@T["Krok 1 · Wybór gry"]</span>
+        <h1 id="tutorial-heading">@T["Poradnik"] <span>GrimService</span></h1>
+        <p>@T["Wybierz grę, dla której chcesz wyświetlić instrukcję."]</p>
+    </header>
+
+    <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-platform-step" data-tutorial-form class="tutorial-games" aria-label="@T["Wybór gry"]">
+        <button type="submit" name="game" value="GT5" class="tutorial-game tutorial-game-gt5 @(Model.Game == "GT5" ? "is-selected" : "")"
+                aria-pressed="@(Model.Game == "GT5" ? "true" : "false")">
+            <span class="tutorial-game-number" aria-hidden="true">5</span>
+            <span class="tutorial-game-content">
+                <span class="tutorial-platform">PlayStation 3</span>
+                <span class="tutorial-game-name">Gran Turismo 5</span>
+                <span class="tutorial-game-action">@(Model.Game == "GT5" ? T["Gra wybrana"] : T["Wybierz tę grę"])</span>
+            </span>
+        </button>
+        <button type="submit" name="game" value="GT6" class="tutorial-game tutorial-game-gt6 @(Model.Game == "GT6" ? "is-selected" : "")"
+                aria-pressed="@(Model.Game == "GT6" ? "true" : "false")">
+            <span class="tutorial-game-number" aria-hidden="true">6</span>
+            <span class="tutorial-game-content">
+                <span class="tutorial-platform">PlayStation 3</span>
+                <span class="tutorial-game-name">Gran Turismo 6</span>
+                <span class="tutorial-game-action">@(Model.Game == "GT6" ? T["Gra wybrana"] : T["Wybierz tę grę"])</span>
+            </span>
+        </button>
+    </form>
+
+    @if (Model.Game != null)
+    {
+        <section id="tutorial-platform-step" class="tutorial-platform-step" aria-labelledby="tutorial-platform-heading">
+            <span class="tutorial-step">@T["Krok 2 · Wybór platformy"]</span>
+            <h2 id="tutorial-platform-heading">@T["Na czym grasz?"]</h2>
+            <p class="tutorial-hint">@T["Wybrana gra"]: <strong>@(Model.Game == "GT5" ? "Gran Turismo 5" : "Gran Turismo 6")</strong></p>
+            <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-next-step" data-tutorial-form class="tutorial-games tutorial-platform-options" aria-label="@T["Wybór platformy"]">
+                <input type="hidden" name="game" value="@Model.Game" />
+                <article class="tutorial-platform-card @(Model.Game == "GT5" ? "tutorial-platform-preferred" : "") @(Model.Platform == "RPCS3" ? "is-selected" : "")" aria-labelledby="tutorial-rpcs3-heading">
+                    @if (Model.Game == "GT5") { <span class="tutorial-preferred-label">@T["Preferowana opcja"]</span> }
+                    <span class="tutorial-device-label">@T["Komputer · Emulator"]</span>
+                    <h3 id="tutorial-rpcs3-heading">RPCS3</h3>
+                    <p>@T["RPCS3 to emulator PlayStation 3: program, który pozwala uruchamiać gry z PS3 na komputerze. Nie jest fizyczną konsolą ani nazwą serwera gry."]</p>
+                    <p>@T["Wybierz tę opcję, jeśli uruchamiasz Gran Turismo w aplikacji RPCS3 na komputerze, nawet gdy grasz padem. Poradnik poprowadzi Cię przez ustawienia emulatora, a nie ustawienia konsoli."]</p>
+                    <p class="tutorial-platform-note">@T["Przygotowanie RPCS3 obejmuje własną kopię gry i oficjalne oprogramowanie systemowe PS3. Szczegółowe wymagania i konfigurację opiszemy w następnych krokach."]</p>
+                    <button type="submit" name="platform" value="RPCS3" class="tutorial-platform-select"
+                            aria-pressed="@(Model.Platform == "RPCS3" ? "true" : "false")">@(Model.Platform == "RPCS3" ? T["Platforma wybrana"] : T["Wybierz RPCS3"])</button>
+                </article>
+                    <article class="tutorial-platform-card tutorial-crossplay-card tutorial-platform-preferred @(Model.Platform == "PS3-CROSSPLAY" ? "is-selected" : "")" aria-labelledby="tutorial-crossplay-heading">
+                        <span class="tutorial-preferred-label">@T["Preferowana opcja"]</span>
+                        <span class="tutorial-device-label">RPCN · Crossplay</span>
+                        <h3 id="tutorial-crossplay-heading">PS3 (Crossplay)</h3>
+                        <p>@T["Ten mod łączy konsolę PS3 z RPCN, siecią wykorzystywaną przez RPCS3, i pozwala grać razem z użytkownikami emulatora."]</p>
+                        <p class="tutorial-platform-note">@T["Logowanie do PSN nie jest wymagane. Do gry online ten mod używa RPCN zamiast oficjalnych serwerów PSN."]</p>
+                        <partial name="_TutorialCrossplayRequirements" model="Model" />
+                        <button type="submit" name="platform" value="PS3-CROSSPLAY" class="tutorial-platform-select" aria-pressed="@(Model.Platform == "PS3-CROSSPLAY" ? "true" : "false")">@(Model.Platform == "PS3-CROSSPLAY" ? T["Platforma wybrana"] : T["Wybierz PS3 (Crossplay)"])</button>
+                    </article>
+                <article class="tutorial-platform-card @(Model.Platform == "PS3" ? "is-selected" : "")" aria-labelledby="tutorial-ps3-heading">
+                    <span class="tutorial-device-label">@T["Fizyczna konsola"]</span>
+                    <h3 id="tutorial-ps3-heading">PlayStation 3 (PS3)</h3>
+                    <p>@T["PS3 to fizyczna konsola Sony PlayStation 3. Gra działa bezpośrednio na konsoli podłączonej do telewizora lub monitora, bez emulatora RPCS3."]</p>
+                    <p>@T["Wybierz tę opcję, jeśli uruchamiasz Gran Turismo z menu XMB swojej konsoli PS3. Nawet jeśli używasz komputera do kopiowania plików na konsolę, nadal wybierz PS3."]</p>
+                    <p class="tutorial-platform-note">@T["Ta ścieżka będzie dotyczyć konfiguracji konsoli i plików gry. Wymagania dotyczące wersji gry oraz oprogramowania konsoli zostaną podane w kolejnych krokach; nie zakładamy, że każda konfiguracja jest obsługiwana."]</p>
+                    <button type="submit" name="platform" value="PS3" class="tutorial-platform-select"
+                            aria-pressed="@(Model.Platform == "PS3" ? "true" : "false")">@(Model.Platform == "PS3" ? T["Platforma wybrana"] : T["Wybierz PS3"])</button>
+                </article>
+            </form>
+            <p class="tutorial-hint">@T["Liczy się urządzenie, na którym działa gra — nie rodzaj pada ani ekran, na którym grasz."]</p>
+        @if (Model.Platform == "PS3" || Model.Platform == "RPCS3")
+        {
+            <partial name="_TutorialPs3" model="Model" />
+        }
+        else if (Model.Platform == "PS3-CROSSPLAY")
+        {
+            <partial name="_TutorialCrossplay" model="Model" />
+        }
+        <p class="tutorial-hint"><a asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial" data-tutorial-nav>@T["Wyczyść wybór"]</a></p>
+        </section>
+    }
+    else
+    {
+        <p class="tutorial-hint">@T["Wybór gry to pierwszy krok. Instrukcje dla obu gier będą prowadzone oddzielnie."]</p>
+    }
+</section>
+@section Scripts {
+    <script src="~/js/tutorial.js" asp-append-version="true"></script>
+    <script type="module" src="~/js/rpcn-template.js" asp-append-version="true"></script>
+}

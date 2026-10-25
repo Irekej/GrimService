@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<event_list>
+  <event>
+    <title>
+      <JP>GT6 Weekly Race #1</JP>
+      <US>GT6 Weekly Race #1</US>
+      <GB>GT6 Weekly Race #1</GB>
+      <FR>GT6 Weekly Race #1</FR>
+      <DE>GT6 Weekly Race #1</DE>
+      <IT>GT6 Weekly Race #1</IT>
+      <ES>GT6 Weekly Race #1</ES>
+      <PT>GT6 Weekly Race #1</PT>
+      <NL>GT6 Weekly Race #1</NL>
+      <RU>GT6 Weekly Race #1</RU>
+      <KR>GT6 Weekly Race #1</KR>
+      <TW>GT6 Weekly Race #1</TW>
+      <EL>GT6 Weekly Race #1</EL>
+      <TR>GT6 Weekly Race #1</TR>
+      <PL>GT6 Weekly Race #1</PL>
+      <CZ>GT6 Weekly Race #1</CZ>
+      <HU>GT6 Weekly Race #1</HU>
+      <BP>GT6 Weekly Race #1</BP>
+      <MS>GT6 Weekly Race #1</MS>
+    </title>
+    <description>
+      <JP>Test races</JP>
+      <US>Test races</US>
+      <GB>Test races</GB>
+      <FR>Test races</FR>
+      <DE>Test races</DE>
+      <IT>Test races</IT>
+      <ES>Test races</ES>
+      <PT>Test races</PT>
+      <NL>Test races</NL>
+      <RU>Test races</RU>
+      <KR>Test races</KR>
+      <TW>Test races</TW>
+      <EL>Test races</EL>
+      <TR>Test races</TR>
+      <PL>Test races</PL>
+      <CZ>Test races</CZ>
+      <HU>Test races</HU>
+      <BP>Test races</BP>
+      <MS>Test races</MS>
+    </description>
+    <copy>
+      <JP />
+      <US />
+      <GB />
+      <FR />
+      <DE />
+      <IT />
+      <ES />
+      <PT />
+      <NL />
+      <RU />
+      <KR />
+      <TW />
+      <EL />
+      <TR />
+      <PL />
+      <CZ />
+      <HU />
+      <BP />
+      <MS />
+	 </copy>
+    <ranking_list />
+    <id>8</id>
+    <voucher />
+    <registration>0</registration>
+    <bg_image />
+    <icon_image />
+    <folder_image />
+    <event_type>1200</event_type>
+    <gameitem_type>0</gameitem_type>
+    <gameitem_category>0</gameitem_category>
+    <gameitem_id>0</gameitem_id>
+    <gameitem_value />
+    <dlc_flag>0</dlc_flag>
+    <star>0</star>
+    <need_star>0</need_star>
+    <championship_value>0</championship_value>
+    <need_folder_id />
+    <event_id_list>1000010,1000011,1000012,1000013,1000014</event_id_list>
+    <argument1>-1</argument1>
+    <argument2 />
+    <argument3>0</argument3>
+    <argument4 />
+  </event>
+  <event>
+    <title>
+      <JP>Last Update: 09/24/2026</JP>
+      <US>Last Update: 09/24/2026</US>
+      <GB>Last Update: 24/09/2026</GB>
+      <FR>Dernière Mise à Jour: 24/09/2026</FR>
+      <DE>Last Update: 24/09/2026</DE>
+      <IT>Last Update: 24/09/2026</IT>
+      <ES>Última actualización: 24/09/2026</ES>
+      <PT>Última atualização: 24/09/2026</PT>
+      <NL>Last Update: 24/09/2026</NL>
+      <RU>Last Update: 24/09/2026</RU>
+      <KR>Last Update: 24/09/2026</KR>
+      <TW>Last Update: 24/09/2026</TW>
+      <EL>Last Update: 24/09/2026</EL>
+      <TR>Last Update: 24/09/2026</TR>
+      <PL>Ostatnia Aktualizacja: 24/09/2026</PL>
+      <CZ>Last Update: 24/09/2026</CZ>
+      <HU>Last Update: 24/09/2026</HU>
+      <BP>Última atualização: 09/24/2026</BP>
+      <MS>Última actualización: 09/24/2026</MS>
+    </title>
+    <description>
+      <JP>Folder Description</JP>
+      <US>Folder Description</US>
+      <GB>Folder Description</GB>
+      <FR>Folder Description</FR>
+      <DE>Folder Description</DE>
+      <IT>Folder Description</IT>
+      <ES>Folder Description</ES>
+      <PT>Folder Description</PT>
+      <NL>Folder Description</NL>
+      <RU>Folder Description</RU>
+      <KR>Folder Description</KR>
+      <TW>Folder Description</TW>
+      <EL>Folder Description</EL>
+      <TR>Folder Description</TR>
+      <PL>Folder Description</PL>
+      <CZ>Folder Description</CZ>
+      <HU>Folder Description</HU>
+      <BP>Folder Description</BP>
+      <MS>Folder Description</MS>
+    </description>
+		<copy>
+			<JP>Test</JP>
+			<US>Test</US>
+			<GB>Test</GB>
+			<FR>Test</FR>
+			<DE>Test</DE>
+			<IT>Test</IT>
+			<ES>Test</ES>
+			<PT>Test</PT>
+			<NL>Test</NL>
+			<RU>Test</RU>
+			<KR>Test</KR>
+			<TW>Test</TW>
+			<EL>Test</EL>
+			<TR>Test</TR>
+			<PL>Test</PL>
+			<CZ>Test</CZ>
+			<HU>Test</HU>
+			<BP>Test</BP>
+			<MS>Test</MS>
+    </copy>
+    <ranking_list />
+    <id>146</id>
+    <voucher />
+    <registration>0</registration>
+    <bg_image />
+    <icon_image />
+    <folder_image />
+    <event_type>2000</event_type>
+    <gameitem_type>0</gameitem_type>
+    <gameitem_category>0</gameitem_category>
+    <gameitem_id>0</gameitem_id>
+    <gameitem_value />
+    <dlc_flag>0</dlc_flag>
+    <star>0</star>
+    <need_star>0</need_star>
+    <championship_value>0</championship_value>
+    <need_folder_id />
+    <event_id_list>2000</event_id_list>
+    <gp_list>2</gp_list>
+    <argument1>-1</argument1>
+    <argument2 />
+    <argument3>0</argument3>
+    <argument4 />
+</event>
+</event_list>

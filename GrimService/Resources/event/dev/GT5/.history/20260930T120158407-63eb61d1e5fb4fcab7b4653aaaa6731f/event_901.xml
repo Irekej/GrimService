@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <GameParameter version="106">
+    <championship value="0" />
+    <folder_id value="901" />
+    <events>
+      <event>
+        <event_id value="1901001" />
+        <event_type value="RACE" />
+        <game_mode value="ARENA" />
+        <information>
+          <title><JP>B-Spec: Tsukuba</JP><US>B-Spec: Tsukuba</US><GB>B-Spec: Tsukuba</GB><FR>B-Spec: Tsukuba</FR><DE>B-Spec: Tsukuba</DE><IT>B-Spec: Tsukuba</IT><ES>B-Spec: Tsukuba</ES><PT>B-Spec: Tsukuba</PT><NL>B-Spec: Tsukuba</NL><RU>B-Spec: Tsukuba</RU><KR>B-Spec: Tsukuba</KR><TW>B-Spec: Tsukuba</TW><EL>B-Spec: Tsukuba</EL><TR>B-Spec: Tsukuba</TR><PL>B-Spec: Tsukuba</PL><CZ>B-Spec: Tsukuba</CZ><HU>B-Spec: Tsukuba</HU><BP>B-Spec: Tsukuba</BP><MS>B-Spec: Tsukuba</MS><FI>B-Spec: Tsukuba</FI></title>
+          <one_line_title><US>Tsukuba - 5 laps</US><GB>Tsukuba - 5 laps</GB><PL>Tsukuba - 5 okrazen</PL></one_line_title>
+          <description><US>Remote race for shared B-Spec drivers.</US><GB>Remote race for shared B-Spec drivers.</GB><PL>Wyscig zdalny udostepnionych kierowcow B-Spec.</PL></description>
+          <race_info_minute value="10" />
+        </information>
+        <entry_set>
+          <entry_generate>
+            <entry_num value="16" />
+            <cars><car label="elise_111r_04" /></cars>
+          </entry_generate>
+        </entry_set>
+        <race>
+          <race_type value="RACE" />
+          <start_type value="GRID" />
+          <race_limit_laps value="5" />
+          <race_limit_minute value="0" />
+          <entry_max value="16" />
+          <racers_max value="16" />
+          <online_on value="1" />
+          <with_ghost value="0" />
+          <ghost_type value="NONE" />
+          <consume_fuel value="0" />
+          <consume_tire value="0" />
+          <time_to_start value="6000" />
+          <time_to_finish value="3000" />
+          <datetime datetime="2010/06/01 12:00:00" />
+        </race>
+        <reward>
+          <is_once value="0" />
+          <special_reward_code value="0" />
+          <point_table>
+            <point value="10000" />
+            <point value="5000" />
+            <point value="4000" />
+            <point value="3000" />
+            <point value="2000" />
+            <point value="1000" />
+            <point value="800" />
+            <point value="600" />
+            <point value="400" />
+            <point value="200" />
+            <point value="100" />
+            <point value="50" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+            <point value="0" />
+          </point_table>
+          <prize_table>
+            <prize value="20000" />
+            <prize value="12000" />
+            <prize value="8000" />
+            <prize value="6000" />
+            <prize value="4000" />
+            <prize value="2500" />
+            <prize value="1500" />
+            <prize value="1000" />
+            <prize value="800" />
+            <prize value="600" />
+            <prize value="400" />
+            <prize value="200" />
+            <prize value="100" />
+            <prize value="0" />
+            <prize value="0" />
+            <prize value="0" />
+          </prize_table>
+          <present_type value="ORDER" />
+          <present>
+          </present>
+        </reward>
+        <track><course_code label="tsukuba" /></track>
+        <play_style><bspec_type value="ONLY_B" /></play_style>
+        <regulation><need_bspec_level value="0" /><need_bspec_driver_count value="1" /><limit_bspec_driver_count value="6" /></regulation>
+        <inheritance value="0" />
+        <is_seasonal_event value="1" />
+      </event>
+    </events>
+  </GameParameter>
+</xml>

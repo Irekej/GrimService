@@ -1,0 +1,10 @@
+@model System.Collections.Generic.IEnumerable<GrimService.Services.ReportDecision>
+@{ ViewData["Title"] = "Historia decyzji"; }
+<a href="/admin/reports">@T["← Zgłoszenia"]</a>
+<h1>@T["Historia decyzji (ostatnie 100)"]</h1>
+@foreach (var item in Model) {
+<article class="card mb-2"><div class="card-body">
+<p>@item.CreatedAt.ToString("u") · @item.Actor · @T.ReportStatus(item.OldStatus) → @T.ReportStatus(item.NewStatus)</p>
+<p>@T["Poprzednia notatka:"] @item.OldNote</p><p>@T["Nowa notatka:"] @item.NewNote</p>
+</div></article>
+}

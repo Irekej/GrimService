@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xml>
+  <GameParameter version="106">
+    <arcade value="0" />
+    <championship value="0" />
+    <editor_info>
+      <psp_mode value="1" />
+    </editor_info>
+    <events>
+      <event>
+        <begin_date>2010/04/02 12:00:00</begin_date>
+        <constraint>
+          <abs value="-1" />
+          <active_steering value="-1" />
+          <asm value="-1" />
+          <drift_type value="-1" />
+          <driving_line value="-1" />
+          <enemy_tire value="-1" />
+          <limit_tire_f value="5" />
+          <limit_tire_r value="5" />
+          <need_tire_f value="5" />
+          <need_tire_r value="5" />
+          <simulation value="1" />
+          <suggest_tire_f value="-1" />
+          <suggest_tire_r value="-1" />
+          <tcs value="-1" />
+          <transmission value="-1" />
+        </constraint>
+		<event_id value="1110001" />
+        <event_type value="RACE" />
+		<game_mode value="ONLINE_TIME_ATTACK" />
+        <end_date>2044/04/02 12:00:00</end_date>
+		<information>
+			<advanced_notice />
+			<flier_other_info value="" />
+			<logo_other_info value="" />
+			<race_info_minute value="" />
+			<title>
+				<JP>-- test title --</JP>
+				<US>-- test title --</US>
+				<GB>-- test title --</GB>
+				<FR>-- test title --</FR>
+				<ES>-- test title --</ES>
+				<DE>-- test title --</DE>
+				<IT>-- test title --</IT>
+				<NL>-- test title --</NL>
+				<PT>-- test title --</PT>
+				<RU>-- test title --</RU>
+				<PL>-- test title --</PL>
+				<TR>-- test title --</TR>
+				<KR>-- test title --</KR>
+				<EL>-- test title --</EL>
+				<FI>-- test title --</FI>
+				<CZ>-- test title --</CZ>
+				<HU>-- test title --</HU>
+				<BP>-- test title --</BP>
+				<MS>-- test title --</MS>
+			</title>
+			<one_line_title>
+				<JP>-- test description --</JP>
+				<US>-- test description --</US>
+				<GB>-- test description --</GB>
+				<FR>-- test description --</FR>
+				<ES>-- test description --</ES>
+				<DE>-- test description --</DE>
+				<IT>-- test description --</IT>
+				<NL>-- test description --</NL>
+				<PT>-- test description --</PT>
+				<RU>-- test description --</RU>
+				<PL>-- test description --</PL>
+				<TR>-- test description --</TR>
+				<KR>-- test description --</KR>
+				<EL>-- test description --</EL>
+				<FI>-- test description --</FI>
+				<CZ>-- test description --</CZ>
+				<HU>-- test description --</HU>
+				<BP>-- test description --</BP>
+				<MS>-- test description --</MS>
+			</one_line_title>
+			<description>
+				<JP>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</JP>
+				<US>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</US>
+				<GB>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</GB>
+				<FR>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</FR>
+				<ES>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</ES>
+				<DE>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</DE>
+				<IT>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</IT>
+				<NL>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</NL>
+				<PT>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</PT>
+				<RU>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</RU>
+				<PL>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</PL>
+				<TR>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</TR>
+				<KR>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</KR>
+				<EL>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</EL>
+				<FI />
+				<CZ>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</CZ>
+				<HU>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</HU>
+				<BP>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</BP>
+				<MS>Get behind the wheel of Honda's flagship compact car, the Fit RS '10! Be as quick as you can around the tricky corners and aim for a super lap! A special present awaits you if you can win the gold award!</MS>
+			</description>
+			<logo_image_path value="prototype.png"/> <!-- Must be either img or png, will point to /event/<server>/<fileName> -->
+			<logo_image_layout value="1" />
+		</information>
+        <entry_set>
+          <entry>
+            <car color="0" label="r34_gtr_v_gtcolor_pc_01" />
+            <delay value="0" />
+            <driver_name value="Enemy" />
+            <initial_velocity value="80" />
+            <no_suitable_tire value="0" />
+            <pilot_id value="0" />
+            <player_no value="-1" />
+            <proxy_driver_model value="-1" />
+            <race_class_id value="0" />
+            <start_type value="NONE" />
+          </entry>
+          <entry>
+            <car color="0" label="_190e_evo2_91" />
+            <delay value="0" />
+            <driver_name value="Player" />
+            <initial_velocity value="0" />
+            <no_suitable_tire value="0" />
+            <pilot_id value="0" />
+            <player_no value="0" />
+            <proxy_driver_model value="-1" />
+            <race_class_id value="0" />
+            <start_type value="NONE" />
+          </entry>
+        </entry_set>
+        <eval_condition>
+          <bronze value="600000" />
+          <ghost_data_path value="" />
+          <gold value="542000" />
+          <silver value="563000" />
+          <type value="TIME" />
+        </eval_condition>
+        <failure_condition>
+          <no_failure_at_result value="0" />
+          <type_list>
+            <type value="HIT_WALL_HARD" />
+            <type value="HIT_CAR_HARD" />
+            <type value="COURSE_OUT" />
+          </type_list>
+        </failure_condition>
+        <information>
+          <advanced_notice />
+          <description />
+          <flier_other_info value="" />
+          <logo_other_info value="" />
+          <one_line_title />
+          <title />
+        </information>
+        <inheritance value="0" />
+        <race>
+          <academy_event value="0" />
+          <accumulation value="1" />
+          <allow_codriver value="0" />
+          <auto_standing_delay value="0" />
+          <autostart_pitout value="1" />
+          <behavior_damage_type value="WEAK" />
+          <behavior_slip_stream_type value="GAME" />
+          <boost_params>
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+            <param value="0" />
+          </boost_params>
+          <boost_type value="0" />
+          <bspec_vitality10 value="10" />
+          <complete_type value="BYLAPS" />
+          <consume_fuel value="0" />
+          <consume_tire value="0" />
+          <datetime datetime="2010/04/02 20:15:00" />
+          <decisive_weather value="NONE" />
+          <disable_collision value="0" />
+          <disable_recording_replay value="0" />
+          <enable_damage value="1" />
+          <enable_pit value="0" />
+          <endless value="0" />
+          <entry_max value="2" />
+          <event_goal_v value="-1" />
+          <event_goal_width value="-1" />
+          <finish_type value="TARGET" />
+          <fixed_retention value="0" />
+          <flagset value="FLAGSET_NORMAL" />
+          <ghost_presence_type value="NORMAL" />
+          <ghost_type value="FULL" />
+          <grid_sort_type value="NONE" />
+          <immediate_finish value="1" />
+          <initial_retention10 value="0" />
+          <keep_load_ghost value="0" />
+          <lighting_mode value="AUTO" />
+          <low_mu_type value="MODERATE" />
+          <mu_ratio100 value="100" />
+          <online_on value="0" />
+          <pace_note value="0" />
+          <penalty_level value="0" />
+          <penalty_no_reset value="0" />
+          <race_limit_laps value="1" />
+          <race_limit_minute value="0" />
+          <race_type value="TIMEATTACK" />
+          <racers_max value="2" />
+          <start_type value="GRID" />
+          <time_progress_speed value="1.000000" />
+          <time_to_finish value="0" />
+          <time_to_start value="3000" />
+          <weather_accel100 value="100" />
+          <weather_base_celsius value="20" />
+          <weather_max_celsius value="0" />
+          <weather_min_celsius value="0" />
+          <weather_no_precipitation value="1" />
+          <weather_no_schedule value="0" />
+          <weather_no_wind value="0" />
+          <weather_point_num value="4" />
+          <weather_prec_rain_only value="0" />
+          <weather_prec_snow_only value="0" />
+          <weather_random value="0" />
+          <weather_random_seed value="0" />
+          <weather_rate_sec1 value="60.000000" />
+          <weather_rate_sec2 value="120.000000" />
+          <weather_total_sec value="180.000000" />
+          <weather_value0 value="0.000000" />
+          <weather_value1 value="0.000000" />
+          <weather_value2 value="0.000000" />
+          <weather_value3 value="0.000000" />
+        </race>
+        <reward>
+          <is_once value="0" />
+          <percent_at_pp100 value="0" />
+          <point_table>
+            <point value="2300" />
+            <point value="1100" />
+            <point value="600" />
+          </point_table>
+          <pp_base value="0" />
+          <present_type value="ORDER" />
+          <prize_table>
+            <prize value="16000" />
+            <prize value="11000" />
+            <prize value="8000" />
+          </prize_table>
+          <prize_type value="0" />
+          <special_reward_code value="0" />
+        </reward>
+        <track>
+          <course_code label="tsukuba" />
+          <course_layout_no value="0" />
+          <is_omedeto_difficulty value="0" />
+          <map_offset_world_x value="0" />
+          <map_offset_world_y value="0" />
+          <map_scale value="0" />
+          <use_generator value="0" />
+        </track>
+		<ranking>
+			<begin_date>2022/4/01 12:37:00</begin_date>
+			<end_date>3014/4/01 12:37:00</end_date>
+			<type value="TIME" />
+			<board_id value="1110001" />
+			<display_rank_limit value="-1" />
+			<is_local value="0" />
+			<replay_rank_limit value="0" />
+			<registration value="0" />
+		</ranking>
+      </event>
+    </events>
+  </GameParameter>
+</xml>

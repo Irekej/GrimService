@@ -1,0 +1,95 @@
+GrimService Source-Available License 1.0
+
+Copyright (c) 2026 GrimService Contributors.
+All rights reserved except as expressly granted below.
+
+Official Project: https://github.com/Irekej/GrimServic
+
+1. Permitted purposes
+
+You may view, download and make private copies of this software and
+its associated documentation (the "Software") for personal study,
+private testing, debugging, and preparing improvements for submission
+to the Official Project.
+
+You may modify and compile the Software for those purposes.
+
+You may create development forks and publish patches solely to
+prepare, discuss and submit contributions to the Official Project.
+Such forks must clearly identify the Official Project and must not
+be presented as independent products or official releases.
+
+2. Restricted uses
+
+Unless you obtain prior written permission from the copyright
+holder, you may not:
+
+a. publish, distribute or release the Software, modified versions,
+   or compiled builds, except for contribution-related activities
+   expressly permitted in Section 1;
+
+b. maintain, promote or distribute an independent or rebranded
+   project derived from the Software;
+
+c. sell, sublicense or commercially exploit the Software;
+
+d. use the Software to operate a public server or provide a hosted
+   service to third parties;
+
+e. remove or alter copyright, license or attribution notices, or
+   misrepresent the origin or official status of the Software.
+
+Changing names, branding, formatting or directory structure does
+not remove these restrictions from derivative versions.
+
+3. Contributions
+
+You retain ownership of your original contributions.
+
+By intentionally submitting a contribution to the Official Project,
+you grant its copyright holder a worldwide, perpetual,
+non-exclusive, royalty-free license to use, reproduce, modify,
+merge and distribute that contribution as part of the Official
+Project and its official releases.
+
+You must have the necessary rights to submit the contribution.
+Submitting a contribution does not require its acceptance.
+
+4. Third-party materials and other rights
+
+This license applies only to material that the copyright holder
+has the right to license under these terms.
+
+Third-party components remain governed by their respective
+licenses. Their notices and license terms must be preserved.
+
+This license does not restrict rights that cannot lawfully be
+restricted or rights independently granted under applicable
+hosting-platform terms.
+
+No trademark rights are granted.
+
+5. Termination
+
+The permissions granted by this license terminate automatically
+if you materially breach its terms. Upon termination, you must
+stop uses that depend on those permissions.
+
+Termination does not affect rights arising independently under
+applicable law, third-party licenses or platform terms.
+
+6. Disclaimer
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE
+IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NON-INFRINGEMENT.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHORS
+AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR CLAIMS, DAMAGES
+OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+7. Additional permissions
+
+Uses not expressly permitted by this license require prior
+written permission from the copyright holder.

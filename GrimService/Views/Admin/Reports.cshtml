@@ -1,0 +1,31 @@
+@model System.Collections.Generic.IEnumerable<GrimService.Services.ModerationReport>
+@{ ViewData["Title"] = "Zgłoszenia"; var game = (string)ViewData["Game"]; var page = (int)ViewData["Page"]; }
+<a href="/admin">@T["← Panel"]</a>
+<h1>@T["Zgłoszenia"] · @game</h1>
+<p><a href="/admin/reports?game=GT5">GT5</a> · <a href="/admin/reports?game=GT6">GT6</a></p>
+<p>@T["Treść pochodzi od zgłaszającego i wymaga weryfikacji. Zmiana statusu nie banuje gracza ani nie usuwa treści."]</p>
+@foreach (var report in Model) {
+var details = GrimService.Services.ReportPresentation.Parse(report.Payload);
+<article class="card mb-3"><div class="card-body">
+<h2 class="h5">#@report.Id · @report.Reporter → @report.Target</h2>
+<p>@report.CreatedAt.ToString("u") · @T.ReportStatus(report.Status)</p>
+<p><strong>@T["Rodzaj treści"]:</strong> @T[details.Kind] (@details.Code)</p>
+<p><strong>@T["Zgłoszony autor"]:</strong> @report.Target</p>
+@if (!string.IsNullOrEmpty(details.Reason)) { <p><strong>@T["Kod powodu wybranego w grze"]:</strong> @details.Reason</p> }
+<dl>@foreach (var reference in details.References) { <dt>@T[reference.Key]</dt><dd>@reference.Value</dd> }</dl>
+@if (!string.IsNullOrEmpty(details.Evidence)) { <p><strong>@T["Zgłoszona treść"]:</strong></p><blockquote style="white-space:pre-wrap;overflow-wrap:anywhere">@details.Evidence</blockquote> }
+@if (!string.IsNullOrEmpty(details.Comment)) { <p><strong>@T["Komentarz zgłaszającego"]:</strong> @details.Comment</p> }
+<a href="/admin/reports/@report.Id/history">@T["Historia decyzji"]</a>
+<details><summary>@T["Treść i identyfikatory zgłoszenia"]</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">@report.Payload</pre></details>
+<form method="post" action="/admin/reports/review">
+@Html.AntiForgeryToken()
+<input type="hidden" name="id" value="@report.Id" /><input type="hidden" name="version" value="@report.Version" /><input type="hidden" name="game" value="@game" />
+<label>@T["Status"] <select name="status" class="form-select">
+@foreach (var status in new[] { "open", "reviewing", "resolved", "dismissed" }) { <option value="@status" selected="@(report.Status == status)">@T.ReportStatus(status)</option> }
+</select></label>
+<label class="d-block">@T["Notatka moderatora"]<textarea class="form-control" name="note" maxlength="4000">@report.Note</textarea></label>
+<button class="btn btn-primary mt-2">@T["Zapisz decyzję"]</button>
+</form></div></article>
+}
+@if (page > 1) { <a href="/admin/reports?game=@game&page=@(page-1)">@T["← Poprzednia"]</a> }
+<a href="/admin/reports?game=@game&page=@(page+1)">@T["Następna →"]</a>
