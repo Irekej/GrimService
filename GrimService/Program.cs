@@ -54,8 +54,8 @@ namespace Grim
             if (logEvent.Properties.TryGetValue("SourceContext", out var sourceContextValue))
             {
                 var sourceContext = sourceContextValue.ToString();
-                return sourceContext.Contains("GrimService") ||
-                    sourceContext.Contains("Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware");
+                return sourceContext.Contains("GrimService"); //||
+                    //sourceContext.Contains("Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware");
             }
             return false;
         }
