@@ -3,10 +3,6 @@
     <span class="tutorial-step">@Model.Game @Model.GameVersion · PS3 (Crossplay)</span>
     <h2 id="tutorial-crossplay-install-heading">@T["Instalacja PS3 Crossplay"]</h2>
     <partial name="_TutorialCrossplayRequirements" model="Model" />
-    @if (Model.Game == "GT5")
-    {
-        <p class="tutorial-platform-note">@T["Mod wspiera Master Mod. Najpierw zainstaluj ten mod Crossplay, a dopiero potem Master Mod."]</p>
-    }
     <p>@T["Ten mod łączy konsolę PS3 z RPCN, siecią wykorzystywaną przez RPCS3, i pozwala grać razem z użytkownikami emulatora."]</p>
     <p>@T["Do pełnego działania potrzebujesz własnego konta RPCN. Możesz utworzyć je w ustawieniach RPCN emulatora RPCS3. Nie musisz logować konsoli do PSN."]</p>
     <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-crossplay-details" data-tutorial-form class="tutorial-region-form">

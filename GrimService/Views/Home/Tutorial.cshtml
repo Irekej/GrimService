@@ -39,6 +39,14 @@
             <span class="tutorial-step">@T["Krok 2 · Wybór platformy"]</span>
             <h2 id="tutorial-platform-heading">@T["Na czym grasz?"]</h2>
             <p class="tutorial-hint">@T["Wybrana gra"]: <strong>@(Model.Game == "GT5" ? "Gran Turismo 5" : "Gran Turismo 6")</strong></p>
+            <div class="tutorial-platform-note">
+                <p>@T["Mod obsługuje bezpieczne połączenie HTTPS."]</p>
+                <p>@T["Na konsoli PS3 mod współpracuje z kontrolerami DualShock 4 oraz DualSense (PS5) przez wbudowany Bluetooth konsoli."]</p>
+                @if (Model.Game == "GT5")
+                {
+                    <p>@T["Mod GT5 dla RPCS3 i PS3 Crossplay oficjalnie wspiera MasterMod. Najpierw zainstaluj ten mod, a następnie MasterMod."]</p>
+                }
+            </div>
             <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-next-step" data-tutorial-form class="tutorial-games tutorial-platform-options" aria-label="@T["Wybór platformy"]">
                 <input type="hidden" name="game" value="@Model.Game" />
                 <article class="tutorial-platform-card @(Model.Game == "GT5" ? "tutorial-platform-preferred" : "") @(Model.Platform == "RPCS3" ? "is-selected" : "")" aria-labelledby="tutorial-rpcs3-heading">

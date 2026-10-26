@@ -43,7 +43,7 @@ namespace Grim
                     fileSizeLimitBytes: 104857600,
                     retainedFileCountLimit: null))
                 .CreateLogger();
-            Console.WriteLine("///// GrimService Server [Build 25.10.2026] V. 0.9.6 /////");
+            Console.WriteLine("///// GrimService Server [Build 26.10.2026] V. 0.9.6 /////");
             Console.WriteLine("Init: Starting...");
             CreateHostBuilder(args).Build().Run();
         }
@@ -97,9 +97,10 @@ namespace Grim
                             });
                             options.ListenAnyIP(80);
                             Console.WriteLine("Init: SSL Certificate Loaded (443)");
-                            Console.WriteLine("Init: HTTPS protocols: SSL 3.0 (GT5 compatibility), TLS 1.0, TLS 1.2, TLS 1.3");
-                            if (OperatingSystem.IsLinux() && string.IsNullOrEmpty(Environment.GetEnvironmentVariable("OPENSSL_CONF")))
-                                Console.WriteLine("Init: TLS 1.0 also requires the OpenSSL policy; start with sh start-grimservice.sh");
+                            //Console.WriteLine("Init: HTTPS protocols: SSL 3.0 (GT5 compatibility), TLS 1.0, TLS 1.2, TLS 1.3");
+                            Console.WriteLine("Init: HTTPS protocols: TLS 1.2, TLS 1.3");
+                            //if (OperatingSystem.IsLinux() && string.IsNullOrEmpty(Environment.GetEnvironmentVariable("OPENSSL_CONF")))
+                                //Console.WriteLine("Init: TLS 1.0 also requires the OpenSSL policy; start with sh start-grimservice.sh");
                         });
                     })
                 .UseSerilog();
