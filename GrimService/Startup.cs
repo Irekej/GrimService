@@ -171,14 +171,14 @@ namespace GrimService.Startup
             services.AddClubPhotoFeatures();
             services.AddTransient<GT6SocialDBManager>();
 
-            Console.WriteLine("Init: All singletons loaded");
+            Console.WriteLine("Init: All services load success");
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             app.UseClientAssets();
             Logger = logger;
-            Console.WriteLine("Init: Configuring HTTP/S server");
+            Console.WriteLine("Init: Configuring database");
 
             try
             {

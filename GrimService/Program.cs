@@ -32,6 +32,7 @@ namespace Grim
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Verbose()
                 .WriteTo.Logger(lc => lc.Filter.ByExcluding(logEvent => !IsGrimServiceLog(logEvent))
+                .MinimumLevel.Override("Microsoft.AspNetCore.Server.Kestrel.Https", LogEventLevel.Warning)
                 .WriteTo.Console()
                 .WriteTo.File("Logs/log.txt"))
                 .WriteTo.Conditional(hostConfig => HostConfig.LoggerDebug == "True", wt => wt.File(new JsonFormatter(),
