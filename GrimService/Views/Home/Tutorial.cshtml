@@ -49,8 +49,8 @@
             </div>
             <form method="get" asp-controller="Home" asp-action="Tutorial" asp-fragment="tutorial-next-step" data-tutorial-form class="tutorial-games tutorial-platform-options" aria-label="@T["Wybór platformy"]">
                 <input type="hidden" name="game" value="@Model.Game" />
-                <article class="tutorial-platform-card @(Model.Game == "GT5" ? "tutorial-platform-preferred" : "") @(Model.Platform == "RPCS3" ? "is-selected" : "")" aria-labelledby="tutorial-rpcs3-heading">
-                    @if (Model.Game == "GT5") { <span class="tutorial-preferred-label">@T["Preferowana opcja"]</span> }
+                <article class="tutorial-platform-card tutorial-platform-preferred @(Model.Platform == "RPCS3" ? "is-selected" : "")" aria-labelledby="tutorial-rpcs3-heading">
+                    <span class="tutorial-preferred-label">@T["Preferowana opcja"]</span>
                     <span class="tutorial-device-label">@T["Komputer · Emulator"]</span>
                     <h3 id="tutorial-rpcs3-heading">RPCS3</h3>
                     <p>@T["RPCS3 to emulator PlayStation 3: program, który pozwala uruchamiać gry z PS3 na komputerze. Nie jest fizyczną konsolą ani nazwą serwera gry."]</p>

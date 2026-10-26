@@ -1,9 +1,10 @@
 @model TutorialViewModel
+<p class="tutorial-platform-note">@T["Najnowsza wersja moda oficjalnie obsługuje PS3 z HEN oraz CFW (CEX/DEX)."]</p>
 @if (Model.Game == "GT6")
 {
-    <p class="tutorial-platform-note">@T["Wersja testowa: PS3 z CFW (CEX/DEX), GT6 1.22. Obsługiwane wydania płytowe: BCAS25018, BCES01893, BCES01977, BCJS37016, BCUS98296 i BCUS99247. Wersje cyfrowe i HEN nie są obecnie obsługiwane."]</p>
+    <p class="tutorial-platform-note">@T["GT6 1.22. Obsługiwane wydania płytowe: BCAS25018, BCES01893, BCES01977, BCJS37016, BCUS98296 i BCUS99247. Wersje cyfrowe nie są obecnie obsługiwane."]</p>
 }
 else
 {
-    <p class="tutorial-platform-note">@T["Wersja testowa: tylko PS3 z CFW (CEX/DEX), GT5 2.11. Obsługiwane regiony: BCAS20108, BCES00569, BCJS30001 i BCUS98114. HEN nie jest obecnie obsługiwany."]</p>
+    <p class="tutorial-platform-note">@T["GT5 2.11. Obsługiwane regiony: BCAS20108, BCES00569, BCJS30001 i BCUS98114."]</p>
 }

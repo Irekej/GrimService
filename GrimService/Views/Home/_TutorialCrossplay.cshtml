@@ -70,7 +70,7 @@
                 <li>@T["Skopiuj folder swojego regionu z katalogu dev_hdd0/game w archiwum do"] <code>/dev_hdd0/game/</code>. @T["Połącz katalogi i zachowaj strukturę. Główny zmodyfikowany plik gry musi znaleźć się tutaj:"] <code>/dev_hdd0/game/@(Model.Region)/USRDIR/@Model.CrossplayExecutable</code></li>
                 <li>@T["Przez FTP lub pendrive i menedżer plików konsoli wgraj wszystkie pliki z paczki. To mod tylko dla fizycznego PS3, nie instaluj go w RPCS3."]</li>
                 <li>@T["Wgraj własny plik konta do"] <code>/dev_hdd0/tmp/rpcn.yml</code>. @T["Opcje modułu dla tego regionu znajdują się w"] <code>/dev_hdd0/tmp/@(Model.CrossplayModule).conf</code>.</li>
-                <li>@T["Uruchom grę z aktywnym CFW, bez logowania do PSN. Moduł powinien połączyć się z RPCN i GrimService."]</li>
+                <li>@T["Uruchom grę z aktywnym HEN lub CFW, bez logowania do PSN. Przy HEN włącz go przed uruchomieniem gry. Moduł powinien połączyć się z RPCN i GrimService."]</li>
             </ol>
             <p class="tutorial-platform-note">@T["Zachowaj własną kopię oryginalnych plików. Dołączone pliki .org lub .ORG służą do cofnięcia zmian; nie zastępuj nimi plików moda podczas instalacji."]</p>
             @if (Model.Game == "GT6")
@@ -78,7 +78,7 @@
                 <p class="tutorial-platform-note">@T["Nowe regiony GT6 wymagają jeszcze testów na konsoli. Zacięcie garażu po dłuższej sesji pozostaje w diagnostyce."]</p>
             }
             <h4>@T["Co sprawdzić po instalacji?"]</h4>
-            <p>@T["Sprawdź logowanie do RPCN i GrimService, tworzenie lobby, dołączanie i jazdę z graczem RPCS3. W razie problemów podaj region, wersję CFW oraz log tego modułu:"] <code>/dev_hdd0/tmp/@(Model.CrossplayModule).log</code>. @T["Przed wysłaniem logu usuń dane uwierzytelniające."]</p>
+            <p>@T["Sprawdź logowanie do RPCN i GrimService, tworzenie lobby, dołączanie i jazdę z graczem RPCS3. W razie problemów podaj region, wersję HEN lub CFW oraz log tego modułu:"] <code>/dev_hdd0/tmp/@(Model.CrossplayModule).log</code>. @T["Przed wysłaniem logu usuń dane uwierzytelniające."]</p>
         </section>
     }
 </section>
