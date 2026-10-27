@@ -61,6 +61,7 @@ namespace GrimService.Startup
 
 
             services.AddControllersWithViews();
+            services.AddSingleton<GrimService.Services.SprxUpdateCatalog>();
             services.AddHttpContextAccessor();
             services.AddSingleton<GrimService.Services.WebTranslations>();
             services.AddScoped<GrimService.Services.WebText>();
@@ -119,6 +120,9 @@ namespace GrimService.Startup
 
             services.Configure<GameServerOptions>(Configuration.GetSection(GameServerOptions.GameServer));
             services.Configure<RpcnBridgeOptions>(Configuration.GetSection(RpcnBridgeOptions.Section));
+            services.Configure<RpcnRoomsOptions>(Configuration.GetSection("RpcnRooms"));
+            services.AddSingleton<GrimService.Services.Rpcn.RpcnRoomsService>();
+            services.AddHostedService(sp => sp.GetRequiredService<GrimService.Services.Rpcn.RpcnRoomsService>());
             services.Configure<RpcnRelayOptions>(Configuration.GetSection(RpcnRelayOptions.Section));
             services.AddHostedService<GrimService.Services.Rpcn.RpcnRelayService>();
             services.AddHostedService<GrimService.Services.Rpcn.RpcnRelayRegistrationService>();

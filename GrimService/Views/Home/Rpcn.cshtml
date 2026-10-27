@@ -1,0 +1,17 @@
+@{ ViewData["Title"] = "RPCN"; }
+<section id="rpcn-rooms">
+    <h1>RPCN</h1>
+    <p>@T["Aktualne publiczne pokoje Gran Turismo 5 i Gran Turismo 6 w sieci RPCN."]</p>
+    <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+        <label for="rpcn-game">@T["Gra"]</label>
+        <select id="rpcn-game" class="form-select w-auto"><option value="GT5">Gran Turismo 5</option><option value="GT6">Gran Turismo 6</option></select>
+        <button id="rpcn-refresh" type="button" class="btn btn-outline-primary">@T["Odśwież"]</button>
+    </div>
+    <p id="rpcn-status" role="status" aria-live="polite"></p>
+    <p id="rpcn-updated" class="text-muted"></p>
+    <div id="rpcn-list" class="row g-3"></div>
+    <p class="text-muted mt-3">@T["Podgląd odświeża się automatycznie. Nie dołącza do pokoi i nie zajmuje miejsc dla graczy."]</p>
+</section>
+@section Scripts {
+    <script src="~/js/rpcn-rooms.js" asp-append-version="true"></script>
+}

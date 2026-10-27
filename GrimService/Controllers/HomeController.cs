@@ -34,6 +34,9 @@ namespace GrimService.Controllers
         [HttpGet("/seasonals")]
         public IActionResult Seasonals() => View();
 
+        [HttpGet("/rpcn")]
+        public IActionResult Rpcn() => View();
+
         [HttpGet("/tutorial")]
         public IActionResult Tutorial(string game, string platform, string installation, string region,
             [FromServices] Microsoft.AspNetCore.Hosting.IWebHostEnvironment environment)
