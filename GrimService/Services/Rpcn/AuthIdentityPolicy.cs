@@ -5,7 +5,7 @@ namespace GrimService.Services.Rpcn
     public static class AuthIdentityPolicy
     {
         public static bool Allows(string storedProvider, string storedPlatform, long? storedRpcnId,
-            string incomingProvider, long? incomingRpcnId)
+            string incomingProvider, long? incomingRpcnId, string incomingPlatform = null)
         {
             var provider = storedProvider?.ToLowerInvariant();
 
@@ -16,8 +16,10 @@ namespace GrimService.Services.Rpcn
                 else if (incomingProvider != "rpcn") provider = incomingProvider;
                 else return false;
             }
-            return provider == incomingProvider &&
-                (provider != "rpcn" || (incomingRpcnId > 0 && (!storedRpcnId.HasValue || storedRpcnId == incomingRpcnId)));
+            bool ps3Switch = string.Equals(incomingPlatform, "PS3", StringComparison.OrdinalIgnoreCase) &&
+                (provider == "psn" && incomingProvider == "rpcn" || provider == "rpcn" && incomingProvider == "psn");
+            return (provider == incomingProvider || ps3Switch) &&
+                (incomingProvider != "rpcn" || (incomingRpcnId > 0 && (!storedRpcnId.HasValue || storedRpcnId == incomingRpcnId)));
         }
     }
 }

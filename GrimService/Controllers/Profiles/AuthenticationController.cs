@@ -224,9 +224,9 @@ namespace GrimService.Controllers.Profiles
             long? rpcnSubject = verifiedRpcn ? (long?)ticket.UserId : null;
             UserDTO user = await _users.GetByPSNUserIdAsync(ticket.OnlineId);
             if (bindTicketIdentity && user != null && !GrimService.Services.Rpcn.AuthIdentityPolicy.Allows(
-                user.AuthProvider, user.Platform, user.RpcnUserId, authProvider, rpcnSubject)) {
+                user.AuthProvider, user.Platform, user.RpcnUserId, authProvider, rpcnSubject, platformName)) {
                 _logger.LogWarning("Game auth identity collision: user={User}, provider={Provider}", ticket.OnlineId, authProvider);
-
+                return StatusCode(403);
             }
             user ??= await CreateUser(ticket, PlayerMacAddress, authProvider, rpcnSubject, platformName);
 
@@ -235,8 +235,9 @@ namespace GrimService.Controllers.Profiles
                 _logger.LogError("Failed to get or create user from db: Name: {name}", ticket.OnlineId);
                 return Problem();    
             }
-            if (bindTicketIdentity && !await _users.BindAuthIdentityAsync(user.Id, authProvider, rpcnSubject)) return StatusCode(403);
-            if (bindTicketIdentity) { user.AuthProvider = authProvider; user.RpcnUserId = rpcnSubject; }
+            bool allowPs3ProviderSwitch = !pairedPrivate && string.Equals(platformName, "PS3", StringComparison.OrdinalIgnoreCase);
+            if (bindTicketIdentity && !await _users.BindAuthIdentityAsync(user.Id, authProvider, rpcnSubject, allowPs3ProviderSwitch)) return StatusCode(403);
+            if (bindTicketIdentity) { user.AuthProvider = authProvider; user.RpcnUserId ??= rpcnSubject; }
 
 
             _logger.LogInformation("Checking if this player is banned: {OnlineId}", ticket.OnlineId);

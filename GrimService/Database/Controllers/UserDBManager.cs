@@ -150,12 +150,14 @@ namespace GrimService.Database.Controllers
             return true;
         }
 
-        public async Task<bool> BindAuthIdentityAsync(long id, string provider, long? rpcnUserId)
+        public async Task<bool> BindAuthIdentityAsync(long id, string provider, long? rpcnUserId, bool allowPs3ProviderSwitch = false)
             => await _con.ExecuteAsync(@"UPDATE users SET auth_provider=@Provider,
                 rpcn_user_id=COALESCE(rpcn_user_id,@RpcnUserId)
-                WHERE id=@Id AND (auth_provider IS NULL OR auth_provider=@Provider)
-                AND (rpcn_user_id IS NULL OR rpcn_user_id=@RpcnUserId)",
-                new { Id = id, Provider = provider, RpcnUserId = rpcnUserId }) == 1;
+                WHERE id=@Id AND (auth_provider IS NULL OR LOWER(auth_provider)=@Provider
+                    OR (@AllowPs3ProviderSwitch AND LOWER(auth_provider) IN ('psn','rpcn') AND @Provider IN ('psn','rpcn')))
+                AND ((@Provider='rpcn' AND @RpcnUserId>0 AND (rpcn_user_id IS NULL OR rpcn_user_id=@RpcnUserId))
+                    OR (@Provider<>'rpcn' AND (rpcn_user_id IS NULL OR (@AllowPs3ProviderSwitch AND @Provider='psn'))))",
+                new { Id = id, Provider = provider, RpcnUserId = rpcnUserId, AllowPs3ProviderSwitch = allowPs3ProviderSwitch }) == 1;
 
         public async Task UpdatePlayerTicket(string token, DateTime ExpiryDate, long id)
             => await _con.ExecuteAsync(@"UPDATE users SET player_token=@PlayerTicket, ticket_expiry=@TokenExpiry WHERE id = @Id", new { PlayerTicket = token, TokenExpiry = ExpiryDate, Id = id });
