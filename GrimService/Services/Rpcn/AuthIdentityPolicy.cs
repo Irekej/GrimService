@@ -13,8 +13,7 @@ namespace GrimService.Services.Rpcn
             if (string.IsNullOrEmpty(provider)) {
                 if (string.Equals(storedPlatform, "RPCS3", StringComparison.OrdinalIgnoreCase)) provider = "rpcn";
                 else if (string.Equals(storedPlatform, "PS3", StringComparison.OrdinalIgnoreCase)) provider = "psn";
-                else if (incomingProvider != "rpcn") provider = incomingProvider;
-                else return false;
+                else provider = incomingProvider;
             }
             bool ps3 = string.Equals(incomingPlatform, "PS3", StringComparison.OrdinalIgnoreCase);
             bool rpcs3 = string.Equals(incomingPlatform, "RPCS3", StringComparison.OrdinalIgnoreCase);

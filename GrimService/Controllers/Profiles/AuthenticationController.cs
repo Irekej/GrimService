@@ -225,9 +225,6 @@ namespace GrimService.Controllers.Profiles
             UserDTO user = await _users.GetByPSNUserIdAsync(ticket.OnlineId);
             if (bindTicketIdentity && user != null && !GrimService.Services.Rpcn.AuthIdentityPolicy.Allows(
                 user.AuthProvider, user.Platform, user.RpcnUserId, authProvider, rpcnSubject, platformName)) {
-                _logger.LogWarning("Game auth identity collision: user={User}, provider={Provider}, incomingPlatform={IncomingPlatform}, storedProvider={StoredProvider}, storedPlatform={StoredPlatform}, rpcnSubjectMatches={RpcnSubjectMatches}",
-                    ticket.OnlineId, authProvider, platformName, user.AuthProvider, user.Platform,
-                    !user.RpcnUserId.HasValue || user.RpcnUserId == rpcnSubject);
                 return StatusCode(403);
             }
             user ??= await CreateUser(ticket, PlayerMacAddress, authProvider, rpcnSubject, platformName);
