@@ -16,9 +16,11 @@ namespace GrimService.Services.Rpcn
                 else if (incomingProvider != "rpcn") provider = incomingProvider;
                 else return false;
             }
-            bool ps3Switch = string.Equals(incomingPlatform, "PS3", StringComparison.OrdinalIgnoreCase) &&
-                (provider == "psn" && incomingProvider == "rpcn" || provider == "rpcn" && incomingProvider == "psn");
-            return (provider == incomingProvider || ps3Switch) &&
+            bool ps3 = string.Equals(incomingPlatform, "PS3", StringComparison.OrdinalIgnoreCase);
+            bool rpcs3 = string.Equals(incomingPlatform, "RPCS3", StringComparison.OrdinalIgnoreCase);
+            bool providerSwitch = provider == "psn" && incomingProvider == "rpcn" && (ps3 || rpcs3)
+                || provider == "rpcn" && incomingProvider == "psn" && ps3;
+            return (provider == incomingProvider || providerSwitch) &&
                 (incomingProvider != "rpcn" || (incomingRpcnId > 0 && (!storedRpcnId.HasValue || storedRpcnId == incomingRpcnId)));
         }
     }
