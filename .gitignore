@@ -106,3 +106,10 @@ identity.json
 /Resources/tutorial-assets/
 /Native/**/build/
 /GrimService/Properties/PublishProfiles/FolderProfile.pubxml
+
+# Local update signing key; never commit.
+/GrimService/Private/
+/GrimService/RPCN-ROOMS.md
+/.gitignore
+/.gitignore
+/.gitignore
