@@ -44,7 +44,7 @@ namespace Grim
                     fileSizeLimitBytes: 104857600,
                     retainedFileCountLimit: null))
                 .CreateLogger();
-            Console.WriteLine("///// GrimService Server [Build 28.10.2026] V. 0.9.6 /////");
+            Console.WriteLine("///// GrimService Server [Build 30.10.2026] V. 0.9.6 /////");
             Console.WriteLine("Init: Starting...");
             CreateHostBuilder(args).Build().Run();
         }
