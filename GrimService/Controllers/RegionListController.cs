@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using GrimService.Config;
+using GrimService.Features.Bootstrap;
 using GrimService.Filters;
-using GrimService.Utils;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace GrimService.Controllers
 {
@@ -14,14 +11,11 @@ namespace GrimService.Controllers
     [Produces("application/xml")]
     public class RegionListController : ControllerBase
     {
-        private readonly string resourceRoot;
-
-        public RegionListController(IOptions<GameServerOptions> options, ILogger<RegionListController> logger)
-        {
-            resourceRoot = options.Value.XmlResourcePath;
-        }
+        private readonly BootstrapSettingsService settings;
+        public RegionListController(BootstrapSettingsService settings) => this.settings = settings;
 
         [HttpGet]
-        public Task Get() => this.SendFile(resourceRoot, "regionlist.xml");
+        [ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
+        public async Task<IActionResult> Get() => File(await settings.RegionList(), "application/xml; charset=utf-8");
     }
 }

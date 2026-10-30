@@ -1,0 +1,68 @@
+@model GrimService.Features.Bootstrap.BootstrapSettingsModel
+@{ ViewData["Title"] = "Konfiguracja połączenia gry"; }
+<div class="d-flex flex-wrap justify-content-between gap-2 mb-3">
+    <h1 class="h2">@T["Konfiguracja połączenia gry"]</h1>
+    <a class="btn btn-outline-secondary" href="/admin">@T["Panel serwera"]</a>
+</div>
+<p>@T["Ustawienia serverlist i regionlist są generowane w C#. Zmiany zapisane w bazie obowiązują przy następnym pobraniu listy przez grę."]</p>
+@if (TempData["BootstrapSaved"] != null) { <div class="alert alert-success" role="status">@T["Zapisano konfigurację połączenia gry."]</div> }
+@if (ViewData["Error"] is string error) { <div class="alert alert-danger" role="alert">@T[error]</div> }
+<form method="get" action="/admin/server-settings" class="d-flex flex-wrap gap-2 align-items-end mb-4">
+    <div><label class="form-label" for="bootstrap-profile">@T["Wariant konfiguracji"]</label>
+        <select class="form-select" id="bootstrap-profile" name="profile">
+            <option value="regions" selected="@(Model.Profile == "regions")">regionlist</option>
+            @foreach (var profile in Model.Profiles) { <option value="@profile.Id" selected="@(Model.Profile == profile.Id)">@(profile.Id == "gt5-template" ? T["Szablon GT5 — nieużywany przez obecny endpoint"] : profile.Path)</option> }
+        </select>
+    </div>
+    <button class="btn btn-outline-primary" type="submit">@T["Wczytaj"]</button>
+    <a class="btn btn-outline-secondary" asp-action="Preview" asp-route-profile="@Model.Profile" asp-route-https="false" target="_blank" rel="noopener">@T["Podgląd zapisanego XML"] HTTP</a>
+    @if (Model.Profile != "regions") { <a class="btn btn-outline-secondary" asp-action="Preview" asp-route-profile="@Model.Profile" asp-route-https="true" target="_blank" rel="noopener">@T["Podgląd zapisanego XML"] HTTPS</a> }
+</form>
+@if (Model.Profile != "regions")
+{
+    <div class="alert alert-info">
+        <p class="mb-2">@T["Adresy są stałe. Połączenie HTTPS zmienia wyłącznie schemat URL na https://; host, port, ścieżka i końcowe ukośniki pozostają bez zmian."]</p>
+        @foreach (var server in Model.Servers.Where(s => s.Url != null)) { <div><code>@server.Name</code>: <code>@server.Url</code> · host: <code>@server.Host</code> · port: <code>@server.Port</code></div> }
+    </div>
+}
+<form method="post" asp-action="Save">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="Profile" value="@Model.Profile" />
+    <input type="hidden" name="Revision" value="@Model.Revision" />
+    @if (Model.Profile == "regions")
+    {
+        <p>@T["Włącz regiony widoczne w grze i ustaw ich nazwy. Klucze dev i rel pozostają stałe."]</p>
+        @for (int i = 0; i < Model.Regions.Count; i++)
+        {
+            <div class="card mb-3"><div class="card-body row g-2 align-items-center">
+                <input type="hidden" name="Regions[@i].Key" value="@Model.Regions[i].Key" />
+                <div class="col-sm-3"><label><input type="checkbox" name="Regions[@i].Enabled" value="true" checked="@Model.Regions[i].Enabled" /> <code>@Model.Regions[i].Key</code></label></div>
+                <div class="col-sm-9"><label class="form-label" for="region-name-@i">@T["Nazwa regionu"]</label><input class="form-control" id="region-name-@i" name="Regions[@i].Name" value="@Model.Regions[i].Name" maxlength="100" required /></div>
+            </div></div>
+        }
+    }
+    else
+    {
+        string previous = null;
+        @for (int i = 0; i < Model.Options.Count; i++)
+        {
+            var option = Model.Options[i];
+            if (previous != option.Group) { <h2 class="h4 mt-4"><code>@option.Group</code></h2> previous = option.Group; }
+            <div class="row g-2 align-items-center mb-3">
+                <input type="hidden" name="Options[@i].Key" value="@option.Key" />
+                <div class="col-md-5"><label for="bootstrap-option-@i"><code>@option.Name</code></label><small class="d-block text-muted">@T["Domyślnie:"] @option.DefaultValue</small></div>
+                <div class="col-md-7">
+                    @if (option.Kind == "flag")
+                    {
+                        <select class="form-select" id="bootstrap-option-@i" name="Options[@i].Value"><option value="1" selected="@(option.Value == "1")">@T["Włączone"]</option><option value="0" selected="@(option.Value == "0")">@T["Wyłączone"]</option></select>
+                    }
+                    else
+                    {
+                        <input class="form-control" id="bootstrap-option-@i" name="Options[@i].Value" value="@option.Value" maxlength="1024" inputmode="@(option.Kind == "number" ? "numeric" : "text")" />
+                    }
+                </div>
+            </div>
+        }
+    }
+    <div class="d-flex flex-wrap gap-2 my-4"><button class="btn btn-primary" type="submit">@T["Zapisz"]</button><button class="btn btn-outline-danger" name="reset" value="true" type="submit" formnovalidate>@T["Przywróć domyślne wartości tego wariantu"]</button></div>
+</form>

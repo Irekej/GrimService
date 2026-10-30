@@ -12,6 +12,7 @@ namespace GrimService.Infrastructure.Database
         {
             Run<UserDBManager>(services, manager => manager.CreateTable());
             Run<AdminUserDBManager>(services, manager => manager.CreateTable());
+            Run<GrimService.Features.Bootstrap.BootstrapSettingsService>(services, manager => manager.CreateTable());
             Run<NewsService>(services, manager => manager.CreateTable());
             Run<ReportService>(services, manager => manager.CreateTable());
             Run<AdminUserDBManager>(services, manager => manager.SynchronizeBootstrapUserAsync(

@@ -141,6 +141,7 @@ namespace GrimService.Startup
 
             services.AddTransient<UserDBManager>();
             services.AddTransient<AdminUserDBManager>();
+            services.AddTransient<GrimService.Features.Bootstrap.BootstrapSettingsService>();
             services.AddSingleton<SeasonalEventService>();
             services.AddTransient<NewsService>();
             services.AddModerationFeatures();
