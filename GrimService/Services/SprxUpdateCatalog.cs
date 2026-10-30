@@ -37,7 +37,14 @@ public sealed class SprxUpdateCatalog
     {
         if (!Supported(game, region) || !Directory.Exists(folder)) return null;
         var candidates = new List<(uint Revision, string Path)>();
-        foreach (var path in Directory.EnumerateFiles(folder, "*.sprx", SearchOption.TopDirectoryOnly))
+        // A release can be archived during an in-progress download. Only an
+        // explicitly pinned revision may read old/; manifests select live files.
+        var paths = Directory.EnumerateFiles(folder, "*.sprx", SearchOption.TopDirectoryOnly);
+        var archive = Path.Combine(folder, "old");
+        if (revision.HasValue && Directory.Exists(archive) &&
+            (File.GetAttributes(archive) & FileAttributes.ReparsePoint) == 0)
+            paths = paths.Concat(Directory.EnumerateFiles(archive, "*.sprx", SearchOption.TopDirectoryOnly));
+        foreach (var path in paths)
         {
             var match = FilePattern.Match(Path.GetFileName(path));
             if (!match.Success || match.Groups[1].Value != game || match.Groups[2].Value != region) continue;

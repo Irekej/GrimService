@@ -47,7 +47,11 @@ public sealed class SprxUpdatesController : ControllerBase
             if (release == null) return NotFound();
             if (!CryptographicOperations.FixedTimeEquals(expected, release.Digest)) return Conflict();
             Response.Headers.CacheControl = "no-store";
-            return File(release.Bytes, "application/octet-stream", release.FileName);
+            logger.LogInformation("SPRX update download: {Game}/{Region}, revision={Revision}, bytes={Bytes}, range={Range}",
+                game, region, revision, release.Bytes.Length, Request.Headers.Range.ToString());
+            // Native clients resume a transiently interrupted transfer with a
+            // validated suffix, still pinned to the signed revision and digest.
+            return File(release.Bytes, "application/octet-stream", release.FileName, enableRangeProcessing: true);
         }
         catch (Exception ex) when (ex is IOException or InvalidDataException or UnauthorizedAccessException)
         {
