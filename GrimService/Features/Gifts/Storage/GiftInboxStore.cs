@@ -22,6 +22,15 @@ public sealed class GiftInboxStore(IDbConnection connection)
         WHERE id=@Id AND user_id=@UserId",gift);
     public async Task<bool> Receive(long id,string receiver) => await connection.ExecuteAsync(
         "DELETE FROM itembox WHERE id=@Id AND receiver=@Receiver",new { Id=id, Receiver=receiver })==1;
+    public async Task<bool> Receive(long[] ids, string receiver) =>
+        await connection.ExecuteAsync(@"WITH requested AS MATERIALIZED (
+            SELECT id FROM itembox WHERE receiver = @Receiver AND id = ANY(@Ids)
+            ORDER BY id FOR UPDATE
+        )
+        DELETE FROM itembox WHERE id IN (SELECT id FROM requested)
+            AND receiver = @Receiver
+            AND (SELECT count(*) FROM requested) = @Count",
+            new { Ids = ids, Receiver = receiver, Count = ids.Length }) == ids.Length;
     public async Task Delete(long id) => await connection.ExecuteAsync("DELETE FROM itembox WHERE id=@Id",new { Id=id });
     public async Task DeleteOwned(long owner,long id) => await connection.ExecuteAsync(
         "DELETE FROM itembox WHERE user_id=@Owner AND id=@Id",new { Owner=owner, Id=id });

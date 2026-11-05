@@ -179,10 +179,10 @@ namespace GrimService.Database.Controllers
                 if (!winningPosition.HasValue)
                     _logger.LogWarning("BSpec winner not counted: race={Race}, ambiguous positions={Positions}", race.Id, rows.Select(r=>r.Position).ToArray());
                 foreach(var row in rows)
-                    await _con.ExecuteAsync(@"UPDATE bspecdriver SET online_credit=LEAST(2147483647,online_credit+@Credit),
-                        online_experience=LEAST(2147483647,online_experience+@Experience),
-                        online_race_count=LEAST(2147483647,online_race_count+1),
-                        online_win_count=LEAST(2147483647,online_win_count+CASE WHEN @Won THEN 1 ELSE 0 END)
+                    await _con.ExecuteAsync(@"UPDATE bspecdriver SET online_credit=LEAST(2147483647,COALESCE(online_credit,0)+CAST(@Credit AS bigint)),
+                        online_experience=LEAST(2147483647,COALESCE(online_experience,0)+CAST(@Experience AS bigint)),
+                        online_race_count=LEAST(2147483647,COALESCE(online_race_count,0)+1::bigint),
+                        online_win_count=LEAST(2147483647,COALESCE(online_win_count,0)+CASE WHEN @Won THEN 1::bigint ELSE 0::bigint END)
                         WHERE id=@DriverId AND user_id=@Owner",new {row.Credit,row.Experience,row.DriverId,row.Owner,
                             Won=winningPosition.HasValue && row.Position==winningPosition.Value},tx);
                 await _con.ExecuteAsync(@"UPDATE bspecdriver SET race_id=NULL,entry_user_id=NULL,entry_until=NULL

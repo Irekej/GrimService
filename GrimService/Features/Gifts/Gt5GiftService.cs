@@ -15,6 +15,7 @@ namespace GrimService.Features.Gifts
         Task<IEnumerable<ItemBoxDTO>> ListIdsAsync(string receiver);
         Task AddAsync(ItemBoxDTO item);
         Task<bool> ReceiveAsync(long id, string receiver);
+        Task<bool> ReceiveAsync(long[] ids, string receiver);
     }
 
     public sealed class Gt5GiftRepository : IGt5GiftRepository
@@ -26,6 +27,7 @@ namespace GrimService.Features.Gifts
         public Task<IEnumerable<ItemBoxDTO>> ListIdsAsync(string receiver) => _items.GetAllItemsOfUser2(receiver);
         public async Task AddAsync(ItemBoxDTO item) => await _items.AddAsync(item);
         public Task<bool> ReceiveAsync(long id, string receiver) => _items.ReceiveAsync(id, receiver);
+        public Task<bool> ReceiveAsync(long[] ids, string receiver) => _items.ReceiveAsync(ids, receiver);
     }
 
     public sealed class Gt5GiftService
@@ -58,5 +60,8 @@ namespace GrimService.Features.Gifts
 
         public Task<bool> ReceiveAsync(long id, string receiver) => id <= 0
             ? Task.FromResult(false) : _items.ReceiveAsync(id, receiver);
+
+        public Task<bool> ReceiveAsync(IReadOnlyCollection<long> ids, string receiver) =>
+            _items.ReceiveAsync(ids.ToArray(), receiver);
     }
 }

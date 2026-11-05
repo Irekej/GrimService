@@ -23,6 +23,7 @@ public class ItemBoxDBManager : IDBManager<ItemBoxDTO>
     public Task<long> AddAsync(ItemBoxDTO pData)=>store.Append(pData);
     public Task RemoveAsync(long id)=>store.Delete(id);
     public Task<bool> ReceiveAsync(long id,string receiver)=>store.Receive(id,receiver);
+    public Task<bool> ReceiveAsync(long[] ids, string receiver) => store.Receive(ids, receiver);
     public Task RemovePhotoAsync(long userId,long carId)=>store.DeleteOwned(userId,carId);
     public void CreateTable()=>store.EnsureSchema();
 }

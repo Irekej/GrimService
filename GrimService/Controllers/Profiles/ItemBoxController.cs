@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using GrimService.Filters;
 using GrimService.Models.Xml;
@@ -55,9 +56,15 @@ namespace GrimService.Controllers
                     _logger.LogDebug("[{name}] Log: ItemBox item send request", username);
                     return Ok(GrimResult.FromLong(1));
                 case "itembox.receive":
-                    if (!request.TryGetParameterLongByKey("itembox_id", out long id) || id <= 0) return BadRequest();
-                    if (!await _gifts.ReceiveAsync(id, username)) return NotFound();
-                    _logger.LogDebug("[{name}] Log: ItemBox item remove request ID: {id}", username, id);
+                    if (!request.TryGetParameterByKey("itembox_id", out var receipt)) return BadRequest();
+                    var ids = new HashSet<long>();
+                    foreach (string value in receipt.Text.Split(','))
+                    {
+                        if (!long.TryParse(value, out long id) || id <= 0) return BadRequest();
+                        ids.Add(id);
+                    }
+                    if (!await _gifts.ReceiveAsync(ids, username)) return NotFound();
+                    _logger.LogDebug("[{name}] Log: ItemBox received {count} item(s)", username, ids.Count);
                     return Ok(GrimResult.FromLong(1));
                 default:
                     _logger.LogDebug("Received unimplemented itembox command: {command}", request.Command);
